@@ -3,10 +3,11 @@ This file contains information about our meetings, agreements and decisions in o
 
 **Meeting Sep. 30th**
 *Participants:* Krista, Eli, Michael and Maryi
+-Dustin missed this one due to his vehicle being broken in to.
 
 Established that the purpose of our project is to design and evaluate some application related to CSCW.  We articulated and agreed on a regular weekly meeting at 12:45 on Wednesdays. We then each shared our strengths and interests, some of this is based on recall so feel free to adjust: 
 
-* Dustin - interest in games and writing code
+* Dustin - interest in games, coding(C,java,python, ARM??), research, GUI(javaSwing).
 * Eli - Enjoys programming, some experience with C, Python and Java. 
 * Krista - Enjoys design and user interfaces
 * Maryi - Experience with software development in desktop environments, enjoys design 

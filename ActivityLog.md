@@ -31,7 +31,7 @@ Agenda:
 
 * Make a review of GitHub -specially for new users
 * Review the project ideas from the google docs -Project presentations and written report are due on Oct. 14th
-  * Validate our idea project with Peggy or Eirini. 
+  * Validate  our idea project with Peggy or Eirini. 
   * Define roles and responsabilities with respect to the project.
   * What should we include in the project presentation? how long should it be? 
   * What should we include in the in the written report?

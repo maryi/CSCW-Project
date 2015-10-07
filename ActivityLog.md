@@ -23,12 +23,12 @@ Some ideas for the project were discussed:
 
 2. Create GitHub accounts (if you don't have one already), submit the username to Maryi -to be added to the repository, and play around with the tool.
 
-**Next meeting:** Oct. 7th 12:45 place?
+**Next meeting:** Oct. 7th 12:45 place: Outside classroom
 
 I suggest we consider a new place, but I do not know the buildings around CS well.  
 
 Agenda:
 
 * Make a review of GitHub -specially for new users
-* Review the project ideas from the google docs -Project presentations and written report is due on Oct. 14th
+* Review the project ideas from the google docs -Project presentations and written report are due on Oct. 14th
 

@@ -32,8 +32,34 @@ Agenda:
 
 * Make a review of GitHub -specially for new users
 * Review the project ideas from the google docs -Project presentations and written report are due on Oct. 14th
-  * Validate  our idea project with Peggy or Eirini. 
-  * Define roles and responsabilities with respect to the project.
-  * What should we include in the project presentation? how long should it be? 
-  * What should we include in the in the written report?
+  * Validate  our idea project with Peggy or Eirini. DONE 
+  * Define roles and responsabilities with respect to the project: DONE
+    * Michael and Krista will be more involved in the documentation and research tasks.
+    * Dustin, Eli and Maryi will be the technical support.
+ * What should we include in the project presentation? how long should it be? 
+   * OK: Peggy gave the guidelines in the class 
+ * What should we include in the in the written report
+   * OK: Peggy gave the guidelines in the class 
 
+*TO-DOs before next meeting:*
+
+  *Maryi*: create resources on GitHub: a. Folder to keep personal activity log, b. Create a file to start listing the tools to be use in the project, c. Create app design -work with Eli
+
+  *Eli*: Create app design -work with Maryi, add technical information that you consider should be in the project proposal.
+ 
+  *Dustin*: Add technical information that you consider should be in the project proposal.
+ 
+  *Michael*: Start to edit the project proposal file -work with Krista 
+ 
+  *Krista*: Start to edit the project proposal file -work with Michael
+ 
+  *For ALL*: Start to register your activities on the *personal activity log*
+
+
+**Next meeting:** Oct. 12th 12:45 place: Virtual
+
+Agenda:
+
+* Make a review of app design
+* Review progress on project proposal
+* Define next steps for project presentation

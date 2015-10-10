@@ -1,11 +1,20 @@
 **Project proposal**
 
 1. Introduction
- 1. Introduction to the problem and the MoCA framework
+Computer supported collaborative work (CSCW) is increasingly becoming a significant component of living and working in modern times. Computer mediated collaborations occur in all aspects of our personal and professional lives. Furthermore, the technologies which can be used to facilitate CSCW are diverse and ever changing.  
+
+The MoCA framework provides a descriptive lens for describing the complex nature of collaborative work with the goal of helping us understand the collaborative technologies which best facilitate the work. Our project explores whether articulating the type of work to be facilitated through the MoCA framework can help individuals select appropriate technologies. 
+
  2. Motivation: Why is this important? 
+The study of CSCW is concerned with supporting multiple individuals working together mediated by computer systems and software. We believe the MoCA framework provides a useful lens for describing collaborate work. Our intent is to extend the MoCA framework to facilitate the next steps in decision support for choosing computer systems and software which support specific work scenarios. 
+
+The appropriate selection of a suite of technologies which meets the needs of a group can have a great impact on the success of the collaboration (Olsen & Olsen, 2014). Technologies are often selected based on past experiences or accessibility. The selection of tools to support CSCW may occur without much consideration, and this presents a risk to success. By attempting to articulate the elements of the collaborative work which will be undertaken, a more thoughtful selection of appropriate tools may occur.
+
  3. Research goal or questions
-   1. Is the MoCa framework suitable to classify the tools?
-   2. Are there other dimensions that should the added to the MoCA framework?
+We believe the MoCA framework provides a useful lens for describing collaborative work. As such the research question we seek to address in this study is: can articulation of collaborative work using the MoCA framework be used to assist in the identification of appropriate collaborative systems and software for facilitating collaborative work?  
+
+As a secondary question we wish to investigate whether there are further descriptive dimensions useful in describing collaborative work that should the added to the MoCA framework?
+
 2. Background
  1. What is the MoCA framework?
  2. Preliminary literature review about the problem we are trying to solve 

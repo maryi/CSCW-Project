@@ -20,7 +20,24 @@ As a secondary question we wish to investigate whether there are further descrip
 
 2. Background
  1. What is the MoCA framework?
- 2. Preliminary literature review about the problem we are trying to solve 
+ 
+The Model of Coordinated Action (MoCA) framework is used for describing collaborative situations and consists of seven dimensions of coordinated action.
+
+•	Dimension One: Synchronicity concerns a continuum of coordinated action ranging from being conducted at the synchronously, at the same time, to asynchronously, at different times. It allows coordinated actions to be both synchronous and asynchronous however it does not account for predictability of time.
+
+•	Dimension Two: Physical Distribution whether coordinated actions are taking place in the same geographic location or at different geographic locations. It does not take into account the predictability of place.
+
+•	Dimension Three: Scale addresses the number of participants involved in the collaboration. An increase in participants requires more complicated social arrangements and new practices.
+
+•	Dimension Four: Number of Communities of Practice focuses on the number of communities of practice represented in the coordinated action. 
+
+•	Dimension Five: Nascence discusses how un-established (new) or established (old) a coordination action is. 
+
+•	Dimension Six: Planned Permanence refers to planned or intended permanence of a coordinated action because it cannot be predicted how long a coordinated action will last. 
+
+•	Dimension Seven: Turnover refers to the stability of the participant makeup of a given collaboration, or the rapidity of participants entering or leaving the collaboration.
+
+2. Preliminary literature review about the problem we are trying to solve 
  3. Outcomes -by the end
 3. Strategy / Methods
  1. What are we going to do? how are we going to do it? 

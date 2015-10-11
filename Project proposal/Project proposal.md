@@ -12,6 +12,8 @@ The study of CSCW is concerned with supporting multiple individuals working toge
 
 The appropriate selection of a suite of technologies which meets the needs of a group can have a great impact on the success of the collaboration (Olsen & Olsen, 2014). Technologies are often selected based on past experiences or accessibility. The selection of tools to support CSCW may occur without much consideration, and this presents a risk to success. By attempting to articulate the elements of the collaborative work which will be undertaken, a more thoughtful selection of appropriate tools may occur.
 
+Complicating this further is the wide array of collaborative technologies now available via the internet. Many collaborative technologies provide inherent affordances which facilitate types of collaborative activity. The challenge for users engaging in collaborative work, is matching the appropriate technology to their specific needs.
+
  3. Research goal or questions
 
 We believe the MoCA framework provides a useful lens for describing collaborative work. As such the research question we seek to address in this study is: can articulation of collaborative work using the MoCA framework be used to assist in the identification of appropriate collaborative systems and software for facilitating collaborative work?  

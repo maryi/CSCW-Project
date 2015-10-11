@@ -39,6 +39,12 @@ The Model of Coordinated Action (MoCA) framework is used for describing collabor
 
 •	Dimension Seven: Turnover refers to the stability of the participant makeup of a given collaboration, or the rapidity of participants entering or leaving the collaboration.
 
+ 2. Affordances of collaborative technologies 
+
+Bower (2015) has presented a typology of collaborative learning technologies based upon a typological analysis of their affordances. The typology provides users with a framework for conceptualizing the collaborative software landscape. This exposition of individual technologies and their affordances can be useful in helping individuals select technologies that match their requirements.
+
+http://www.downes.ca/files/images/Web_2.0_Technologies.PNG
+
 2. Preliminary literature review about the problem we are trying to solve 
  3. Outcomes -by the end
 3. Strategy / Methods
@@ -47,6 +53,13 @@ The Model of Coordinated Action (MoCA) framework is used for describing collabor
 4. Expected results
 5. Limitations
 6. Future work 
+7. References 
+Bower, M. (2015), Deriving a typology of Web 2.0 learning technologies. British Journal of Educational Technology. doi: 10.1111/bjet.12344
+
+Lee, C. P., & Paine, D. (2015, February). From The Matrix to a Model of Coordinated Action (MoCA): A Conceptual Framework of and for CSCW. In Proceedings of the 18th ACM Conference on Computer Supported Cooperative Work & Social Computing (pp. 179-194). ACM.
+
+Olsen, J. & Olsen, G. (2014). How To Make Distance Work Work. Interactions, XXI.2 March + April 2014, pg. 28. Association for Computing Machinery.
+
 
 From Peggy's slides we should include on the project presentation: 
 

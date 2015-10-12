@@ -48,11 +48,36 @@ http://www.downes.ca/files/images/Web_2.0_Technologies.PNG
 2. Preliminary literature review about the problem we are trying to solve 
  3. Outcomes -by the end
 3. Strategy / Methods
- 1. What are we going to do? how are we going to do it? 
- 2. Technical specifications: Database support  - MySQL, Web server,  Programming language java
+ 1. Proposal //What are we going to do? how are we going to do it? 
+ Our proposal is to create a web application, that based on the MoCA framework, help users to find the appropriate application for collaborative work depending on the nature of the work. 
+ Our application also will look to benefit from the knowledge on the people and will allow users to register information about applications they have used for collaboration. As a result, our information database will store user valuable experiences and our application will that to make more accurate recommentations to new users.
+
+ Altough we will base our initial development on the MoCA framework, we will follow an iterative validation process with potential users to evaluate what extra features or dimensions not considered in the MoCA are required to our purpose.  
+
+
+ 2. Technical specifications: 
+ Our project will be hosted on GitHub. With this choice we ensure high disponibility of the service for potential users. 
+ The programming language will be on Java.  
+
+ The database will be on MySQL, an open source database (https://www.mysql.com/why-mysql/)
+
+ 3. Roles and contributions
+ We made a list of our streghts and subdivided our team in two. One subteam will be responsable for the technical development of the project. Members in this subdivision identified themselves with programming experience and 
+ Using GitHub festures we can track everyone's contributions
+
+
+
+ 
 4. Expected results
+WE expect to create an application that accurately suggests applications to users. In the current technological world, where a new app is release every minute, we expect to bring closer users and the apps they are looking for, those perfect for the work. 
+
 5. Limitations
+We are based on the MoCa framework, so we can be limiting our developement by choosing this approach.
+We cannot validate our product release with all potential users of our application, instead we are limited to select a sample of what we consider can be our future users. The result of our validation process with the sample users will provide insights about their perception about our app and its performance, definitely affecting our future development. 
+
 6. Future work 
+
+
 7. References 
 Bower, M. (2015), Deriving a typology of Web 2.0 learning technologies. British Journal of Educational Technology. doi: 10.1111/bjet.12344
 
@@ -64,6 +89,7 @@ Olsen, J. & Olsen, G. (2014). How To Make Distance Work Work. Interactions, XXI.
 From Peggy's slides we should include on the project presentation: 
 
 1. What is innovative about your project? How will you add to existing knowledge that we have about a subject, or how will your tool be novel when compared to other solutions? (literature review)
+
 2. What impact could your project have? (on users, designers, researchers)
 
 3. What roles will each member play? What tools will you use to track your contributions (in addition to commits/issues on GitHub)?

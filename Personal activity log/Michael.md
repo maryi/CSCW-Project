@@ -9,3 +9,5 @@ October 7, 2015 - Second f2f meeting with group to settle on project ideas.
 October 10, 2015 Create first draft of project porposal and begin literature review.
 
 October 11, 2015 Continue literature review and edits to project proposal. 
+
+October 12, 2015 Virtual meeting online via Blackboard Collaborate.  Articulation of next steps, engagement with GitHub where issues are being raised. Move  proposal to GDocs for better editing.Create presenattion on GDocs for Wednesday. 

@@ -7,3 +7,5 @@ October 7th: met with the group again for 45 minutes before class where we decid
 October 9th: spent an hour working on the balsamiq mockup for our app
 
 october 12th: 30 minutes looking at and responding to some github issues
+
+october 13th: 1 hour looking through literature to find stuff to add to the literature review section of our proposal

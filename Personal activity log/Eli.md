@@ -5,3 +5,5 @@ October 4th: wrote down a possible project idea about crowd sourcing gameplay in
 October 7th: met with the group again for 45 minutes before class where we decided that our project would be an app for recommending collaborative tools for a project.
 
 October 9th: spent an hour working on the balsamiq mockup for our app
+
+october 12th: 30 minutes looking at and responding to some github issues

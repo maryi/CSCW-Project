@@ -9,7 +9,8 @@ Oct 12 - 2h:
 * 1h creating version 1.2 of app design, creating issues and adding information to project proposal
 * 1h group meeting
 
-Oct 13 - 2h:
+Oct 13 - 2h+2h:
 * Making comments on issues
 * Searching for literature reviews on the problem: I found a LOT of blogs, but nothing on research papers, WHY?? seems to be a big concern.. running out of ideas where/how to look
 * Made link to project proposal/presentation
+* 2h: Looking for literature that describes the problem.. still nothing: emailed a couple of friends asking for help. Replied to some issues. Added information to project proposal.

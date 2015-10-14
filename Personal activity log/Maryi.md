@@ -14,3 +14,8 @@ Oct 13 - 2h+2h:
 * Searching for literature reviews on the problem: I found a LOT of blogs, but nothing on research papers, WHY?? seems to be a big concern.. running out of ideas where/how to look
 * Made link to project proposal/presentation
 * 2h: Looking for literature that describes the problem.. still nothing: emailed a couple of friends asking for help. Replied to some issues. Added information to project proposal.
+
+Oct 14 - 2h
+* Worked on the project presentation: added some images, added information and links, and defined the milestones
+* Looked for literature review: Eirini confirmed me that blogs are a valid resource of information, so I sent some of the good blogs i found to Krista.
+

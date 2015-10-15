@@ -15,7 +15,8 @@ Oct 13 - 2h+2h:
 * Made link to project proposal/presentation
 * 2h: Looking for literature that describes the problem.. still nothing: emailed a couple of friends asking for help. Replied to some issues. Added information to project proposal.
 
-Oct 14 - 2h
+Oct 14 - 2h+1h
 * Worked on the project presentation: added some images, added information and links, and defined the milestones
 * Looked for literature review: Eirini confirmed me that blogs are a valid resource of information, so I sent some of the good blogs i found to Krista.
+* Group meeting and some wrap-up at the end of class.
 

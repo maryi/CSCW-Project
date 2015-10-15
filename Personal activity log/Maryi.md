@@ -20,3 +20,7 @@ Oct 14 - 2h+1h
 * Looked for literature review: Eirini confirmed me that blogs are a valid resource of information, so I sent some of the good blogs i found to Krista.
 * Group meeting and some wrap-up at the end of class.
 
+Oct 15 - 3h
+* Working on the Ethics application.
+* Added project proposal format to GitHub repo
+

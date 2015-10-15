@@ -21,3 +21,14 @@
 <b>Work on Project Proposal - October 12, 1hr30:</b>
 <br>• Researched literature review articles
 <br>• Wrote literature review section of proposal
+
+<b> Project Proposal - October 14, 40 min:</b>
+<br>• Gathered more information for my assigned section
+<br>• Updated preliminary review section
+
+<b> Group Meeting - October 14, 12:45-1:20:</b>
+<br>• Edited and reviewed Powerpoint slides
+<br>• Discussed final details of presentation
+
+<b> Project Proposal - October 15, 45 min:</b>
+<br>• Reviewed and edited the proposal

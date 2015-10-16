@@ -24,7 +24,8 @@ Oct 15 - 3h
 * Working on the Ethics application.
 * Added project proposal format to GitHub repo
  
-Oct 16 - 2h
+Oct 16 - 2h+1h
 * Made revision of project proposal, created comments about things that need to be improved
 * Created a couple of issues: to schedule next meeting and to request help from other team members to contribute to the project proposal.
+* Worked on the Ethics proposal and the participants consent form
 

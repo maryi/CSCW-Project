@@ -29,3 +29,6 @@ Oct 16 - 2h+1h
 * Created a couple of issues: to schedule next meeting and to request help from other team members to contribute to the project proposal.
 * Worked on the Ethics proposal and the participants consent form
 
+Oct 19 - 1h
+* Organizing stuff in Github and defining work plan for week 2
+* 1h Group meeting

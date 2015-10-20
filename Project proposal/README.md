@@ -1,10 +1,16 @@
 **Access to Project presentation on Google Docs**
 https://docs.google.com/presentation/d/1m6rAnIcgPdL_WIHhHPoLEJiyS21KRBxuugCUXkymEeY/edit?ts=561c132f#slide=id.p
 
-**Access to Project proposal on Google Docs**
+** Project proposal **
+Final Project Proposal Formatted Document (for review by Peggy)    
+https://onedrive.live.com/redir?resid=6C1A69738596AF2D!1513&authkey=!AAn2kHN0dzudmp4&ithint=file%2cdocx 
 
-Most updated version:
+Collaborative google doc version (not for marking):
 https://docs.google.com/document/d/1WSV7Cba8hu1EuLw3REB7W2U-Zcgakn8_DVKzWIlEjmE/edit?ts=561c12e7#heading=h.552g5cd7a3j9
+
+This is a visualization of our collaborative work on the proposal created with DocuViz.  The x axis shows the document revisions and the y axis shows growth of the document in characters by each contributor.
+
+![visualization of our collaborative work in the project proposal](https://slack-files.com/files-tmb/T0ACBS53K-F0CLGCM8R-9585db29d0/cscw_proposal_development_1024.png)
 
 ##**Milestones per week** -We have 7 weeks!
 

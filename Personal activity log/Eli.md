@@ -11,3 +11,7 @@ october 12th: 30 minutes looking at and responding to some github issues
 october 13th: 1 hour looking through literature to find stuff to add to the literature review section of our proposal
 
 octobor 13th: 1 hour working on slides for proposal presentation
+
+october 14th: 45 minute meeting before class, finalized our presentation
+
+octobr 16TH: 2 hours working on proposal report

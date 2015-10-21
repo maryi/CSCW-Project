@@ -29,4 +29,10 @@ Met with the group to discuss how we were going to actually present our project 
 that everyone was on the same page.
 Talked a bit about Milestones and the project as a whole.
 
-Monday October 19, 2015 4:15pm - 
+Monday October 19, 2015 4:15pm - 5:30pm
+Group online discussion. Started off a little rough due to technical errors.
+Talked about the project as a whole, covered some concerns, and gave each member tasks to complete.
+
+Monday October 19, 2015 11:00am - 12:00pm
+Just some light API research for the website portion of the project and looking into how to merge the website with a database.
+

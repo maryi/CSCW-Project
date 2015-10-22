@@ -33,6 +33,7 @@ Oct 19 - 2h
 * Organizing stuff in Github and defining work plan for week 2
 * 1h Group meeting
 
-Oct 21 - 2h
+Oct 21 - 2h+45min
 * Finished Ethics application and attachments: Participant consent form, email invitation and survey.
 * Sent Ethics application to Peggy for revision and approval.
+* Group meeting

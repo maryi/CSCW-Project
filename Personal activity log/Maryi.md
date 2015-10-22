@@ -37,3 +37,8 @@ Oct 21 - 2h+45min
 * Finished Ethics application and attachments: Participant consent form, email invitation and survey.
 * Sent Ethics application to Peggy for revision and approval.
 * Group meeting
+
+Oct 22 -1h
+* Organizing repo, posting on some issues -providing help and keeping discussions going
+
+

@@ -23,3 +23,5 @@ october 21: 45 minutes group meeting
 october 21: 45 minutes searching for a good database server to use for the project
 
 ocotober 24: 1 hour adding apps to the base list of applications and descirbing them based on the given descriptors
+
+october 25: 1h30min adding apps to the base list of applications and descirbing them based on the given descriptors

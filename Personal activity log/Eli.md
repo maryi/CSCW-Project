@@ -16,6 +16,8 @@ october 14th: 45 minute meeting before class, finalized our presentation
 
 octobr 16TH: 2 hours working on proposal report
 
+october 19th: 1h group meeting
+
 october 21: 45 minutes group meeting
 
 october 21: 45 minutes searching for a good database server to use for the project

@@ -19,3 +19,5 @@ octobr 16TH: 2 hours working on proposal report
 october 21: 45 minutes group meeting
 
 october 21: 45 minutes searching for a good database server to use for the project
+
+ocotober 24: 1 hour adding apps to the base list of applications and descirbing them based on the given descriptors

@@ -63,3 +63,14 @@ Agenda:
 * Make a review of app design
 * Review progress on project proposal
 * Define next steps for project presentation
+
+**Next meeting:** Oct. 26th 4:30 place: Virtual
+
+Agenda:
+
+* Review Peggy's feedback on the proposal
+* Integration of personal log into one file, responsable?
+* Creation of issues per comment on proposal, responsable?
+* Progress: each team member should say what they did last week
+* Plan for this week.
+

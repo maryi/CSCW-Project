@@ -41,4 +41,9 @@ Oct 21 - 2h+45min
 Oct 22 -1h
 * Organizing repo, posting on some issues -providing help and keeping discussions going
 
+Oct 26 - 1:30h
+* Posting on some issues, setting the meeting agenda
+* 1h team meeting
+
+
 

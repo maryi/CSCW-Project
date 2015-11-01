@@ -1,7 +1,7 @@
 #Match Maker application – A web service based on the MoCA framework
 
 ##### *ABSTRACT* 
-Computer supported collaborative work (CSCW) is increasingly becoming a significant component of living and working in modern times. Computer mediated collaborations occur in all aspects of our personal and professional lives. Furthermore, the technologies which can be used to facilitate CSCW are diverse and ever changing.  
+Computer supported collaborative work (CSCW) is increasingly becoming a significant component of living and working in modern times. Computer mediated collaborations occur in all aspects of our personal and professional lives. Furthermore, the technologies which can be used to facilitate CSCW are diverse and ever changing. Due to the breadth of options, it is a challenge for individuals selecting appropriate tools to support collaborative work. As specific tools are often designed to support specific collaborative work we believe that a system for helping people match tools to types of work is needed.      
 
 The Model of Coordinated Action (MoCA) framework provides a descriptive lens for describing the complex nature of collaborative work with the goal of helping us understand the collaborative technologies which best facilitate the work. Our project explores whether having individuals articulate the type of work to be facilitated using the dimensions of the MoCA framework can surface appropriate technologies for facilitating that work. 
  

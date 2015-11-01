@@ -41,3 +41,6 @@ More API, familiarization with Git, GitHub, HTML, surveys, etc. Initial website 
 
 Tusday October 27, 2015 7:00pm - 9:00pm
 More familiarization with html, some minor changes made to the websites. 
+
+Sunday November 1, 2015 9:11am-10:30am
+Some light changes to the website pages. Added forms, still need to figure out why Likert Scales are not interactive.

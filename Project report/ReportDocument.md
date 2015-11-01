@@ -10,18 +10,22 @@ The Model of Coordinated Action (MoCA) framework provides a descriptive lens for
 **ACM Classification Keywords**: Design, Experimentation, Theory 
  
 ##### INTRODUCTION 
-The study of CSCW is concerned with supporting multiple individuals working together mediated by computer systems and software. We believe the MoCA framework provides a useful lens for describing collaborative work. Our intent is to extend the MoCA framework to facilitate the next steps in decision support for choosing computer systems and software which support specific work scenarios. 
- 
+The study of CSCW is concerned with supporting multiple individuals working together mediated by computer systems and software. One of the recurring challenges in CSCW is matching the appropriate tools to the type of work to be facilitated. Various ways of articulating CSCW have emerged including Johansen's (1988) time-space matrix which described collaborative work in terms of location and synchronicity. However we argue that for any person planning a CSCW project, the vast availability of potental tools is overwhelming and a challenge to navigate.   
+
 The appropriate selection of a suite of technologies which meets the needs of a group can have a great impact on the success of the collaboration (Olsen & Olsen, 2014). Technologies are often selected based on past experiences or accessibility. The selection of tools to support CSCW may occur without much consideration, and this presents a risk to success. By attempting to articulate the elements of the collaborative work which will be undertaken, a more thoughtful selection of appropriate tools may occur. 
 
-Complicating this further is the wide array of collaborative technologies now available via the internet. Many collaborative technologies provide inherent affordances which facilitate types of collaborative activity. The challenge for users engaging in collaborative work, is matching the appropriate technology to their specific needs. 
-We believe the MoCA framework provides useful lens for describing collaborative work. As such, this study is driven by the following research questions:  
+Complicating this further is the wide array of collaborative technologies now available via the internet. Many collaborative technologies provide inherent affordances which facilitate types of collaborative activity. The challenge for users engaging in collaborative work, is matching the appropriate technology to their specific needs.
+
+We believe the MoCA framework provides a useful lens for describing collaborative work. Our intent is to extend the MoCA framework to facilitate the next steps in decision support for choosing computer systems and software which support specific work scenarios.  As such, this study is driven by the following research questions:  
  
 Can articulation of collaborative work using the MoCA framework be used to assist in the identification of appropriate collaborative systems and software for facilitating collaborative work? 
  
 Are there further descriptive dimensions useful in describing collaborative work that should the added to the MoCA framework? 
 ##### BACKGROUND 
 This section outlines the MoCA framework and its seven dimensions, the affordance of collaborative technologies, and the problem we are trying to solve using our web application. 
+
+Bannon & Schmidt (1989) suggest that too often technology is built with a focus on information flow between individuals. There must also be a consideration of the articulation work required to make the “flow” possible.
+
  
 #### 1. The MoCA framework 
 Introduced by Lee and Paine (2015), the Model of Coordinated Action (MoCA) framework is introduced as a tool to describe complex collaborative situations. The MoCA framework consists of seven dimensions of coordinated action described below. 
@@ -97,6 +101,8 @@ We sense that connecting CSCW teams to the best tools for facilitating their wor
 We would like to thank the students and leaders of our CSCW course at the University of Victoria for their thoughtful feedback while presenting our research proposal.   
  
 ##### REFERENCES 
+Bannon, L. J., & Schmidt, K. (1989). CSCW-four characters in search of a context. DAIMI Report Series, 18 (289).
+
 Bower, M. (2015), Deriving a typology of Web 2.0 learning technologies. British Journal of Educational Technology. doi: 10.1111/bjet.12344 
  
 Colace, F., De Santo, M., Greco, L., Moscato, V., Picariello, A. (2015). A Collaborative User-Centered Framework for Recommending Items in Online Social Networks. Computers in Human Behaviour. doi:10.1016/j.chb.2014.12.011 
@@ -106,9 +112,10 @@ Conole, G., & Dyke, M. (2004). What are the affordances of information and commu
 Conole, G., Dyke, M., Oliver, M., & Seale, J. (2004). Mapping pedagogy and tools for effective learning design. Computers & Education, 43(1), 17-33. 
  
 Dudezert. A., Gurkan, A., Karoui, M. (2010). Virtual Team Collaboration: A Review of Literature and Perspectives. Proceedings of the Sixteenth Americas Conference on Information Systems, Lima, Peru; August 12-15, 2010, 2010, Lima, Peru. 
+
+Johansen, R. (1988). Groupware: Computer support for business teams. The Free Press. New York, NY.
  
 Lee, C. P., & Paine, D. (2015). From The Matrix to a Model of Coordinated Action (MoCA): A Conceptual Framework of and for CSCW. In Proceedings of the 18th ACM Conference on Computer Supported Cooperative Work & Social Computing (pp. 179-194). ACM. 
- 
 Olsen, J. & Olsen, G. (2014). How To Make Distance Work Work. Interactions, XXI.2 March + April 2014, pg. 28. Association for Computing Machinery. 
  
 Pea, R. (1993). Practices of distributed intelligence and designs for education.  In Salomon, ed., Distributed cognitions: Psychological and educational considerations. Cambridge University Press. 

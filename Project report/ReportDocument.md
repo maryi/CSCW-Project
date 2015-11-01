@@ -10,7 +10,7 @@ The Model of Coordinated Action (MoCA) framework provides a descriptive lens for
 **ACM Classification Keywords**: Design, Experimentation, Theory 
  
 ##### INTRODUCTION 
-The study of CSCW is concerned with supporting multiple individuals working together mediated by computer systems and software. One of the recurring challenges in CSCW is matching the appropriate tools to the type of work to be facilitated. Various ways of articulating CSCW have emerged including Johansen's (1988) time-space matrix which described collaborative work in terms of location and synchronicity. However we argue that for any person planning a CSCW project, the vast availability of potental tools is overwhelming and a challenge to navigate.   
+The study of CSCW is concerned with supporting multiple individuals working together mediated by computer systems and software. One of the recurring challenges in CSCW is matching the appropriate tools to the type of work to be facilitated. Various ways of articulating CSCW have emerged including Johansen's (1988) time-space matrix which described collaborative work in terms of location and synchronicity. However we argue that for any person or group planning a CSCW project, the vast availability of potental tools is overwhelming and a challenge to navigate.   
 
 The appropriate selection of a suite of technologies which meets the needs of a group can have a great impact on the success of the collaboration (Olsen & Olsen, 2014). Technologies are often selected based on past experiences or accessibility. The selection of tools to support CSCW may occur without much consideration, and this presents a risk to success. By attempting to articulate the elements of the collaborative work which will be undertaken, a more thoughtful selection of appropriate tools may occur. 
 
@@ -22,10 +22,13 @@ Can articulation of collaborative work using the MoCA framework be used to assis
  
 Are there further descriptive dimensions useful in describing collaborative work that should the added to the MoCA framework? 
 ##### BACKGROUND 
+Bannon & Schmidt (1989) suggest that too often technology is built with a focus on information flow between individuals. However, there must also be a consideration of the articulation work required to make the “flow” possible. To this we add that some tools enable the "flow" of information and facilitate collaboration in distinct ways.  
+
+Johansen's (1988) time-space matrix  described collaborative work in terms of location and synchronicity.  [need more on this model here]
+
+Nickerson's (1997) taxonomy of collaborative applications built upon the work of Johansen adding the modal dimension in addition to the time space matrix. The modal dimension is essentially the form of communication that takes place between team members during CSCW. Nickerson suggested three main possibilities for modal; audio communication, visual communication, document or data communication. It was further recognized that tools could allow for more than one type of communication. For example a synchonous collaborative meeting space may allow users to work on a document and talk about it at the same time, meaning that the tool allows for both audio and document communicaiton.    
+
 This section outlines the MoCA framework and its seven dimensions, the affordance of collaborative technologies, and the problem we are trying to solve using our web application. 
-
-Bannon & Schmidt (1989) suggest that too often technology is built with a focus on information flow between individuals. There must also be a consideration of the articulation work required to make the “flow” possible.
-
  
 #### 1. The MoCA framework 
 Introduced by Lee and Paine (2015), the Model of Coordinated Action (MoCA) framework is introduced as a tool to describe complex collaborative situations. The MoCA framework consists of seven dimensions of coordinated action described below. 
@@ -63,13 +66,15 @@ Our proposal is to create a web application, that based on the MoCA framework, w
 Although we will base our initial development on the MoCA framework, we will follow an iterative validation process with potential users to evaluate what extra features or dimensions not considered in the MoCA are required to our purpose. 
 Below are two figures outlining how we will take user input for registering an application as well as for describing a collaborative project that a user wants to find applications for. 
 
-![Image of FindApp](https://github.com/maryi/CSCW-Project/blob/master/Project%20proposal/Mockups/Find%20app.png)
+In describing applications we realized that the MoCA framework had to be extended to better descibte collaborative tools.  [more on the descriptors we added here]
+
+Based on Nickerson's (1997) contribution of the modal dimension, we added a few other options to the dimension including audio communication, visual communication, visualization communication, short message communication.
+
+Image 
 Figure 3 A preliminary version of our project description page 
  
-![Image of RegisterApp](https://github.com/maryi/CSCW-Project/blob/master/Project%20proposal/Mockups/Register%20app.png)
+Image 
 Figure 4 A preliminary version of our register an application page 
-
- We came up with these initial designs for our website by first copying the 7 MoCA dimensions word for word. next we decided how each dimension should be measured. If the dimension could be measured using numbers we made a slider of increasing integer values. If the dimension was not quantitative we decided to go with a number of text choices for the user to decide what kind of app they are looking for or what the app they are registering does. After deciding how to measure all the dimensions we decided that using words like synchronicity and nascence could be confusing to our users so we replaced the 7 MoCA dimensions with short sentences that conveyed the same information in an easier to understand way.
  
 #### 1. Technical specifications
 Our project website will be hosted on GitHub. With this choice we ensure high availability of the service for potential users. The website hosting our application will be done with Java. All the applications for the website will be stored in a database using MySQL, an open source database (https://www.mysql.com/why-mysql/). 
@@ -118,6 +123,8 @@ Dudezert. A., Gurkan, A., Karoui, M. (2010). Virtual Team Collaboration: A Revie
 Johansen, R. (1988). Groupware: Computer support for business teams. The Free Press. New York, NY.
  
 Lee, C. P., & Paine, D. (2015). From The Matrix to a Model of Coordinated Action (MoCA): A Conceptual Framework of and for CSCW. In Proceedings of the 18th ACM Conference on Computer Supported Cooperative Work & Social Computing (pp. 179-194). ACM. 
+Nickerson, R. C. (1997). A taxonomy of collaborative applications. In Proceedings of the AIS 1997 Americas Conference on Information Systems (Vol. 52, pp. 560-562).
+
 Olsen, J. & Olsen, G. (2014). How To Make Distance Work Work. Interactions, XXI.2 March + April 2014, pg. 28. Association for Computing Machinery. 
  
 Pea, R. (1993). Practices of distributed intelligence and designs for education.  In Salomon, ed., Distributed cognitions: Psychological and educational considerations. Cambridge University Press. 

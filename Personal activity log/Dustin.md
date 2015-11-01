@@ -36,6 +36,11 @@ Talked about the project as a whole, covered some concerns, and gave each member
 Monday October 19, 2015 11:00am - 12:00pm
 Just some light API research for the website portion of the project and looking into how to merge the website with a database.
 
-Monday October 26, 2015 5:00pm-8:49pm
+Monday October 26, 2015 5:00pm - 8:49pm
 More API, familiarization with Git, GitHub, HTML, surveys, etc. Initial website setup.
 
+Tusday October 27, 2015 7:00pm - 9:00pm
+More familiarization with html, some minor changes made to the websites. 
+
+Sunday November 1, 2015 9:11am-10:30am
+Some light changes to the website pages. Added forms, still need to figure out why Likert Scales are not interactive.

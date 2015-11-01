@@ -63,10 +63,10 @@ Our proposal is to create a web application, that based on the MoCA framework, w
 Although we will base our initial development on the MoCA framework, we will follow an iterative validation process with potential users to evaluate what extra features or dimensions not considered in the MoCA are required to our purpose. 
 Below are two figures outlining how we will take user input for registering an application as well as for describing a collaborative project that a user wants to find applications for. 
 
-Image 
+![Image of FindApp](https://github.com/maryi/CSCW-Project/blob/master/Project%20proposal/Mockups/Find%20app.png)
 Figure 3 A preliminary version of our project description page 
  
-Image 
+![Image of FindApp](https://github.com/maryi/CSCW-Project/blob/master/Project%20proposal/Mockups/Register%20app.png)
 Figure 4 A preliminary version of our register an application page 
  
 #### 1. Technical specifications

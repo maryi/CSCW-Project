@@ -66,8 +66,10 @@ Below are two figures outlining how we will take user input for registering an a
 ![Image of FindApp](https://github.com/maryi/CSCW-Project/blob/master/Project%20proposal/Mockups/Find%20app.png)
 Figure 3 A preliminary version of our project description page 
  
-![Image of FindApp](https://github.com/maryi/CSCW-Project/blob/master/Project%20proposal/Mockups/Register%20app.png)
+![Image of RegisterApp](https://github.com/maryi/CSCW-Project/blob/master/Project%20proposal/Mockups/Register%20app.png)
 Figure 4 A preliminary version of our register an application page 
+
+ We came up with these initial designs for our website by first copying the 7 MoCA dimensions word for word. next we decided how each dimension should be measured. If the dimension could be measured using numbers we made a slider of increasing integer values. If the dimension was not quantitative we decided to go with a number of text choices for the user to decide what kind of app they are looking for or what the app they are registering does. After deciding how to measure all the dimensions we decided that using words like synchronicity and nascence could be confusing to our users so we replaced the 7 MoCA dimensions with short sentences that conveyed the same information in an easier to understand way.
  
 #### 1. Technical specifications
 Our project website will be hosted on GitHub. With this choice we ensure high availability of the service for potential users. The website hosting our application will be done with Java. All the applications for the website will be stored in a database using MySQL, an open source database (https://www.mysql.com/why-mysql/). 

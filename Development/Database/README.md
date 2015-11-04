@@ -28,12 +28,12 @@ ALTER TABLE app
 ALTER TABLE app AUTO_INCREMENT=0;
 
 INSERT INTO app (toolname, url, creator, purpose, pubpriv, hierarchy, servt, autht, sync, physd, scale, community, nascence, permanence, turnover, compatibility)
-	VALUES(’skype’,’http://www.skype.com/en/',’Microsoft’,’text, video,
+	VALUES(’skype’,’http://www.skype.com/en/', ’Microsoft’,’text, video,
 and file sharing’,’private’,’all same role’,’free online account’,’none’,’video - sync 
 text, files-async’,’distributed’,’text-large video~ 5 people’,’large’,’low’,’medium’,’low’,’none’);
 
 INSERT INTO app (toolname, url, creator, purpose, pubpriv, hierarchy, servt, autht, sync, physd, scale, community, nascence, permanence, turnover, compatibility)
-	VALUES(’slack’,’https://slack.com',’Slack Technologies’,’text and
+	VALUES(’slack’,’https://slack.com', ’Slack Technologies’,’text and
 file sharing’,’both’,’all same role’,’freemium’,’none’,’async’,’distributed’,’large’,’large’,’low’,’high’,’low’,’none’);
 
 INSERT INTO app (toolname, url, creator, purpose, pubpriv, hierarchy, servt, autht, sync, physd, scale, community, nascence, permanence, turnover, compatibility)

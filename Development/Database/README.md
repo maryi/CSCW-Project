@@ -37,4 +37,4 @@ INSERT INTO app (toolname, url, creator, purpose, pubpriv, hierarchy, servt, aut
 file sharing’,’both’,’all same role’,’freemium’,’none’,’async’,’distributed’,’large’,’large’,’low’,’high’,’low’,’none’);
 
 INSERT INTO app (toolname, url, creator, purpose, pubpriv, hierarchy, servt, autht, sync, physd, scale, community, nascence, permanence, turnover, compatibility)
-	VALUES(’github’,’https://github.com',’Tom Preston-Werner’,’code repository’,’both’,’2 roles owner and contributor’, ’freemium’, ’none’, ’async’, ’distributed’, ’large’, ’medium’ ,’medium’ ,’high’ ,’medium’ ,’none’);
+	VALUES(’github’,’https://github.com', ’Tom Preston-Werner’,’code repository’,’both’,’2 roles owner and contributor’, ’freemium’, ’none’, ’async’, ’distributed’, ’large’, ’medium’ ,’medium’ ,’high’ ,’medium’ ,’none’);

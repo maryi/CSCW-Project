@@ -63,7 +63,29 @@ Selecting the right tool for collaborative work is one of the main problems team
 ##### OUR PROPOSAL: MATCH MAKER APP 
 Our proposal is to create a web application, that based on the MoCA framework, will help users find appropriate applications for collaborative work depending on the nature of the work. Our application will also look to benefit from the knowledge on the people and will allow users to register information about applications they have used for collaboration. As a result, our information database will store valuable user experiences and our application will aim to make more accurate recommendations to new users. 
 
-Although we will base our initial development on the MoCA framework, we will follow an iterative validation process with potential users to evaluate what extra features or dimensions not considered in the MoCA are required to our purpose. 
+Although we will base our initial development on the MoCA framework, we will follow an iterative validation process with potential users to evaluate what extra features or dimensions not considered in the MoCA are required to our purpose. In the next subsection we describe with more detail our process.
+ 
+#### 1. Strategy and Methods 
+In our application any user can describe the type of collaborative work to be done and our application should be able to suggests the appropriate tools. For this purpose, we initially defined a set of criteria to help us classify our information *-descriptors-*. As the list grow, we notice that the criteria used to define collaborative work should be different from the criteria to identify tool features. Consequently, we separated our requirements and our descriptors.
+
+We identified two user requirements (UR) for our application:
+ 
+ * UR1: Searching for an application
+ 
+ * UR2: Registering an application
+
+*UR1: Searching for an application:* Any user searching for an application to support collaborative activies should be able to describe the nature of the collaborative work to the system. Consequently, the descriptors used for this requirement were selected mainly from the MoCA framework and adapted to a more coloquial vocabulary for user friendliness.
+
+*UR2: Registering an application:* 
+
+We identified that not all descriptors are suitable for our two user requirements. The first requirement, searching for an application requires the user to describe the nature of the collaboration he or she intent to support, so the descriptors should allow the identify the characteristics of the work to be done. In this case, all dimensions of the MoCA framework are included as descriptors along with purpose as a complementary one. The second requirement, registering an application, requires the user to describe the features of a tool. Thus, descriptors have to be feature oriented in order to describe the capabilities of a particular tool. In the table below we provide a list of our application descriptors along with the definition, possible options and the selection type offered to the user. The left column identifies whether the descriptor applies for the user requirement 1: searching for an application (UR1), user requirement 2: registering an application (UR2) or both.
+
+User requirements
+UR1: Searching for an application
+UR2: Registering an application
+
+
+
 Below are two figures outlining how we will take user input for registering an application as well as for describing a collaborative project that a user wants to find applications for. 
 
 In describing applications we realized that the MoCA framework had to be extended to better descibte collaborative tools.  [more on the descriptors we added here]
@@ -75,14 +97,21 @@ Figure 3 A preliminary version of our project description page
  
 Image 
 Figure 4 A preliminary version of our register an application page 
- 
-#### 1. Technical specifications
+
+
+
+
+
+
+
+After reviewing the literature, we will aim to develop the software application. To get this done we are breaking the application up into different tasks, Dustin will focus on implementing the website and Eli on implementing the database. We have already come up with a preliminary design for the website consisting of a page for searching for applications as well as a page for registering different collaborative apps. While the website and database are being set up Maryi will be working on the ethics document. Once the ethics document, website, and database are all setup we will begin surveying potential users to see how they react to our design. once user surveying is complete we will analyze the user feedback and tweak our design to remove the problems observed by users. If we have time we might repeat the surveying and feedback analysis phase to further improve our application design. Lastly we will formalize and reflect on our findings in a final report. 
+
+
+#### 2. Technical specifications
 Our project website will be hosted on GitHub. With this choice we ensure high availability of the service for potential users. The website hosting our application will be done with Java. All the applications for the website will be stored in a database using MySQL, an open source database (https://www.mysql.com/why-mysql/). 
 
 For the collaborative work required to build our application we will be using the GitHub issues and milestones features. We will also be using the text based chat tool Slack as a central point of communication. Blackboard Collaborate will be used when it is necessary for us to have synchronous voice communication from different locations.   
  
-#### 2. Strategy and Methods 
-After reviewing the literature, we will aim to develop the software application. To get this done we are breaking the application up into different tasks, Dustin will focus on implementing the website and Eli on implementing the database. We have already come up with a preliminary design for the website consisting of a page for searching for applications as well as a page for registering different collaborative apps. While the website and database are being set up Maryi will be working on the ethics document. Once the ethics document, website, and database are all setup we will begin surveying potential users to see how they react to our design. once user surveying is complete we will analyze the user feedback and tweak our design to remove the problems observed by users. If we have time we might repeat the surveying and feedback analysis phase to further improve our application design. Lastly we will formalize and reflect on our findings in a final report. 
  
 #### 3. Roles and contributions 
 Based on a list of strengths and personal preferences, we subdivided our team in two. 

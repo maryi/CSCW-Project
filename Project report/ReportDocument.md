@@ -66,27 +66,39 @@ Our proposal is to create a web application, that based on the MoCA framework, w
 Although we will base our initial development on the MoCA framework, we will follow an iterative validation process with potential users to evaluate what extra features or dimensions not considered in the MoCA are required to our purpose. In the next subsection we describe with more detail our process.
  
 #### 1. Strategy and Methods 
-Our application allows any user to describe the type of collaborative work to be done and our application suggests the appropriate tools. This function was identified as the first user requirement: *UR1: Searching for an application*. Additionally, Match Maker app allows users to register collaborative computer-based tools in our database, as a mechanism to improve the recommendation system. Similarly, this function was identified as the second user requirement: *UR2: Registering an application*.
+Our application allows any user to describe the type of collaborative work to be done and our application suggests the appropriate tools. This function was identified as the first user requirement: *UR1: Searching for an application*. Additionally, Match Maker app allows users to register collaborative computer-based tools in our database, as a mechanism to improve the recommendation system. Similarly, this function was identified as the second user requirement: *UR2: Registering an application*. Figure # and # show a preliminary interface mockup for UR1 and UR2 respectively.
+
+| <img src="https://raw.githubusercontent.com/maryi/CSCW-Project/master/Images/Find%20app1.3.png" width="300">                 |
+|--------------------------------------------------------|
+| Figure 1. Preliminary interface Mockup for UR1: Searching for an application |
+
+
+| <img src="https://raw.githubusercontent.com/maryi/CSCW-Project/master/Images/Register%20app1.3.png" width="300">                 |
+|--------------------------------------------------------|
+| Figure 2. Preliminary interface Mockup for UR2: Registering an application |
 
 Next, in order to implement the listed requirements, we defined a set of criteria to help us classify our information, which we particularly call *-descriptors-*. As the list grow, we notice that the criteria used to define collaborative work is different from the criteria to identify tool features. 
 We identified that not all descriptors are suitable for our two user requirements. The first requirement needs the user to describe the nature of the collaboration s/he intent to support, so the descriptors should allow to identify the characteristics of the work to be done. Meanwhile, in UR2 the application requires the user to describe the features of a tool. Thus, descriptors have to be feature oriented in order to describe the capabilities of a particular tool. As a result, we divided the initial list in two, creating two set of descriptors, one for UR1 and the other for UR2.
 
-**UR1: Searching for an application:** Any user searching for an application to support collaborative activities should be able to describe the nature of the collaborative work to the system. Consequently, the descriptors used for this requirement were selected from the MoCA framework, along with *purpose* as a complementary one, and adapted to a colloquial vocabulary for user friendliness. Figure # illustrate the interface mockup for this requirement.
+**UR1: Searching for an application:** Any user searching for an application to support collaborative activities should be able to describe the nature of the collaborative work to the system. Consequently, the descriptors used for this requirement were selected from the MoCA framework, along with *purpose* as a complementary one. Note that the vocabulary of the MoCA dimensions were adapted to be more colloquial for user friendliness. The set of descriptors selected to characterize collaborative work is presented in table #. Each descriptor is described with the name, possible options and the selection type offered to the user in the web interface. The rational about the options offered will be describe in the next subsection.
 
-**UR2: Registering an application:** In the case when the user wants to register an application the descriptors will focus on possible tool features. Our Match Maker app will later analyze the features and determine the level of support each tool can provide for each collaboration descriptor. An interface mockup for this requirement is shown in Figure #.
+|                                                        |
+|--------------------------------------------------------|
+| Table 1.  |
 
- In the table below we provide a list of our application descriptors along with the definition, possible options and the selection type offered to the user. The left column identifies whether the descriptor applies for the user requirement 1: searching for an application (UR1), user requirement 2: registering an application (UR2) or both.
 
 
-In describing applications we realized that the MoCA framework had to be extended to better descibte collaborative tools.  [more on the descriptors we added here]
+**UR2: Registering an application:** In the case when the user wants to register an application the descriptors will focus on possible tool features. Our Match Maker app will later analyze the features and determine the level of support each tool can provide for each collaboration descriptor. Table # shows the set of descriptors used for tool features, along with name, possible values and the selection type offered to the user in the web interface. More details about descriptors definitions and options offered will be presented in the next subsection.
+
+TABLE
+
+The two set of descriptors presented in table # and # differ in nature, so they do not present a linear correspondence. For that reason, we developed a connection between the descriptors of the work and the descriptors of the applications. For example, when a user in the physical distribution descriptor selects 'distributed team' Match maker app looks for applications with multiple awareness mechanisms. Also, it should be noted that not all descriptors are different, we found that some of them could be left equal in both cases. For instance, the scale dimension in MoCA has a linear connection with the scalability of a tool.
+Finally, in another cases we found that more than one descriptor in the application could contribute to identify potential benefits for one descriptor in the collaborative work. Such was the case with the descriptor of work Planned permanence where *service type* and *learning curve* were both selected as application descriptors.
+The table # shows how the two set of descriptors are connected.
+
 
 Based on Nickerson's (1997) contribution of the modal dimension, we added a few other options to the dimension including audio communication, visual communication, visualization communication, short message communication.
 
-Image 
-Figure 3 A preliminary version of our project description page 
- 
-Image 
-Figure 4 A preliminary version of our register an application page 
 
 
 

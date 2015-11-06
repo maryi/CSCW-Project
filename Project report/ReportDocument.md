@@ -114,20 +114,17 @@ The set of descriptors used to characterize collaborative work, as illustrated b
 
 *Synchronicity*: represents the nature of interactions between participants. It can take three values:
  
- * Completely asynchronous: does not require other participants to be actively on the tool to interact with the tool (e.g., email)
- * Completely synchronous: participation of other team member is required to access the tool (e.g., video-conference)
- * Both: the tool support asynchronous and synchronous services.
+ * Completely asynchronous: does not require all or a significant number of participants to be actively working on the coordinated action in order to make progress on the work.
+ * Completely synchronous: participation of all or a significant number of team members is required to work simultaneously in order to make progress in the coordinated action
+ * Both: the collaborative action requires asynchronous and synchronous modes of work.
 
-concerns a continuum of coordinated action ranging from being conducted synchronously, at the same time, to asynchronously, at different times. It allows coordinated actions to be both synchronous and asynchronous however it does not account for predictability of time. 
-
-
-
+*Planned Permanence*: this descriptor provides information about the length of the collaboration. In this case, we defined as possible options: couple of days, less than or equal to 1 month, less than or equal to 6 months, and more time. 
 
 *Number of Communities of Practice*: focuses on the number of communities of practice represented in the coordinated action. This dimension recognize the importance of the different knowledge domains that may participate in the collaboration.
 
 *Nascence*: this dimension discusses how unestablished (new) or established (old) a coordination action is. In another words, nascence aim to describe the familiarity level of participants with the collaborative task.
 
-*Planned Permanence*: because it cannot be predicted how long a coordinated action will last, this dimension refers to planned or intended permanence of a coordinated action. 
+
 
 *Turnover*: refers to the stability of the participant makeup of a given collaboration, or the rapidity of participants entering or leaving the collaboration. 
 
@@ -140,6 +137,16 @@ Finally, in another cases we found that more than one descriptor in the applicat
 *Scale*: this descriptor has a linear correspondence with the *scale* in collaborative work. This describes the maximum number of participants supported by the tool. The possible values are the same as the descriptor in collaborative work: 2, less or equal to 5, less or equal to 10, and more than 10 participants. 
 
 *Physical Distribution*: based on the literature covered in the class (e.g., Olson & Olson, 2014) we know collaboration in a distributed team is challenging, so we considered that distributed groups would find more benefits from a *awareness mechanisms* in the tool features.
+
+*Synchronicity*: represents the nature of interactions between participants. It can take three values:
+ 
+ * Completely asynchronous: does not require other participants to be actively on the tool to interact with the tool (e.g., email)
+ * Completely synchronous: participation of other team member is required to access the tool (e.g., video-conference)
+ * Both: the tool support asynchronous and synchronous services.
+
+*Planned Permanence*: the rational we followed to suggest an appropriate tool given this information is based on two assumptions: 1) the longer the collaboration participants are more willing to spend more time learning the complexities of a tool and 2) they are more open to pay for software or install it in their computers. 
+ 2. 
+
 
 Based on Nickerson's (1997) contribution of the modal dimension, we added a few other options to the dimension including audio communication, visual communication, visualization communication, short message communication.
 

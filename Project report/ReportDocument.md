@@ -110,16 +110,36 @@ The set of descriptors used to characterize collaborative work, as illustrated b
 
 *Scale*: similar to the original version, represents an approximate number of people involved in the collaborative work and that should have access to the common artifacts through computer-based tools. The possible values selected represent the most popular accommodations: 2, less or equal to 5, less or equal to 10, and more than 10 participants.
 
+*Physical Distribution*: this descriptor provides information about the location of participants, thus the possible values are distributed or colocated.
+
+*Synchronicity*: represents the nature of interactions between participants. It can take three values:
+ 
+ * Completely asynchronous: does not require other participants to be actively on the tool to interact with the tool (e.g., email)
+ * Completely synchronous: participation of other team member is required to access the tool (e.g., video-conference)
+ * Both: the tool support asynchronous and synchronous services.
+
+concerns a continuum of coordinated action ranging from being conducted synchronously, at the same time, to asynchronously, at different times. It allows coordinated actions to be both synchronous and asynchronous however it does not account for predictability of time. 
 
 
 
-#### 1.2 Descriptors for tool features
+
+*Number of Communities of Practice*: focuses on the number of communities of practice represented in the coordinated action. This dimension recognize the importance of the different knowledge domains that may participate in the collaboration.
+
+*Nascence*: this dimension discusses how unestablished (new) or established (old) a coordination action is. In another words, nascence aim to describe the familiarity level of participants with the collaborative task.
+
+*Planned Permanence*: because it cannot be predicted how long a coordinated action will last, this dimension refers to planned or intended permanence of a coordinated action. 
+
+*Turnover*: refers to the stability of the participant makeup of a given collaboration, or the rapidity of participants entering or leaving the collaboration. 
+
+
+
+#### 1.2 Connection from descriptors for collaborative work to tool features.
 The two set of descriptors presented in table # and # differ in nature; they do not present a linear correspondence. For that reason, we developed a connection between the descriptors of the work and the descriptors of the applications. For example, when a user in the physical distribution descriptor selects 'distributed team' Match maker app looks for applications with multiple awareness mechanisms. Also, it should be noted that not all descriptors are different, we found that some of them are applicable in both contexts, to describe work and to describe a tool, so they were left equal in both cases. For instance, the scale dimension in MoCA has a linear connection with the scalability of a tool.
 Finally, in another cases we found that more than one descriptor in the application could contribute to identify potential benefits for one descriptor in the collaborative work. Such was the case with the descriptor of work Planned permanence where *service type* and *learning curve* were both selected as application descriptors. The table # shows how the two set of descriptors are connected.
 
 *Scale*: this descriptor has a linear correspondence with the *scale* in collaborative work. This describes the maximum number of participants supported by the tool. The possible values are the same as the descriptor in collaborative work: 2, less or equal to 5, less or equal to 10, and more than 10 participants. 
 
-
+*Physical Distribution*: based on the literature covered in the class (e.g., Olson & Olson, 2014) we know collaboration in a distributed team is challenging, so we considered that distributed groups would find more benefits from a *awareness mechanisms* in the tool features.
 
 Based on Nickerson's (1997) contribution of the modal dimension, we added a few other options to the dimension including audio communication, visual communication, visualization communication, short message communication.
 
@@ -187,6 +207,6 @@ Johansen, R. (1988). Groupware: Computer support for business teams. The Free Pr
 Lee, C. P., & Paine, D. (2015). From The Matrix to a Model of Coordinated Action (MoCA): A Conceptual Framework of and for CSCW. In Proceedings of the 18th ACM Conference on Computer Supported Cooperative Work & Social Computing (pp. 179-194). ACM. 
 Nickerson, R. C. (1997). A taxonomy of collaborative applications. In Proceedings of the AIS 1997 Americas Conference on Information Systems (Vol. 52, pp. 560-562).
 
-Olsen, J. & Olsen, G. (2014). How To Make Distance Work Work. Interactions, XXI.2 March + April 2014, pg. 28. Association for Computing Machinery. 
+Olson, J. & Olson, G. (2014). How To Make Distance Work Work. Interactions, XXI.2 March + April 2014, pg. 28. Association for Computing Machinery. 
  
 Pea, R. (1993). Practices of distributed intelligence and designs for education.  In Salomon, ed., Distributed cognitions: Psychological and educational considerations. Cambridge University Press. 

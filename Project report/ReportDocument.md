@@ -32,15 +32,8 @@ Desanctis & Gallupe (1987) further proposed descriptors which included the size 
 Nickerson (1997) offered taxonomy of collaborative applications building upon the work of Johansen and Desanctis & Gallupe which added a modal dimension. The modal dimension is essentially the form of communication that takes place between team members during CSCW. Nickerson suggested three main possibilities for modal; audio communication, visual communication, document or data communication. It was further recognized that tools could allow for more than one type of communication. For example, a synchronous collaborative meeting space may allow users to work on a document and talk about it at the same time, meaning that the tool allows for both audio and document communication.    
 
 Further attempts to describing CSCW include the addition of the hardware and software required to faciliate the work (Kraemer & King, 1988); the notion of usability and ergonomics related to tool acceptance among a group (Jarczyk, Loffler, & Volksen, 1992); and the categorization of collaborative systems according to specific technologies (Ellis, 2000).
-
-Instead of trying to map an infinite variety of types of work
-on to a relatively smaller number of technologies that are
-rapidly changing and proliferating—we instead propose
-mapping technologies on to a more comprehensive model
-of work, such as the one proposed here
  
 ### 1. The MoCA framework 
-
 While many interesting apporaches to describing CSCW have emerged, there still exists a challenge for users in selecting appropriate tools to facilitate specific types of work. The Model of Coordinated Action, recently proposed by Lee and Paine (2015), is defined as a tool to describe complex collaborative situations. Recognizing that the landscape for collaborative technologies is rapidly changing and evolving, the model shifts our focus to describing the type of work that needs to facilitated. 
 
 In total the MoCA framework consists of seven dimensions of coordinated action described below and illustrated in Figure 1. 

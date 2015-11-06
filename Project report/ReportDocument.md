@@ -9,7 +9,7 @@ The Model of Coordinated Action (MoCA) framework provides a descriptive lens for
  
 **ACM Classification Keywords**: Design, Experimentation, Theory 
  
-#### INTRODUCTION 
+## INTRODUCTION 
 The study of CSCW is concerned with supporting multiple individuals working together mediated by computer systems and software. One of the recurring challenges in CSCW is matching the appropriate tools to the type of work to be facilitated. Various ways of articulating CSCW have emerged including Johansen's (1988) time-space matrix which described collaborative work in terms of location and synchronicity. However we argue that for any person or group planning a CSCW project, the vast availability of potential tools is overwhelming and a challenge to navigate.   
 
 The appropriate selection of a suite of technologies which meets the needs of a group can have a great impact on the success of the collaboration (Olsen & Olsen, 2014). Technologies are often selected based on past experiences or accessibility. The selection of tools to support CSCW may occur without much consideration, and this presents a risk to success. By attempting to articulate the elements of the collaborative work which will be undertaken, a more thoughtful selection of appropriate tools may occur. 
@@ -22,7 +22,7 @@ We believe the MoCA framework provides a useful lens for describing collaborativ
  
  * **RQ2** Are there further descriptive dimensions useful in describing collaborative work that should the added to the MoCA framework? 
 
-#### BACKGROUND 
+## BACKGROUND 
 Bannon & Schmidt (1989) suggest that too often technology is built with a focus on information flow between individuals. However, there must also be a consideration of the articulation work required to make the “flow” possible. To this, we add that some tools enable the "flow" of information and facilitate collaboration in distinct ways.  
 
 Johansen's (1988) time-space matrix  described collaborative work in terms of location and synchronicity.  *[need more on this model here]*
@@ -31,7 +31,7 @@ Nickerson's (1997) taxonomy of collaborative applications built upon the work of
 
 This section outlines the MoCA framework and its seven dimensions, the affordance of collaborative technologies, and the problem we are trying to solve using our web application. 
  
-#### 1. The MoCA framework 
+### 1. The MoCA framework 
 Introduced by Lee and Paine (2015), the Model of Coordinated Action (MoCA) framework is introduced in CSCW field as a tool to describe complex collaborative situations. In particular, the MoCA framework consists of seven dimensions of coordinated action described below and illustrated in Figure 1. 
 
 | ![alt text](https://depts.washington.edu/csclab/wordpress/wp-content/uploads/moca-key.png "Logo Title Text 1") |
@@ -55,7 +55,7 @@ Introduced by Lee and Paine (2015), the Model of Coordinated Action (MoCA) frame
 
 
 
-#### 2. Affordances of collaborative technologies
+### 2. Affordances of collaborative technologies
 The notion of affordances is useful in defining how users interpret and make use of artifacts in the world. Salomon **WHO IS THIS? -ADD REFERENCE** defines the term affordance as *“the perceived and actual properties of a thing, primarily those functional properties that determine just how the thing could possibly be used”* (Pea, 1993, p. 51).   
 
 When considering emerging collaborative software and systems, affordances are not always evident to the user.  Users often maintain historically developed understandings of collaborative software and systems which are always evolving.  Conole and Dyke (2004) argue that articulating and exposing the affordances of collaborative software enables users to understand how technologies can be most effectively used to support collaborative activities. 
@@ -69,16 +69,17 @@ Bower (2015) has presented a model of collaborative learning technologies based 
 
 Our project will test the MoCA framework as a lens for exposing the affordances of collaborative software and systems. MoCA provides a framework for describing collaborative work and will be mapped to the affordances of collaborative technologies. 
  
-#### 3. The problem we are trying to solve 
+### 3. The problem we are trying to solve 
 Selecting the right tool for collaborative work is one of the main problems teams face. There are too many collaboration tools to choose from and many people are having a difficult time or feel overwhelmed trying to find a tool that will best meet their needs. Dudezert, Gurkan & Karoui (2010) suggests a technological perspective on virtual collaboration, which states that the efficiency of a team is based on the tool selected for collaboration. With such a wide range of options, it is recommended to establish a set of criteria that would be used for choosing the most appropriate tool for collaboration. In addition, Colace, De Santo, Moscato & Picariello (2015) suggest using a recommender system to solve this problem. Recommender systems help users find the tools they need based on user's preferences and feedback and have been becoming an increasingly important role in our lives. 
 
-#### OUR PROPOSAL: MATCH MAKER APP 
-Our proposal is to create a web application, that based on the MoCA framework, will help users find appropriate applications for collaborative work depending on the nature of the work. Our application will also look to benefit from the knowledge on the people and will allow users to register information about applications they have used for collaboration. As a result, our information database will store valuable user experiences and our application will aim to make more accurate recommendations to new users. 
+## OUR PROPOSAL: MATCH MAKER APP 
+Our proposal is to create a web application, that based on the MoCA framework, will help users find appropriate applications for collaborative work depending on the nature of the work. Our application will also look to benefit from the knowledge on the people and will allow users to register information about applications they have used for collaboration. As a result, our information database will store valuable user experiences.
 
 Although we will base our initial development on the MoCA framework, we will follow an iterative validation process with potential users to evaluate what extra features or dimensions not considered in the MoCA are required to our purpose. In the next subsection we describe with more detail our process.
  
-#### 1. Strategy and Methods 
-Our application allows any user to describe the type of collaborative work to be done and our application suggests the appropriate tools. This function was identified as the first user requirement: *UR1: Searching for an application*. Additionally, Match Maker app allows users to register collaborative computer-based tools in our database, as a mechanism to improve the recommendation system. Similarly, this function was identified as the second user requirement: *UR2: Registering an application*. Figure # and # show a preliminary interface mockup for UR1 and UR2 respectively.
+### 1. Strategy and Methods 
+
+Match maker app is a recommendation system that intent to bring closer users with collaborative tools. In particular, the application allows any user to describe the type of collaborative work to be done and our application suggests the appropriate tools. This function is identified as the first user requirement: *UR1: Searching for an application*. Additionally, Match Maker app allows users to register collaborative computer-based tools in the system database, as a mechanism to help populate the recommendation system. Similarly, this function is identified as the second user requirement: *UR2: Registering an application*. Figure # and # show a preliminary interface mockup for UR1 and UR2 respectively.
 
 | <img src="https://raw.githubusercontent.com/maryi/CSCW-Project/master/Images/Find%20app1.3.png" width="300">                 |
 |--------------------------------------------------------|
@@ -92,7 +93,7 @@ Our application allows any user to describe the type of collaborative work to be
 Next, in order to implement the listed requirements, we defined a set of criteria to help us classify our information, which we particularly call *-descriptors-*. As the list grow, we notice that the criteria used to define collaborative work is different from the criteria to identify tool features. 
 We identified that not all descriptors are suitable for our two user requirements. The first requirement needs the user to describe the nature of the collaboration s/he intent to support, so the descriptors should allow to identify the characteristics of the work to be done. Meanwhile, in UR2 the application requires the user to describe the features of a tool. Thus, descriptors have to be feature oriented in order to describe the capabilities of a particular tool. As a result, we divided the initial list in two, creating two set of descriptors, one for UR1 and the other for UR2.
 
-**UR1: Searching for an application:** Any user searching for an application to support collaborative activities should be able to describe the nature of the collaborative work to the system. Consequently, the descriptors used for this requirement were selected from the MoCA framework, along with *purpose* as a complementary one. Note that the vocabulary of the MoCA dimensions were adapted to be more colloquial for user friendliness. The set of descriptors selected to characterize collaborative work is presented in table #. Each descriptor is described with the name, possible options and the selection type offered to the user in the web interface. The rational about the options offered will be describe in the next subsection.
+**UR1: Searching for an application:** Any user searching for an application to support collaborative activities should describe the nature of the collaborative work to the system. Consequently, the descriptors used for this requirement are selected from the MoCA framework, along with *purpose* as a complementary one. Note that the vocabulary of the MoCA dimensions were adapted to be more colloquial for user friendliness. The set of descriptors selected to characterize collaborative work is presented in table #. Each descriptor is described with the name, possible options and the selection type offered to the user in the web interface. The rational about the options offered will be describe in the next subsection.
 
 |                                                        |
 |--------------------------------------------------------|
@@ -104,9 +105,14 @@ We identified that not all descriptors are suitable for our two user requirement
 
 TABLE
 
-The two set of descriptors presented in table # and # differ in nature, so they do not present a linear correspondence. For that reason, we developed a connection between the descriptors of the work and the descriptors of the applications. For example, when a user in the physical distribution descriptor selects 'distributed team' Match maker app looks for applications with multiple awareness mechanisms. Also, it should be noted that not all descriptors are different, we found that some of them could be left equal in both cases. For instance, the scale dimension in MoCA has a linear connection with the scalability of a tool.
-Finally, in another cases we found that more than one descriptor in the application could contribute to identify potential benefits for one descriptor in the collaborative work. Such was the case with the descriptor of work Planned permanence where *service type* and *learning curve* were both selected as application descriptors.
-The table # shows how the two set of descriptors are connected.
+#### 1.1 Descriptors for collaborative work
+
+
+The two set of descriptors presented in table # and # differ in nature; they do not present a linear correspondence. For that reason, we developed a connection between the descriptors of the work and the descriptors of the applications. For example, when a user in the physical distribution descriptor selects 'distributed team' Match maker app looks for applications with multiple awareness mechanisms. Also, it should be noted that not all descriptors are different, we found that some of them are applicable in both contexts, to describe work and to describe a tool, so they were left equal in both cases. For instance, the scale dimension in MoCA has a linear connection with the scalability of a tool.
+Finally, in another cases we found that more than one descriptor in the application could contribute to identify potential benefits for one descriptor in the collaborative work. Such was the case with the descriptor of work Planned permanence where *service type* and *learning curve* were both selected as application descriptors. The table # shows how the two set of descriptors are connected.
+
+
+
 
 
 Based on Nickerson's (1997) contribution of the modal dimension, we added a few other options to the dimension including audio communication, visual communication, visualization communication, short message communication.
@@ -121,7 +127,7 @@ Based on Nickerson's (1997) contribution of the modal dimension, we added a few 
 After reviewing the literature, we will aim to develop the software application. To get this done we are breaking the application up into different tasks, Dustin will focus on implementing the website and Eli on implementing the database. We have already come up with a preliminary design for the website consisting of a page for searching for applications as well as a page for registering different collaborative apps. While the website and database are being set up Maryi will be working on the ethics document. Once the ethics document, website, and database are all setup we will begin surveying potential users to see how they react to our design. once user surveying is complete we will analyze the user feedback and tweak our design to remove the problems observed by users. If we have time we might repeat the surveying and feedback analysis phase to further improve our application design. Lastly we will formalize and reflect on our findings in a final report. 
 
 
-#### 2. Technical specifications
+### 2. Technical specifications
 
 **WE NEED TO COMPLETE INFO HERE WITH THE PROGRESS MADE SO FAR** 
 Our project website will be hosted on GitHub. With this choice we ensure high availability of the service for potential users. The website hosting our application will be done with Java. All the applications for the website will be stored in a database using MySQL, an open source database (https://www.mysql.com/why-mysql/). 
@@ -132,7 +138,7 @@ Our project website will be hosted on GitHub. With this choice we ensure high av
 
 *Web server*
  
-#### 3. Roles and contributions 
+### 3. Roles and contributions 
 Based on a list of strengths and personal preferences, we subdivided our team in two. 
 Technical team (Dustin, Eli and Maryi): Members in this subdivision identified themselves with programming experience and declare to be comfortable with the project technical requirements. This team will be responsible for selecting the technical tools and resources, and developing the application for the project.  
 
@@ -140,24 +146,24 @@ Research team (Michael and Krista): Members of this team will be responsible for
 
 **need to add milestones and progress**
  
-#### 4. Expected results  
+### 4. Expected results  
 We expect to create an application that accurately suggests appropriate applications for collaborative work to users. In a world where a new application is released nearly every minute, we expect to bring together users and applications that support collaborative work.  
 
 Initially, we will try to classify applications using the MoCA framework however, we expect the end result of our classification to be an amalgamation of the MoCA dimensions as well as additional dimensions to increase the accuracy of classifying applications. 
  
-##### LIMITATIONS
+## LIMITATIONS
 Our two biggest limitations in this endeavour are the newness of the MoCA framework and time.  
 We are basing our work on the MoCA framework which is a novel framework for describing CSCW, so we can be limiting our development by choosing this approach. The MoCA framework was designed to give a common way of describing collaborative work and was not designed specifically for classification.  Due to this we expect to run into challenges using it for classification. To overcome this limitation, we might have to add or enhance dimensions from the MoCA framework to obtain a better classification system for collaborative applications. 
 
 In addition to the MoCA framework we are limited by time, after the submission of this proposal we will only have 6 weeks to complete our application. This means that we may not be able to implement all the features we want and will have to focus on the essential features first. Also ideally when testing our finished product, we would want to iteratively get user feedback and tweak our design based on user feedback. However because of time we expect to only be able to get one round of user feedback on our design which may result in our design not fitting the needs of all the users who will want to use our application. 
  
-##### FUTURE WORK 
+## FUTURE WORK 
 We sense that connecting CSCW teams to the best tools for facilitating their work will remain a challenge for many years to come. We hope that our project demonstrates that articulating collaborative work using the MoCA framework can help connect users to tools which facilitate successful CSCW. Our work should also add to the awareness and development of the MoCA framework. Our intent is that the Matchmaker App may become a place where users can continue registering apps into the future.  Furthermore, the Matchmaker App’s data structures which match the MoCA framework to a typology of collaborative software will be made available should developers wish to further adapt and enhance the model.   
  
-##### ACKNOWLEDGMENTS 
+### ACKNOWLEDGMENTS 
 We would like to thank the students and leaders of our CSCW course at the University of Victoria for their thoughtful feedback while presenting our research proposal.   
  
-##### REFERENCES 
+### REFERENCES 
 Bannon, L. J., & Schmidt, K. (1989). CSCW-four characters in search of a context. DAIMI Report Series, 18 (289).
 
 Bower, M. (2015), Deriving a typology of Web 2.0 learning technologies. British Journal of Educational Technology. doi: 10.1111/bjet.12344 

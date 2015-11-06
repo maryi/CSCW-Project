@@ -16,18 +16,22 @@ The appropriate selection of a suite of technologies which meets the needs of a 
 
 Complicating this further is the wide array of collaborative technologies now available via the Internet. Many collaborative technologies provide inherent affordances which facilitate types of collaborative activity. The challenge for users engaging in collaborative work, is matching the appropriate technology to their specific needs.
 
-We believe the MoCA framework provides a useful lens for describing collaborative work. Our intent is to extend the MoCA framework to facilitate the next steps in decision support for choosing computer systems and software which support specific work scenarios.  As such, this study is driven by the following research questions:  
+We believe that if users take the time to reflect upon and describe the type of collaborative work they seek to conduct, this information can be used to suggest appropriate collaborative tools. The recently proposed MoCA framework (Lee & Paine, 2015) provides a useful lens for describing collaborative work. Our intent is to test and/or extend the MoCA framework when used to support decision making when choosing computer systems and software which support specific work scenarios. As such, this study is driven by the following research questions:  
  
  * **RQ1** Can articulation of collaborative work using the MoCA framework be used to assist in the identification of appropriate collaborative systems and software for facilitating collaborative work? 
  
  * **RQ2** Are there further descriptive dimensions useful in describing collaborative work that should the added to the MoCA framework? 
 
 ## BACKGROUND 
-Bannon & Schmidt (1989) suggest that too often technology is built with a focus on information flow between individuals. However, there must also be a consideration of the articulation work required to make the “flow” possible. To this, we add that some tools enable the "flow" of information and facilitate collaboration in distinct ways.  
+Bannon & Schmidt (1989) suggest that too often technology is described with a focus on information flow between individuals. However, there must also be a consideration of the articulation work required to make the “flow” possible. Collaborative  tools enable the "flow" of information and facilitate collaboration in distinct ways. Therefore a descriptive framework for describing how collaborative tools facilitate communication flows may be a useful heuristic for individuals planning CSCW.  
 
-Johansen's (1988) time-space matrix  described collaborative work in terms of location and synchronicity.  *[need more on this model here]*
+Various models for describing CSCW have been proposed. Johansen's (1988) time-space matrix described collaborative work in terms of location and synchronicity across two dimensions. Participants may find themselves in the same location, referred to as co-located or at different places, referred to as remote. Synchronicity is used to describe whether interaction happens at thesame time (synchronous) or at different times (asynchronous). 
 
-Nickerson's (1997) taxonomy of collaborative applications built upon the work of Johansen adding the modal dimension in addition to the time space matrix. The modal dimension is essentially the form of communication that takes place between team members during CSCW. Nickerson suggested three main possibilities for modal; audio communication, visual communication, document or data communication. It was further recognized that tools could allow for more than one type of communication. For example, a synchronous collaborative meeting space may allow users to work on a document and talk about it at the same time, meaning that the tool allows for both audio and document communication.    
+Desanctis & Gallupe (1987) further proposed descriptors which included the size of the group engaged in CSCW (smaller, larger), and one used to identify generally the type of task being conducted (planning, creativity, intellective, preference, cognitive, conflict, mixed motive).
+
+Nickerson (1997) offered taxonomy of collaborative applications building upon the work of Johansen and Desanctis & Gallupe which added a modal dimension. The modal dimension is essentially the form of communication that takes place between team members during CSCW. Nickerson suggested three main possibilities for modal; audio communication, visual communication, document or data communication. It was further recognized that tools could allow for more than one type of communication. For example, a synchronous collaborative meeting space may allow users to work on a document and talk about it at the same time, meaning that the tool allows for both audio and document communication.    
+
+Further attempts to describing CSCW include the addition of the hardware and software required to faciliate the work (Kraemer & King, 1988); the notion of usability and ergonomics related to tool acceptance among a group (Jarczyk, Loffler, & Volksen, 1992); and the categorization of collaborative systems according to specific technologies (Ellis, 2000).
 
 This section outlines the MoCA framework and its seven dimensions, the affordance of collaborative technologies, and the problem we are trying to solve using our web application. 
  
@@ -208,10 +212,18 @@ Colace, F., De Santo, M., Greco, L., Moscato, V., Picariello, A. (2015). A Colla
 Conole, G., & Dyke, M. (2004). What are the affordances of information and communication technologies?. Association for Learning Technology Journal, 12(2), 113-124. 
  
 Conole, G., Dyke, M., Oliver, M., & Seale, J. (2004). Mapping pedagogy and tools for effective learning design. Computers & Education, 43(1), 17-33. 
+
+Desanctis, G., & Gallupe, R.B. (1987). A foundation for the study of group decision support systems. Management science, 33(5), 589-609.
  
 Dudezert. A., Gurkan, A., Karoui, M. (2010). Virtual Team Collaboration: A Review of Literature and Perspectives. Proceedings of the Sixteenth Americas Conference on Information Systems, Lima, Peru; August 12-15, 2010, 2010, Lima, Peru. 
 
+Ellis, L. (2000). An evaluation framework for collaborative systems. Colorado University Technical Report CU-CS-901-00.
+
+Jarczyk, A., Loffler, P., & Volksen, G.(1992). Computer supported cooperative work (CSCW)-state of the art and suggestions for future work. Internal Report, Version 1.0, Siemens AG, Corporate Research.
+
 Johansen, R. (1988). Groupware: Computer support for business teams. The Free Press. New York, NY.
+
+Kraemer, K., & King, J. (1988). Computer-based systems for cooperative work and group decision making. ACM Computing Surveys, 20(2), 115–146.
  
 Lee, C. P., & Paine, D. (2015). From The Matrix to a Model of Coordinated Action (MoCA): A Conceptual Framework of and for CSCW. In Proceedings of the 18th ACM Conference on Computer Supported Cooperative Work & Social Computing (pp. 179-194). ACM.
 

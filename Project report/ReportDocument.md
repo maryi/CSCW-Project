@@ -114,7 +114,7 @@ The set of descriptors used to characterize collaborative work, as illustrated b
 
 *Synchronicity*: represents the nature of interactions between participants. It can take three values:
  
- * Completely asynchronous: does not require all or a significant number of participants to be actively working on the coordinated action in order to make progress on the work.
+ * Completely asynchronous: does not require participants to be actively working on the coordinated action in order to make progress on the work.
  * Completely synchronous: participation of all or a significant number of team members is required to work simultaneously in order to make progress in the coordinated action
  * Both: the collaborative action requires asynchronous and synchronous modes of work.
 
@@ -144,7 +144,7 @@ Finally, in another cases we found that more than one descriptor in the applicat
  * Completely synchronous: participation of other team member is required to access the tool (e.g., video-conference)
  * Both: the tool support asynchronous and synchronous services.
 
-*Planned Permanence*: the rational we followed to suggest an appropriate tool given this information is based on two assumptions: 1) the longer the collaboration participants are more willing to spend more time learning the complexities of a tool and 2) they are more open to pay for software or install it in their computers. 
+*Planned Permanence*: the rational we followed to suggest an appropriate tool given this information is based on two assumptions: 1) the longer the collaboration participants are more willing to spend more time learning the complexities of a tool and 2) they are more open to pay for software or install it in their computers. Consequently, this descriptor is paired with the learning curve and the service type in the tool descriptor.
  2. 
 
 

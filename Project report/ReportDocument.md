@@ -197,6 +197,8 @@ We sense that connecting CSCW teams to the best tools for facilitating their wor
 We would like to thank the students and leaders of our CSCW course at the University of Victoria for their thoughtful feedback while presenting our research proposal.   
  
 ### REFERENCES 
+Bafoutsou, G., & Mentzas, G. (2002). Review and functional classification of collaborative systems. International journal of information management, 22(4), 281-305.
+
 Bannon, L. J., & Schmidt, K. (1989). CSCW-four characters in search of a context. DAIMI Report Series, 18 (289).
 
 Bower, M. (2015), Deriving a typology of Web 2.0 learning technologies. British Journal of Educational Technology. doi: 10.1111/bjet.12344 
@@ -214,6 +216,8 @@ Johansen, R. (1988). Groupware: Computer support for business teams. The Free Pr
 Lee, C. P., & Paine, D. (2015). From The Matrix to a Model of Coordinated Action (MoCA): A Conceptual Framework of and for CSCW. In Proceedings of the 18th ACM Conference on Computer Supported Cooperative Work & Social Computing (pp. 179-194). ACM.
 
 Nickerson, R. C. (1997). A taxonomy of collaborative applications. In Proceedings of the AIS 1997 Americas Conference on Information Systems (Vol. 52, pp. 560-562).
+
+Nickerson, R. C., Varshney, U., & Muntermann, J. (2013). A method for taxonomy development and its application in information systems. European Journal of Information Systems, 22(3), 336-359.
 
 Olson, J. & Olson, G. (2014). How To Make Distance Work Work. Interactions, XXI.2 March + April 2014, pg. 28. Association for Computing Machinery. 
  

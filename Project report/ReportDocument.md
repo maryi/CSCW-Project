@@ -33,10 +33,17 @@ Nickerson (1997) offered taxonomy of collaborative applications building upon th
 
 Further attempts to describing CSCW include the addition of the hardware and software required to faciliate the work (Kraemer & King, 1988); the notion of usability and ergonomics related to tool acceptance among a group (Jarczyk, Loffler, & Volksen, 1992); and the categorization of collaborative systems according to specific technologies (Ellis, 2000).
 
-This section outlines the MoCA framework and its seven dimensions, the affordance of collaborative technologies, and the problem we are trying to solve using our web application. 
+Instead of trying to map an infinite variety of types of work
+on to a relatively smaller number of technologies that are
+rapidly changing and proliferating—we instead propose
+mapping technologies on to a more comprehensive model
+of work, such as the one proposed here
  
 ### 1. The MoCA framework 
-Introduced by Lee and Paine (2015), the Model of Coordinated Action (MoCA) framework is introduced in CSCW field as a tool to describe complex collaborative situations. In particular, the MoCA framework consists of seven dimensions of coordinated action described below and illustrated in Figure 1. 
+
+While many interesting apporaches to describing CSCW have emerged, there still exists a challenge for users in selecting appropriate tools to facilitate specific types of work. The Model of Coordinated Action, recently proposed by Lee and Paine (2015), is defined as a tool to describe complex collaborative situations. Recognizing that the landscape for collaborative technologies is rapidly changing and evolving, the model shifts our focus to describing the type of work that needs to facilitated. 
+
+In total the MoCA framework consists of seven dimensions of coordinated action described below and illustrated in Figure 1. 
 
 | ![alt text](https://depts.washington.edu/csclab/wordpress/wp-content/uploads/moca-key.png "Logo Title Text 1") |
 |--------------------------------------------------------|
@@ -57,7 +64,7 @@ Introduced by Lee and Paine (2015), the Model of Coordinated Action (MoCA) frame
 
 *Turnover*: refers to the stability of the participant makeup of a given collaboration, or the rapidity of participants entering or leaving the collaboration. 
 
-
+While some of the MoCA framwork descriptors are familar in CSCW, a number of the descriptors are new.  MoCA add the a descriptor for the social structure of participants via the communities of practice descriptor; the novelty of the work itself through the nascence descriptor; participants' commitment or functional imperative to the work, through the planned permanence descriptor; and group dynamics and variability, through the turnover descriptor.
 
 ### 2. Affordances of collaborative technologies
 The notion of affordances is useful in defining how users interpret and make use of artifacts in the world. Salomon **WHO IS THIS? -ADD REFERENCE** defines the term affordance as *“the perceived and actual properties of a thing, primarily those functional properties that determine just how the thing could possibly be used”* (Pea, 1993, p. 51).   

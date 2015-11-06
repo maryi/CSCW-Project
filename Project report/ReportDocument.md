@@ -9,58 +9,70 @@ The Model of Coordinated Action (MoCA) framework provides a descriptive lens for
  
 **ACM Classification Keywords**: Design, Experimentation, Theory 
  
-##### INTRODUCTION 
-The study of CSCW is concerned with supporting multiple individuals working together mediated by computer systems and software. One of the recurring challenges in CSCW is matching the appropriate tools to the type of work to be facilitated. Various ways of articulating CSCW have emerged including Johansen's (1988) time-space matrix which described collaborative work in terms of location and synchronicity. However we argue that for any person or group planning a CSCW project, the vast availability of potental tools is overwhelming and a challenge to navigate.   
+#### INTRODUCTION 
+The study of CSCW is concerned with supporting multiple individuals working together mediated by computer systems and software. One of the recurring challenges in CSCW is matching the appropriate tools to the type of work to be facilitated. Various ways of articulating CSCW have emerged including Johansen's (1988) time-space matrix which described collaborative work in terms of location and synchronicity. However we argue that for any person or group planning a CSCW project, the vast availability of potential tools is overwhelming and a challenge to navigate.   
 
 The appropriate selection of a suite of technologies which meets the needs of a group can have a great impact on the success of the collaboration (Olsen & Olsen, 2014). Technologies are often selected based on past experiences or accessibility. The selection of tools to support CSCW may occur without much consideration, and this presents a risk to success. By attempting to articulate the elements of the collaborative work which will be undertaken, a more thoughtful selection of appropriate tools may occur. 
 
-Complicating this further is the wide array of collaborative technologies now available via the internet. Many collaborative technologies provide inherent affordances which facilitate types of collaborative activity. The challenge for users engaging in collaborative work, is matching the appropriate technology to their specific needs.
+Complicating this further is the wide array of collaborative technologies now available via the Internet. Many collaborative technologies provide inherent affordances which facilitate types of collaborative activity. The challenge for users engaging in collaborative work, is matching the appropriate technology to their specific needs.
 
 We believe the MoCA framework provides a useful lens for describing collaborative work. Our intent is to extend the MoCA framework to facilitate the next steps in decision support for choosing computer systems and software which support specific work scenarios.  As such, this study is driven by the following research questions:  
  
-Can articulation of collaborative work using the MoCA framework be used to assist in the identification of appropriate collaborative systems and software for facilitating collaborative work? 
+ * **RQ1** Can articulation of collaborative work using the MoCA framework be used to assist in the identification of appropriate collaborative systems and software for facilitating collaborative work? 
  
-Are there further descriptive dimensions useful in describing collaborative work that should the added to the MoCA framework? 
-##### BACKGROUND 
-Bannon & Schmidt (1989) suggest that too often technology is built with a focus on information flow between individuals. However, there must also be a consideration of the articulation work required to make the “flow” possible. To this we add that some tools enable the "flow" of information and facilitate collaboration in distinct ways.  
+ * **RQ2** Are there further descriptive dimensions useful in describing collaborative work that should the added to the MoCA framework? 
 
-Johansen's (1988) time-space matrix  described collaborative work in terms of location and synchronicity.  [need more on this model here]
+#### BACKGROUND 
+Bannon & Schmidt (1989) suggest that too often technology is built with a focus on information flow between individuals. However, there must also be a consideration of the articulation work required to make the “flow” possible. To this, we add that some tools enable the "flow" of information and facilitate collaboration in distinct ways.  
 
-Nickerson's (1997) taxonomy of collaborative applications built upon the work of Johansen adding the modal dimension in addition to the time space matrix. The modal dimension is essentially the form of communication that takes place between team members during CSCW. Nickerson suggested three main possibilities for modal; audio communication, visual communication, document or data communication. It was further recognized that tools could allow for more than one type of communication. For example a synchonous collaborative meeting space may allow users to work on a document and talk about it at the same time, meaning that the tool allows for both audio and document communicaiton.    
+Johansen's (1988) time-space matrix  described collaborative work in terms of location and synchronicity.  *[need more on this model here]*
+
+Nickerson's (1997) taxonomy of collaborative applications built upon the work of Johansen adding the modal dimension in addition to the time space matrix. The modal dimension is essentially the form of communication that takes place between team members during CSCW. Nickerson suggested three main possibilities for modal; audio communication, visual communication, document or data communication. It was further recognized that tools could allow for more than one type of communication. For example, a synchronous collaborative meeting space may allow users to work on a document and talk about it at the same time, meaning that the tool allows for both audio and document communication.    
 
 This section outlines the MoCA framework and its seven dimensions, the affordance of collaborative technologies, and the problem we are trying to solve using our web application. 
  
 #### 1. The MoCA framework 
-Introduced by Lee and Paine (2015), the Model of Coordinated Action (MoCA) framework is introduced as a tool to describe complex collaborative situations. The MoCA framework consists of seven dimensions of coordinated action described below. 
-Synchronicity: concerns a continuum of coordinated action ranging from being conducted synchronously, at the same time, to asynchronously, at different times. It allows coordinated actions to be both synchronous and asynchronous however it does not account for predictability of time. 
+Introduced by Lee and Paine (2015), the Model of Coordinated Action (MoCA) framework is introduced in CSCW field as a tool to describe complex collaborative situations. In particular, the MoCA framework consists of seven dimensions of coordinated action described below and illustrated in Figure 1. 
 
-Physical Distribution: whether coordinated actions are taking place in the same geographic location or at different geographIc locations. It does not take into account the predictability of place. 
-Scale: addresses the number of participants involved in the collaboration. An increase in participants requires more complicated social arrangements and new practices. 
-Number of Communities of Practice: focuses on the number of communities of practice represented in the coordinated action. 
-Nascence: discusses how un-established (new) or established (old) a coordination action is. 
-Planned Permanence: refers to planned or intended permanence of a coordinated action because it cannot be predicted how long a coordinated action will last. 
-Turnover: refers to the stability of the participant makeup of a given collaboration, or the rapidity of participants entering or leaving the collaboration. 
-MoCA has been offered as a model for describing CSCW, see Figure 1 for a visual representation. 
+| ![alt text](https://depts.washington.edu/csclab/wordpress/wp-content/uploads/moca-key.png "Logo Title Text 1") |
+|--------------------------------------------------------|
+| Figure 1. The Model of Coordinated Action (MoCA) and its seven dimensions (Lee & Paine, 2015) |
 
-Image 
-Figure 1 The Model of Coordinated Action (MoCA) and its seven dimensions (Lee & Paine, 2015). 
- 
-Affordances of collaborative technologies 
-The notion of affordances is useful in defining how users interpret and make use of artifacts in the world. Salomon defines the term affordance as “the perceived and actual properties of a thing, primarily those functional properties that determine just how the thing could possibly be used” (Pea, 1993, p. 51).   
+
+*Synchronicity*: concerns a continuum of coordinated action ranging from being conducted synchronously, at the same time, to asynchronously, at different times. It allows coordinated actions to be both synchronous and asynchronous however it does not account for predictability of time. 
+
+*Physical Distribution*: this dimension describes whether coordinated actions are taking place in the same geographic location (collocated) or at different geographic locations (distributed). However, it does not take into account the predictability of place. 
+
+*Scale*: addresses the number of participants involved in the collaboration. Information provided by this dimension illustrate the complexity of the computer-based tool required as it is assumed that an increase in participants requires a more robust social arrangements and new practices. 
+
+*Number of Communities of Practice*: focuses on the number of communities of practice represented in the coordinated action. This dimension recognize the importance of the different knowledge domains that may participate in the collaboration.
+
+*Nascence*: this dimension discusses how unestablished (new) or established (old) a coordination action is. In another words, nascence aim to describe the familiarity level of participants with the collaborative task.
+
+*Planned Permanence*: because it cannot be predicted how long a coordinated action will last, this dimension refers to planned or intended permanence of a coordinated action. 
+
+*Turnover*: refers to the stability of the participant makeup of a given collaboration, or the rapidity of participants entering or leaving the collaboration. 
+
+
+
+#### 2. Affordances of collaborative technologies
+The notion of affordances is useful in defining how users interpret and make use of artifacts in the world. Salomon **WHO IS THIS? -ADD REFERENCE** defines the term affordance as *“the perceived and actual properties of a thing, primarily those functional properties that determine just how the thing could possibly be used”* (Pea, 1993, p. 51).   
 
 When considering emerging collaborative software and systems, affordances are not always evident to the user.  Users often maintain historically developed understandings of collaborative software and systems which are always evolving.  Conole and Dyke (2004) argue that articulating and exposing the affordances of collaborative software enables users to understand how technologies can be most effectively used to support collaborative activities. 
 
 Bower (2015) has presented a model of collaborative learning technologies based upon a typological analysis of their affordances. The typology provides users with a framework for conceptualizing the collaborative software landscape. This exposition of individual technologies and their affordances can be useful in helping individuals select technologies that match their requirements. See Figure 2 for a visual mind map of Bower’s typology. 
 
-Image 
-Figure 2 Bower’s (2005) typology of Web 2.0 collaborative technologies 
+| ![alt text](http://www.weiterbildungsblog.de/wp-content/uploads/2015/02/bower_201502.jpg "Bower's typology") |
+|--------------------------------------------------------|
+| Figure 2. Bower’s (2005) typology of Web 2.0 collaborative technologies |
+
 
 Our project will test the MoCA framework as a lens for exposing the affordances of collaborative software and systems. MoCA provides a framework for describing collaborative work and will be mapped to the affordances of collaborative technologies. 
  
-#### 2. The problem we are trying to solve 
-Selecting the right tool for collaborative work is one of the main problems teams face. There are too many collaboration tools to choose from and many people are having a difficult time or feel overwhelmed trying to find a tool that will best meet their needs. Dudezert, Gurkan & Karoui (2010), suggests a technological perspective on virtual collaboration, which states that the efficiency of a team is based on the tool selected for collaboration. With such a wide range of options, it is recommended to establish a set of criteria that would be used for choosing the most appropriate tool for collaboration. In addition, Colace, De Santo, Moscato & Picariello (2015) suggest using a recommender system to solve this problem. Recommender systems help users find the tools they need based on users’ preferences and feedback and have been becoming an increasingly important role in our lives. 
+#### 3. The problem we are trying to solve 
+Selecting the right tool for collaborative work is one of the main problems teams face. There are too many collaboration tools to choose from and many people are having a difficult time or feel overwhelmed trying to find a tool that will best meet their needs. Dudezert, Gurkan & Karoui (2010) suggests a technological perspective on virtual collaboration, which states that the efficiency of a team is based on the tool selected for collaboration. With such a wide range of options, it is recommended to establish a set of criteria that would be used for choosing the most appropriate tool for collaboration. In addition, Colace, De Santo, Moscato & Picariello (2015) suggest using a recommender system to solve this problem. Recommender systems help users find the tools they need based on user's preferences and feedback and have been becoming an increasingly important role in our lives. 
 
-##### OUR PROPOSAL: MATCH MAKER APP 
+#### OUR PROPOSAL: MATCH MAKER APP 
 Our proposal is to create a web application, that based on the MoCA framework, will help users find appropriate applications for collaborative work depending on the nature of the work. Our application will also look to benefit from the knowledge on the people and will allow users to register information about applications they have used for collaboration. As a result, our information database will store valuable user experiences and our application will aim to make more accurate recommendations to new users. 
 
 Although we will base our initial development on the MoCA framework, we will follow an iterative validation process with potential users to evaluate what extra features or dimensions not considered in the MoCA are required to our purpose. In the next subsection we describe with more detail our process.
@@ -110,16 +122,23 @@ After reviewing the literature, we will aim to develop the software application.
 
 
 #### 2. Technical specifications
+
+**WE NEED TO COMPLETE INFO HERE WITH THE PROGRESS MADE SO FAR** 
 Our project website will be hosted on GitHub. With this choice we ensure high availability of the service for potential users. The website hosting our application will be done with Java. All the applications for the website will be stored in a database using MySQL, an open source database (https://www.mysql.com/why-mysql/). 
 
-For the collaborative work required to build our application we will be using the GitHub issues and milestones features. We will also be using the text based chat tool Slack as a central point of communication. Blackboard Collaborate will be used when it is necessary for us to have synchronous voice communication from different locations.   
- 
+
+
+*Database*
+
+*Web server*
  
 #### 3. Roles and contributions 
 Based on a list of strengths and personal preferences, we subdivided our team in two. 
 Technical team (Dustin, Eli and Maryi): Members in this subdivision identified themselves with programming experience and declare to be comfortable with the project technical requirements. This team will be responsible for selecting the technical tools and resources, and developing the application for the project.  
 
 Research team (Michael and Krista): Members of this team will be responsible for the production and edition of the project documentation. They will also be the leaders of the research tasks required for the project. 
+
+**need to add milestones and progress**
  
 #### 4. Expected results  
 We expect to create an application that accurately suggests appropriate applications for collaborative work to users. In a world where a new application is released nearly every minute, we expect to bring together users and applications that support collaborative work.  

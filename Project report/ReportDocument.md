@@ -106,12 +106,18 @@ We identified that not all descriptors are suitable for our two user requirement
 TABLE
 
 #### 1.1 Descriptors for collaborative work
+The set of descriptors used to characterize collaborative work, as illustrated by table #, is mainly composed by the dimensions proposed by the MoCA framework with the addition of the descriptor *purpose*. We found that although MoCA represented a good base to describe collaborative work, the framework presents a high level description for each dimension maybe due to the fact that is has never been applied before to a real situation. Accordingly, the first challenge is to create a less abstract version of MoCA with more applicable definitions for its dimensions. Below, we describe the result of our analysis. The possible values selected for each descriptor in most of the cases are based on personal experience of the researchers, when this was not the criteria we will provide more detail about our sources.
+
+*Scale*: similar to the original version, represents an approximate number of people involved in the collaborative work and that should have access to the common artifacts through computer-based tools. The possible values selected represent the most popular accommodations: 2, less or equal to 5, less or equal to 10, and more than 10 participants.
 
 
+
+
+#### 1.2 Descriptors for tool features
 The two set of descriptors presented in table # and # differ in nature; they do not present a linear correspondence. For that reason, we developed a connection between the descriptors of the work and the descriptors of the applications. For example, when a user in the physical distribution descriptor selects 'distributed team' Match maker app looks for applications with multiple awareness mechanisms. Also, it should be noted that not all descriptors are different, we found that some of them are applicable in both contexts, to describe work and to describe a tool, so they were left equal in both cases. For instance, the scale dimension in MoCA has a linear connection with the scalability of a tool.
 Finally, in another cases we found that more than one descriptor in the application could contribute to identify potential benefits for one descriptor in the collaborative work. Such was the case with the descriptor of work Planned permanence where *service type* and *learning curve* were both selected as application descriptors. The table # shows how the two set of descriptors are connected.
 
-
+*Scale*: this descriptor has a linear correspondence with the *scale* in collaborative work. This describes the maximum number of participants supported by the tool. The possible values are the same as the descriptor in collaborative work: 2, less or equal to 5, less or equal to 10, and more than 10 participants. 
 
 
 

@@ -108,17 +108,21 @@ TABLE
 #### 1.1 Descriptors for collaborative work
 The set of descriptors used to characterize collaborative work, as illustrated by table #, is mainly composed by the dimensions proposed by the MoCA framework with the addition of the descriptor *purpose*. We found that although MoCA represented a good base to describe collaborative work, the framework presents a high level description for each dimension maybe due to the fact that is has never been applied before to a real situation. Accordingly, the first challenge is to create a less abstract version of MoCA with more applicable definitions for its dimensions. Below, we describe the result of our analysis. The possible values selected for each descriptor in most of the cases are based on personal experience of the researchers, when this was not the criteria we will provide more detail about our sources.
 
-*Scale*: similar to the original version, represents an approximate number of people involved in the collaborative work and that should have access to the common artifacts through computer-based tools. The possible values selected represent the most popular accommodations: 2, less or equal to 5, less or equal to 10, and more than 10 participants.
+*Scale*: similar to the original version, represents an approximate number of people involved in the collaborative work and that should have access to the common artifacts through computer-based tools. The possible values selected represent the most popular accommodations: 2, less or equal to 5, less or equal to 10, and more than 10 participants. This descriptor is paired with another one of the same name in the tool-feature descriptor set, where the possible values represent the maximum number of participants supported by the tool.
 
-*Physical Distribution*: this descriptor provides information about the location of participants, thus the possible values are distributed or colocated.
+*Physical Distribution*: this descriptor provides information about the location of participants, thus the possible values are distributed or collocated. 
+About the connection with tool-feature descriptors, based on the literature covered in the class (e.g., Olson & Olson, 2014) we know collaboration in a distributed team is challenging, so we considered that our application should make recommendations in this dimension based on the amount of *awareness mechanisms* provided by the tools.
 
-*Synchronicity*: represents the nature of interactions between participants. It can take three values:
+*Synchronicity*: represents the nature of interactions between participants. In both set of descriptors has the same name and same options with slight differences based on the context. This descriptor can take three values:
  
- * Completely asynchronous: does not require participants to be actively working on the coordinated action in order to make progress on the work.
- * Completely synchronous: participation of all or a significant number of team members is required to work simultaneously in order to make progress in the coordinated action
- * Both: the collaborative action requires asynchronous and synchronous modes of work.
+ * Completely asynchronous: describes collaboration that does not require participants to be actively working on the coordinated action in order to make progress on the work. In terms of the tool, this means that participants are not required to be in the tool to make progress on the work (e.g., email systems).
+ * Completely synchronous: collaboration where participation of all or a significant number of team members is required to work simultaneously in order to make progress in the coordinated action. In the context of tool features, this means that participation of other team member is required to access the tool (e.g., video-conference).
+ * Both: the collaborative action requires asynchronous and synchronous work. Therefore, the computer-based tool should provide support for both modes.
 
-*Planned Permanence*: this descriptor provides information about the length of the collaboration. In this case, we defined as possible options: couple of days, less than or equal to 1 month, less than or equal to 6 months, and more time. 
+ 
+*Planned Permanence*: this descriptor provides information about the length of the collaboration. In this case, we defined as possible options: couple of days, less than or equal to 1 month, less than or equal to 6 months, and more time.  The rational we followed to suggest an appropriate tool given this information is based on two assumptions: 1) the longer the collaboration participants are more willing to spend time learning the complexities of a tool and 2) they are more open to pay for software or install it in their computers. Consequently, this descriptor is paired with *learning curve* and *service type* in the tool descriptor.
+
+*Turnover*: refers to the stability of the participant makeup of a given collaboration, or the rapidity of participants entering or leaving the collaboration. 
 
 *Number of Communities of Practice*: focuses on the number of communities of practice represented in the coordinated action. This dimension recognize the importance of the different knowledge domains that may participate in the collaboration.
 
@@ -126,7 +130,7 @@ The set of descriptors used to characterize collaborative work, as illustrated b
 
 
 
-*Turnover*: refers to the stability of the participant makeup of a given collaboration, or the rapidity of participants entering or leaving the collaboration. 
+
 
 
 
@@ -134,18 +138,10 @@ The set of descriptors used to characterize collaborative work, as illustrated b
 The two set of descriptors presented in table # and # differ in nature; they do not present a linear correspondence. For that reason, we developed a connection between the descriptors of the work and the descriptors of the applications. For example, when a user in the physical distribution descriptor selects 'distributed team' Match maker app looks for applications with multiple awareness mechanisms. Also, it should be noted that not all descriptors are different, we found that some of them are applicable in both contexts, to describe work and to describe a tool, so they were left equal in both cases. For instance, the scale dimension in MoCA has a linear connection with the scalability of a tool.
 Finally, in another cases we found that more than one descriptor in the application could contribute to identify potential benefits for one descriptor in the collaborative work. Such was the case with the descriptor of work Planned permanence where *service type* and *learning curve* were both selected as application descriptors. The table # shows how the two set of descriptors are connected.
 
-*Scale*: this descriptor has a linear correspondence with the *scale* in collaborative work. This describes the maximum number of participants supported by the tool. The possible values are the same as the descriptor in collaborative work: 2, less or equal to 5, less or equal to 10, and more than 10 participants. 
-
-*Physical Distribution*: based on the literature covered in the class (e.g., Olson & Olson, 2014) we know collaboration in a distributed team is challenging, so we considered that distributed groups would find more benefits from a *awareness mechanisms* in the tool features.
-
-*Synchronicity*: represents the nature of interactions between participants. It can take three values:
- 
- * Completely asynchronous: does not require other participants to be actively on the tool to interact with the tool (e.g., email)
- * Completely synchronous: participation of other team member is required to access the tool (e.g., video-conference)
- * Both: the tool support asynchronous and synchronous services.
-
+*
 *Planned Permanence*: the rational we followed to suggest an appropriate tool given this information is based on two assumptions: 1) the longer the collaboration participants are more willing to spend more time learning the complexities of a tool and 2) they are more open to pay for software or install it in their computers. Consequently, this descriptor is paired with the learning curve and the service type in the tool descriptor.
- 2. 
+
+ 
 
 
 Based on Nickerson's (1997) contribution of the modal dimension, we added a few other options to the dimension including audio communication, visual communication, visualization communication, short message communication.

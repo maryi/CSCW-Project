@@ -59,6 +59,8 @@ In total the MoCA framework consists of seven dimensions of coordinated action d
 
 While some of the MoCA framework descriptors are familiar in CSCW, a number of the descriptors are new.  MoCA add the a descriptor for the social structure of participants via the communities of practice descriptor; the novelty of the work itself through the nascence descriptor; participants' commitment or functional imperative to the work, through the planned permanence descriptor; and group dynamics and variability, through the turnover descriptor.
 
+Lee & Paine developed the MoCA framework to help reserachers makes sense of specific cases of CSCW. They argue that rather than viewing the mechanics of CSCW as uncharted territory, there are opportunities to identify patterns and similarity between projects, which may help us plan for future successfull CSCW. The framework provides a vocabulary of concepts that can be used to describe the complex ecosystems of collaborative work. 
+
 ### 2. Affordances of collaborative technologies
 The notion of affordances is useful in defining how users interpret and make use of artifacts in the world. Salomon **WHO IS THIS? -ADD REFERENCE** defines the term affordance as *“the perceived and actual properties of a thing, primarily those functional properties that determine just how the thing could possibly be used”* (Pea, 1993, p. 51).   
 

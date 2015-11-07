@@ -142,18 +142,32 @@ We identified that not all descriptors are suitable for our two user requirement
 #### 1.1 Descriptors for tool features
 Tool descriptors were designed with the purpose to collect valuable information about their support to collaborative activities. This information should be used later for the recommendation system. Details about descriptors and our selection is presented below. The possible values selected for each descriptor in most of the cases are based on personal experience of the researchers, when this is not the criteria we provide more detail about our sources.
 
+*Name*: used as an identifier of the tool.
 
-*
-*Planned Permanence*: the rational we followed to suggest an appropriate tool given this information is based on two assumptions: 1) the longer the collaboration participants are more willing to spend more time learning the complexities of a tool and 2) they are more open to pay for software or install it in their computers. Consequently, this descriptor is paired with the learning curve and the service type in the tool descriptor.
+*Creator link*: link to the web resource where the tool can be accessed or downloaded.
 
- 
+*Synchronicity*: described the tool support for the different modes of work. More details are included in the next subsection.
 
+*Awareness mechanisms*: list the possible features that help with individual and team awareness.
 
-Based on Nickerson's (1997) contribution of the modal dimension, we added a few other options to the dimension including audio communication, visual communication, visualization communication, short message communication.
+*Scale*: Describes the maximum number of participants supported by the tool.
 
+*Domains*: List the number of knowledge domains for which the tool can be used for.
 
+*Nascence*: Described the level of novelty or routine work that can be done in the tool. More reflexions about this descriptor in the next subsection.
 
+*Learning curve*: provides information about the effort required to use the tool.
 
+*Service type*: describes the business model of the tool developers.
+
+*Hierarchy*: Brings information of the possible role structure in the tool.
+
+*Tool purpose*: illustrates the main purpose of the tool.
+
+*Compatibility*: provides information about other tools that can be integrated with (e.g., Slack has integrations with Twitter) or tools that are commonly used together as complement (e.g., Github and Trello)
+
+*Modality*: Based on Nickerson's (1997) this descriptor provides information about the nature of communication within the tool.
+contribution of the modal dimension, we added a few other options to the dimension including audio communication, visual communication, visualization communication, short message communication.
 
 
 #### 1.2 Descriptors for collaborative work
@@ -206,13 +220,14 @@ In order to bring support for this descriptor, we selected *content privacy* and
  * Most of the tasks will be new
  * Developing: support for evolving tasks
 
-*Domains*: This descriptor is related with the Number of Communities of Practice dimension in the MoCA framework. The original dimension cares abour the number of communities of practice represented in the coordinated action. However, while we think the question about 'how many?' is important we think another question 'which ones?' is more relevant to our purpose. In fact, the user by selecting which communities are included in the collaboration is also providing information about the quantity. 
+*Domains*: This descriptor is related with the Number of Communities of Practice dimension in the MoCA framework. The original dimension cares about the number of communities of practice represented in the coordinated action. However, while we think the question about 'how many?' is important we think another question 'which ones?' is more relevant to our purpose. In fact, the user by selecting which communities are included in the collaboration is also providing information about the quantity. 
 
 This decision was made considering the usefulness of the information provided by the user. If the user indicates collaboration between two communities, that information is not relevant to recommend any tool support. But if the user indicated for example engineering and general public, our application can have an additional filter to select potentially good tools.
 This descriptor has a linear correspondence with the one of the same name in the tool-feature descriptor set where also the same possible values apply.
 
 In particular, the selection of possible values for this descriptor was based on the high level categories of JACS ([Joint Academic Coding System](https://www.hesa.ac.uk/index.php?option=com_content&view=article&id=158 "JACS")). For a complete list of possible values in this descriptor refer to [APPENDIX 1](https://github.com/maryi/CSCW-Project/blob/master/Project%20report/APPENDIX%201%20-%20Domains%20values%20based%20on%20JACS.md)
 
+*Purpose*: This descriptor was added to complete the definition of the coordinated action. We wanted to be specific about the kind of collaboration described by the user. We based our selection of possible values in the typology describe by Bower (2015) as technologies for collaboration.
 
 ### 2. Technical specifications
 

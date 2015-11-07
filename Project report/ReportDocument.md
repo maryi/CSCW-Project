@@ -231,10 +231,7 @@ In particular, the selection of possible values for this descriptor was based on
 
 ### 2. Technical specifications
 
-**WE NEED TO COMPLETE INFO HERE WITH THE PROGRESS MADE SO FAR** 
-Our project website will be hosted on GitHub. With this choice we ensure high availability of the service for potential users. The website hosting our application will be done with Java. All the applications for the website will be stored in a database using MySQL, an open source database (https://www.mysql.com/why-mysql/). 
-
-
+WE NEED TO COMPLETE INFO HERE WITH THE PROGRESS MADE SO FAR Our project website will be hosted using the Google cloud computing platform. With this choice we ensure high availability of the service for potential users. The website hosting our application will be done with Java and PHP. All the applications for the website will be stored in a database using MySQL, an open source database (https://www.mysql.com/why-mysql/). The database will also be hosted using the Google cloud computing platform. We chose the google platform for hosting for two reasons, it's a free service and hosting them both on the same place makes it easier to integrate the website and database together. (this might still need more updating following this weekends integration tests).
 
 *Database*
 

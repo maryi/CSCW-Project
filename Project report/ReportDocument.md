@@ -23,8 +23,6 @@ We believe that if users take the time to reflect upon and describe the type of 
  * **RQ2** Are there further descriptive dimensions useful in describing collaborative work that should the added to the MoCA framework? 
 
 ## BACKGROUND 
-Bannon & Schmidt (1989) suggest that too often technology is described with a focus on information flow between individuals. However, there must also be a consideration of the articulation work required to make the “flow” possible. Collaborative  tools enable the "flow" of information and facilitate collaboration in distinct ways. Therefore a descriptive framework for describing how collaborative tools facilitate communication flows may be a useful heuristic for individuals planning CSCW.  
-
 Various models for describing CSCW have been proposed. Johansen's (1988) time-space matrix described collaborative work in terms of location and synchronicity across two dimensions. Participants may find themselves in the same location, referred to as co-located or at different places, referred to as remote. Synchronicity is used to describe whether interaction happens at the same time (synchronous) or at different times (asynchronous). 
 
 Desanctis & Gallupe (1987) further proposed descriptors which included the size of the group engaged in CSCW (smaller, larger), and one used to identify generally the type of task being conducted (planning, creativity, intellective, preference, cognitive, conflict, mixed motive).
@@ -32,6 +30,12 @@ Desanctis & Gallupe (1987) further proposed descriptors which included the size 
 Nickerson (1997) offered taxonomy of collaborative applications building upon the work of Johansen and Desanctis & Gallupe which added a modal dimension. The modal dimension is essentially the form of communication that takes place between team members during CSCW. Nickerson suggested three main possibilities for modal; audio communication, visual communication, document or data communication. It was further recognized that tools could allow for more than one type of communication. For example, a synchronous collaborative meeting space may allow users to work on a document and talk about it at the same time, meaning that the tool allows for both audio and document communication.    
 
 Further attempts to describing CSCW include the addition of the hardware and software required to facilitate the work (Kraemer & King, 1988); the notion of usability and ergonomics related to tool acceptance among a group (Jarczyk, Loffler, & Volksen, 1992); and the categorization of collaborative systems according to specific technologies (Ellis, 2000).
+
+Bannon & Schmidt (1989) suggest that too often technology is described with a focus on information flow between individuals. However, there must also be a consideration of the articulation work required to make the “flow” possible. Collaborative  tools enable the "flow" of information and facilitate collaboration in distinct ways. Therefore a descriptive framework for describing how collaborative tools facilitate communication flows may be a useful heuristic for individuals planning CSCW. 
+
+We believe that some aspects of the MoCA framework can also be used to describe collaborative software and systems. These similarities will be tested to see if well articulated CSCW can be matched to software tools suitable for the work through the notion of affordances. Users often maintain historically developed understandings of the utility of collaborative software and systems which are always evolving. Conole and Dyke (2004) argue that articulating and exposing the affordances of collaborative software enables users to understand how technologies can be most effectively used to support collaborative activities. 
+
+The next section discusses the MoCA framework followed by a section on software affordances.
  
 ### 1. The MoCA framework 
 While many interesting apporaches to describing CSCW have emerged, there still exists a challenge for users in selecting appropriate tools to facilitate specific types of work. The Model of Coordinated Action, recently proposed by Lee and Paine (2015), is defined as a tool to describe complex collaborative situations. Recognizing that the landscape for collaborative technologies is rapidly changing and evolving, the model shifts our focus to describing the type of work that needs to facilitated. 
@@ -62,9 +66,7 @@ While some of the MoCA framework descriptors are familiar in CSCW, a number of t
 Lee & Paine developed the MoCA framework to help reserachers makes sense of specific cases of CSCW. They argue that rather than viewing the mechanics of CSCW as uncharted territory, there are opportunities to identify patterns and similarity between projects, which may help us plan for future successfull CSCW. The framework provides a vocabulary of concepts that can be used to describe the complex ecosystems of collaborative work. 
 
 ### 2. Affordances of collaborative technologies
-The notion of affordances is useful in defining how users interpret and make use of artifacts in the world. Salomon **WHO IS THIS? -ADD REFERENCE** defines the term affordance as *“the perceived and actual properties of a thing, primarily those functional properties that determine just how the thing could possibly be used”* (Pea, 1993, p. 51).   
-
-When considering emerging collaborative software and systems, affordances are not always evident to the user.  Users often maintain historically developed understandings of collaborative software and systems which are always evolving.  Conole and Dyke (2004) argue that articulating and exposing the affordances of collaborative software enables users to understand how technologies can be most effectively used to support collaborative activities. 
+The notion of affordances is useful in defining how users interpret and make use of artifacts in the world. Salomon defines the term affordance as *“the perceived and actual properties of a thing, primarily those functional properties that determine just how the thing could possibly be used”* (Pea, 1993, p. 51). When considering emerging collaborative software and systems, affordances are not always evident to the user. 
 
 Bower (2015) has presented a model of collaborative learning technologies based upon a typological analysis of their affordances. The typology provides users with a framework for conceptualizing the collaborative software landscape. This exposition of individual technologies and their affordances can be useful in helping individuals select technologies that match their requirements. See Figure 2 for a visual mind map of Bower’s typology. 
 
@@ -73,7 +75,7 @@ Bower (2015) has presented a model of collaborative learning technologies based 
 | Figure 2. Bower’s (2005) typology of Web 2.0 collaborative technologies |
 
 
-Our project will test the MoCA framework as a lens for exposing the affordances of collaborative software and systems. MoCA provides a framework for describing collaborative work and will be mapped to the affordances of collaborative technologies. 
+Our project will test the MoCA framework as a framework to link CSCW to affordances of collaborative software and systems. MoCA provides a framework for describing collaborative work and will be mapped to the affordances of collaborative technologies. 
  
 ### 3. The problem we are trying to solve 
 Selecting the right tool for collaborative work is one of the main problems teams face. There are too many collaboration tools to choose from and many people are having a difficult time or feel overwhelmed trying to find a tool that will best meet their needs. Dudezert, Gurkan & Karoui (2010) suggests a technological perspective on virtual collaboration, which states that the efficiency of a team is based on the tool selected for collaboration. With such a wide range of options, it is recommended to establish a set of criteria that would be used for choosing the most appropriate tool for collaboration. In addition, Colace, De Santo, Moscato & Picariello (2015) suggest using a recommender system to solve this problem. Recommender systems help users find the tools they need based on user's preferences and feedback and have been becoming an increasingly important role in our lives. 

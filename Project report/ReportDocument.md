@@ -130,7 +130,7 @@ We identified that not all descriptors are suitable for our two user requirement
 | Service type                      | Free online open access, Free online account, Paid online account, Subscription service, Freemium (30 trial), Software download free, Software download paid | Multiple choice |
 | Content privacy                   | Private channels/ Open messages to registered users / Open messages to general public                                                            | Multiple choice |
 | Hierarchy                         | All users same role, Role based, Strict hierarchy                                                                                                | Multiple choice |
-| Tool purpose                      | See tool purpose worksheet                                                                                                                       | Multiple choice |
+| Tool purpose                      | Complete list in [Appendix 2](https://github.com/maryi/CSCW-Project/blob/master/Project%20report/APPENDIX%202%20-%20Purpose%20values.md)         | Multiple choice |
 | Compatibility                     | Free text                                                                                                                                        | -               |
 | Modality                          | audio communication, visual communication, document  communication, data communication, visualization communication, short message communication | Multiple choice |
 
@@ -139,7 +139,8 @@ We identified that not all descriptors are suitable for our two user requirement
 
 
 
-#### 1.2 Descriptors for tool features
+#### 1.1 Descriptors for tool features
+Tool descriptors were designed with the purpose to collect valuable information about their support to collaborative activities. This information should be used later for the recommendation system. Details about descriptors and our selection is presented below. The possible values selected for each descriptor in most of the cases are based on personal experience of the researchers, when this is not the criteria we provide more detail about our sources.
 
 
 *
@@ -155,10 +156,23 @@ Based on Nickerson's (1997) contribution of the modal dimension, we added a few 
 
 
 
-#### 1.1 Descriptors for collaborative work
-The set of descriptors used to characterize collaborative work, as illustrated by table #, is mainly composed by the dimensions proposed by the MoCA framework with the addition of the descriptor *purpose*. We found that although MoCA represented a good base to describe collaborative work, the framework presents a high level description for each dimension maybe due to the fact that is has never been applied before to a real situation. Accordingly, the first challenge is to create a less abstract version of MoCA with more applicable definitions for its dimensions. Below, we describe the result of our analysis. The possible values selected for each descriptor in most of the cases are based on personal experience of the researchers, when this is not the criteria we provide more detail about our sources.
+#### 1.2 Descriptors for collaborative work
+The set of descriptors used to characterize collaborative work, as illustrated by table #, is mainly composed by the dimensions proposed by the MoCA framework with the addition of the descriptor *purpose*. We found that although MoCA represented a good base to describe collaborative work, the framework presents a high level description for each dimension maybe due to the fact that is has never been applied before to a real situation. Accordingly, the first challenge is to create a less abstract version of MoCA with more applicable definitions for its dimensions. Below, we describe the result of our analysis. 
 
-In addition, we found that the two set of descriptors differ in nature and often they do not present a linear correspondence. For that reason, we developed a connection between the descriptors of the work and the descriptors of the applications. For example, when a user in the physical distribution descriptor selects 'distributed team' Match maker app looks for applications with multiple awareness mechanisms. Also, it should be noted that not all descriptors are different, we found that some of them are applicable in both contexts, to describe work and to describe a tool, so they were left equal in both cases. For instance, the scale dimension in MoCA has a linear connection with the scalability of a tool.
+In addition, we found that the two set of descriptors differ in nature and often they do not present a linear correspondence. For that reason, we developed a connection, illustrated in table 3, between the descriptors of the work and the descriptors of the applications. For example, when a user in the physical distribution descriptor selects 'distributed team' Match maker app looks for applications with multiple awareness mechanisms. Also, it should be noted that not all descriptors are different, we found that some of them are applicable in both contexts, to describe work and to describe a tool, so they were left equal in both cases. For instance, the scale dimension in MoCA has a linear connection with the scalability of a tool.
+
+| Descriptors for collaborative work | Descriptors for applications      |
+|------------------------------------|-----------------------------------|
+| Scale                              | Scale                             |
+| Physical Distribution              | Awareness mechanisms              |
+| Synchronicity                      | Synchronicity                     |
+| Planned Permanence                 | Learning curve, Service type      |
+| Turnover                           | Content privacy, Hierarchy        |
+| Nascence                           | Nascence                          |
+| Domains (Communities of Practice)  | Domains (Communities of Practice) |
+| Purpose                            | Tool purpose                      |
+
+| Table 3. Connection between descriptors for collaborative work and descriptors for tool features |
 
 Finally, in another cases we found that more than one descriptor in the application could contribute to identify potential benefits for one descriptor in the collaborative work. Such was the case with the descriptor of work Planned permanence where *service type* and *learning curve* were both selected as application descriptors. The table # shows how the two set of descriptors are connected and more details about our rational for such connection is presented here.
 

@@ -1,5 +1,5 @@
 #Domain values based on JACS (Joint Academic Coding System)
-
+* General purpose/Not specific
 * Architecture, Building and Planning
 * Biological Sciences
 * Business and Administrative studies

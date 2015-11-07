@@ -97,7 +97,7 @@ Match maker app is a recommendation system that intent to bring closer users wit
 Next, in order to implement the listed requirements, we defined a set of criteria to help us classify our information, which we particularly call *-descriptors-*. As the list grow, we notice that the criteria used to define collaborative work is different from the criteria to identify tool features. 
 We identified that not all descriptors are suitable for our two user requirements. The first requirement needs the user to describe the nature of the collaboration s/he intent to support, so the descriptors should allow to identify the characteristics of the work to be done. Meanwhile, in UR2 the application requires the user to describe the features of a tool. Thus, descriptors have to be feature oriented in order to describe the capabilities of a particular tool. As a result, we divided the initial list in two, creating two set of descriptors, one for UR1 and the other for UR2.
 
-**UR1: Searching for an application:** Any user searching for an application to support collaborative activities should describe the nature of the collaborative work to the system. Consequently, the descriptors used for this requirement are selected from the MoCA framework, along with *purpose* as a complementary one. Note that the vocabulary of the MoCA dimensions were adapted to be more colloquial in the web page for user friendliness. The set of descriptors selected to characterize collaborative work is presented in table #. Each descriptor is described with the name, possible options and the selection type offered to the user in the web interface. The rational about the options offered will be describe in the next subsection.
+**UR1: Searching for an application:** Any user searching for an application to support collaborative activities should describe the nature of the collaborative work to the system. Consequently, the descriptors used for this requirement are selected from the MoCA framework, along with *purpose* as a complementary one. Note that the vocabulary of the MoCA dimensions were adapted to be more colloquial in the web page for user friendliness. The set of descriptors selected to characterize collaborative work is presented in table 1. Each descriptor is described with the name, possible options and the selection type offered to the user in the web interface. The rational about the options offered will be describe in the next subsection.
 
 
 |                Name               |                                  Possible options                                 |  Selection type |
@@ -109,15 +109,35 @@ We identified that not all descriptors are suitable for our two user requirement
 | Turnover                          | Low, Medium, High                                                                 | Single choice   |
 | Nascence                          | Routine, Most of the tasks are routine, Most of the tasks will be new, Developing | Single choice   |
 | Domains (Communities of Practice) | Complete list in [Appendix 1](https://github.com/maryi/CSCW-Project/blob/master/Project%20report/APPENDIX%201%20-%20Domains%20values%20based%20on%20JACS.md)                                                       | Multiple choice |
-| Purpose                           | Complete list in [Appendix 2](https://github.com/maryi/CSCW-Project/blob/master/Project%20report/APPENDIX%201%20-%20Domains%20values%20based%20on%20JACS.md)                                                       | Multiple choice |
+| Purpose                           | Complete list in [Appendix 2](https://github.com/maryi/CSCW-Project/blob/master/Project%20report/APPENDIX%202%20-%20Purpose%20values.md)                                                       | Multiple choice |
 
 | Table 1. Descriptors for collaborative work |
 
 
 
-**UR2: Registering an application:** In the case when the user wants to register an application the descriptors will focus on possible tool features. Our Match Maker app will later analyze the features and determine the level of support each tool can provide for each collaboration descriptor. Table # shows the set of descriptors used for tool features, along with name, possible values and the selection type offered to the user in the web interface. More details about descriptors definitions and options offered will be presented in the next subsection.
+**UR2: Registering an application:** In the case when the user wants to register an application the descriptors will focus on possible tool features. Our Match Maker app will later analyze the features and determine the level of support each tool can provide for each collaboration descriptor. Table 2 shows the set of descriptors used for tool features, along with name, possible values and the selection type offered to the user in the web interface. More details about descriptors definitions and options offered will be presented in the next subsection.
 
-TABLE
+| Name                              | Possible options                                                                                                                                 | Selection type  |
+|-----------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|-----------------|
+| Tool name                         | Free text                                                                                                                                        | -               |
+| Creator link                      | Free text                                                                                                                                        | -               |
+| Synchronicity                     | Completely async, supports for both, completely sync                                                                                             | Single choice   |
+| Awareness mechanisms              | event log/ notifications/ performance graphs/ email notifications/ issues tracking/ chat/forum                                                   | Multiple choice |
+| Scale                             | 2,5,10,N                                                                                                                                         | Single choice   |
+| Domains (Communities of Practice) | Complete list in [Appendix 1](https://github.com/maryi/CSCW-Project/blob/master/Project%20report/APPENDIX%201%20-%20Domains%20values%20based%20on%20JACS.md)                                                                                                                      | Multiple choice |
+| Nascence                          | Routine, Most of the tasks are routine, Most of the tasks will be new, Developing                                                                | Single choice   |
+| Learning curve                    | Easy/Medium/Fare/Hard                                                                                                                            | Single choice   |
+| Service type                      | Free online open access, Free online account, Paid online account, Subscription service, Freemium (30 trial), Software download free, Software download paid | Multiple choice |
+| Content privacy                   | Private channels/ Open messages to registered users / Open messages to general public                                                            | Multiple choice |
+| Hierarchy                         | All users same role, Role based, Strict hierarchy                                                                                                | Multiple choice |
+| Tool purpose                      | See tool purpose worksheet                                                                                                                       | Multiple choice |
+| Compatibility                     | Free text                                                                                                                                        | -               |
+| Modality                          | audio communication, visual communication, document  communication, data communication, visualization communication, short message communication | Multiple choice |
+
+| Table 2. Descriptors for tool features |
+
+
+
 
 #### 1.2 Descriptors for tool features
 

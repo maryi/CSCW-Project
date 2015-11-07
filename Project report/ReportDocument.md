@@ -97,11 +97,21 @@ Match maker app is a recommendation system that intent to bring closer users wit
 Next, in order to implement the listed requirements, we defined a set of criteria to help us classify our information, which we particularly call *-descriptors-*. As the list grow, we notice that the criteria used to define collaborative work is different from the criteria to identify tool features. 
 We identified that not all descriptors are suitable for our two user requirements. The first requirement needs the user to describe the nature of the collaboration s/he intent to support, so the descriptors should allow to identify the characteristics of the work to be done. Meanwhile, in UR2 the application requires the user to describe the features of a tool. Thus, descriptors have to be feature oriented in order to describe the capabilities of a particular tool. As a result, we divided the initial list in two, creating two set of descriptors, one for UR1 and the other for UR2.
 
-**UR1: Searching for an application:** Any user searching for an application to support collaborative activities should describe the nature of the collaborative work to the system. Consequently, the descriptors used for this requirement are selected from the MoCA framework, along with *purpose* as a complementary one. Note that the vocabulary of the MoCA dimensions were adapted to be more colloquial for user friendliness. The set of descriptors selected to characterize collaborative work is presented in table #. Each descriptor is described with the name, possible options and the selection type offered to the user in the web interface. The rational about the options offered will be describe in the next subsection.
+**UR1: Searching for an application:** Any user searching for an application to support collaborative activities should describe the nature of the collaborative work to the system. Consequently, the descriptors used for this requirement are selected from the MoCA framework, along with *purpose* as a complementary one. Note that the vocabulary of the MoCA dimensions were adapted to be more colloquial in the web page for user friendliness. The set of descriptors selected to characterize collaborative work is presented in table #. Each descriptor is described with the name, possible options and the selection type offered to the user in the web interface. The rational about the options offered will be describe in the next subsection.
 
-|                                                        |
-|--------------------------------------------------------|
-| Table 1.  |
+
+|                Name               |                                  Possible options                                 |  Selection type |
+|:---------------------------------:|:---------------------------------------------------------------------------------:|:---------------:|
+| Scale                             | 2,5,10,N                                                                          | Single choice   |
+| Physical Distribution             | Colocated / distributed                                                           | Single choice   |
+| Synchronicity                     | Completely async, supports for both, completely sync                              | Single choice   |
+| Planned Permanence                | Couple of days/ 1 month / 6 months / More time                                    | Single choice   |
+| Turnover                          | Low, Medium, High                                                                 | Single choice   |
+| Nascence                          | Routine, Most of the tasks are routine, Most of the tasks will be new, Developing | Single choice   |
+| Domains (Communities of Practice) | Complete list in [Appendix 1](https://github.com/maryi/CSCW-Project/blob/master/Project%20report/APPENDIX%201%20-%20Domains%20values%20based%20on%20JACS.md)                                                       | Multiple choice |
+| Purpose                           | Complete list in [Appendix 2](https://github.com/maryi/CSCW-Project/blob/master/Project%20report/APPENDIX%201%20-%20Domains%20values%20based%20on%20JACS.md)                                                       | Multiple choice |
+
+| Table 1. Descriptors for collaborative work |
 
 
 
@@ -109,8 +119,29 @@ We identified that not all descriptors are suitable for our two user requirement
 
 TABLE
 
+#### 1.2 Descriptors for tool features
+
+
+*
+*Planned Permanence*: the rational we followed to suggest an appropriate tool given this information is based on two assumptions: 1) the longer the collaboration participants are more willing to spend more time learning the complexities of a tool and 2) they are more open to pay for software or install it in their computers. Consequently, this descriptor is paired with the learning curve and the service type in the tool descriptor.
+
+ 
+
+
+Based on Nickerson's (1997) contribution of the modal dimension, we added a few other options to the dimension including audio communication, visual communication, visualization communication, short message communication.
+
+
+
+
+
+
 #### 1.1 Descriptors for collaborative work
 The set of descriptors used to characterize collaborative work, as illustrated by table #, is mainly composed by the dimensions proposed by the MoCA framework with the addition of the descriptor *purpose*. We found that although MoCA represented a good base to describe collaborative work, the framework presents a high level description for each dimension maybe due to the fact that is has never been applied before to a real situation. Accordingly, the first challenge is to create a less abstract version of MoCA with more applicable definitions for its dimensions. Below, we describe the result of our analysis. The possible values selected for each descriptor in most of the cases are based on personal experience of the researchers, when this is not the criteria we provide more detail about our sources.
+
+In addition, we found that the two set of descriptors differ in nature and often they do not present a linear correspondence. For that reason, we developed a connection between the descriptors of the work and the descriptors of the applications. For example, when a user in the physical distribution descriptor selects 'distributed team' Match maker app looks for applications with multiple awareness mechanisms. Also, it should be noted that not all descriptors are different, we found that some of them are applicable in both contexts, to describe work and to describe a tool, so they were left equal in both cases. For instance, the scale dimension in MoCA has a linear connection with the scalability of a tool.
+
+Finally, in another cases we found that more than one descriptor in the application could contribute to identify potential benefits for one descriptor in the collaborative work. Such was the case with the descriptor of work Planned permanence where *service type* and *learning curve* were both selected as application descriptors. The table # shows how the two set of descriptors are connected and more details about our rational for such connection is presented here.
+
 
 *Scale*: similar to the original version, represents an approximate number of people involved in the collaborative work and that should have access to the common artifacts through computer-based tools. The possible values selected represent the most popular accommodations: 2, less or equal to 5, less or equal to 10, and more than 10 participants. This descriptor is paired with another one of the same name in the tool-feature descriptor set, where the possible values represent the maximum number of participants supported by the tool.
 
@@ -142,38 +173,11 @@ In order to bring support for this descriptor, we selected *content privacy* and
  * Developing: support for evolving tasks
 
 *Domains*: This descriptor is related with the Number of Communities of Practice dimension in the MoCA framework. The original dimension cares abour the number of communities of practice represented in the coordinated action. However, while we think the question about 'how many?' is important we think another question 'which ones?' is more relevant to our purpose. In fact, the user by selecting which communities are included in the collaboration is also providing information about the quantity. 
+
 This decision was made considering the usefulness of the information provided by the user. If the user indicates collaboration between two communities, that information is not relevant to recommend any tool support. But if the user indicated for example engineering and general public, our application can have an additional filter to select potentially good tools.
 This descriptor has a linear correspondence with the one of the same name in the tool-feature descriptor set where also the same possible values apply.
-In particular, the selection of possible values for this descriptor was based on the high level categories of JACS ([Joint Academic Coding System](https://www.hesa.ac.uk/index.php?option=com_content&view=article&id=158 "JACS")). For a complete list of possible values in this descriptor refer to APPENDIX 1.[I'm a relative reference to a repository file](https://github.com/maryi/CSCW-Project/blob/master/Project%20report/APPENDIX%201%20-%20Domains%20values%20based%20on%20JACS.md)
 
-
-
-
-
-
-
-
-
-#### 1.2 Connection from descriptors for collaborative work to tool features.
-The two set of descriptors presented in table # and # differ in nature; they do not present a linear correspondence. For that reason, we developed a connection between the descriptors of the work and the descriptors of the applications. For example, when a user in the physical distribution descriptor selects 'distributed team' Match maker app looks for applications with multiple awareness mechanisms. Also, it should be noted that not all descriptors are different, we found that some of them are applicable in both contexts, to describe work and to describe a tool, so they were left equal in both cases. For instance, the scale dimension in MoCA has a linear connection with the scalability of a tool.
-Finally, in another cases we found that more than one descriptor in the application could contribute to identify potential benefits for one descriptor in the collaborative work. Such was the case with the descriptor of work Planned permanence where *service type* and *learning curve* were both selected as application descriptors. The table # shows how the two set of descriptors are connected.
-
-*
-*Planned Permanence*: the rational we followed to suggest an appropriate tool given this information is based on two assumptions: 1) the longer the collaboration participants are more willing to spend more time learning the complexities of a tool and 2) they are more open to pay for software or install it in their computers. Consequently, this descriptor is paired with the learning curve and the service type in the tool descriptor.
-
- 
-
-
-Based on Nickerson's (1997) contribution of the modal dimension, we added a few other options to the dimension including audio communication, visual communication, visualization communication, short message communication.
-
-
-
-
-
-
-
-
-After reviewing the literature, we will aim to develop the software application. To get this done we are breaking the application up into different tasks, Dustin will focus on implementing the website and Eli on implementing the database. We have already come up with a preliminary design for the website consisting of a page for searching for applications as well as a page for registering different collaborative apps. While the website and database are being set up Maryi will be working on the ethics document. Once the ethics document, website, and database are all setup we will begin surveying potential users to see how they react to our design. once user surveying is complete we will analyze the user feedback and tweak our design to remove the problems observed by users. If we have time we might repeat the surveying and feedback analysis phase to further improve our application design. Lastly we will formalize and reflect on our findings in a final report. 
+In particular, the selection of possible values for this descriptor was based on the high level categories of JACS ([Joint Academic Coding System](https://www.hesa.ac.uk/index.php?option=com_content&view=article&id=158 "JACS")). For a complete list of possible values in this descriptor refer to [APPENDIX 1](https://github.com/maryi/CSCW-Project/blob/master/Project%20report/APPENDIX%201%20-%20Domains%20values%20based%20on%20JACS.md)
 
 
 ### 2. Technical specifications

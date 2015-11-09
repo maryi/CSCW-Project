@@ -1,4 +1,4 @@
-#Match Maker application – A web service based on the MoCA framework
+#MatchMaker Application – A web service based on the MoCA framework
 
 ##### *ABSTRACT* 
 Computer supported collaborative work (CSCW) is increasingly becoming a significant component of living and working in modern times. Computer mediated collaborations occur in all aspects of our personal and professional lives. Furthermore, the technologies which can be used to facilitate CSCW are diverse and ever changing. Due to the breadth of options, it is a challenge for individuals selecting appropriate tools to support collaborative work. As specific tools are often designed to support specific collaborative work we believe that a system for helping people match tools to types of work is needed.      
@@ -89,7 +89,7 @@ Although we will base our initial development on the MoCA framework, we will fol
  
 ### 1. Strategy and Methods 
 
-Match maker app is a recommendation system that intent to bring closer users with collaborative tools. In particular, the application allows any user to describe the type of collaborative work to be done and our application suggests the appropriate tools. This function is identified as the first user requirement: *UR1: Searching for an application*. Additionally, Match Maker app allows users to register collaborative computer-based tools in the system database, as a mechanism to help populate the recommendation system. Similarly, this function is identified as the second user requirement: *UR2: Registering an application*. Figure # and # show a preliminary interface mockup for UR1 and UR2 respectively.
+MatchMaker Application is a recommendation system that intends to bring closer users with collaborative tools. In particular, the application allows any user to describe the type of collaborative work to be done and our application suggests the appropriate tools. This function is identified as the first user requirement: *UR1: Searching for an application*. Additionally, MatchMaker Application allows users to register collaborative computer-based tools in the system database, as a mechanism to help populate the recommendation system. Similarly, this function is identified as the second user requirement: *UR2: Registering an application*. Figure # and # show a preliminary interface mockup for UR1 and UR2 respectively.
 
 | <img src="https://raw.githubusercontent.com/maryi/CSCW-Project/master/Images/Find%20app1.3.png" width="300">                 |
 |--------------------------------------------------------|
@@ -101,7 +101,7 @@ Match maker app is a recommendation system that intent to bring closer users wit
 | Figure 2. Preliminary interface Mockup for UR2: Registering an application |
 
 Next, in order to implement the listed requirements, we defined a set of criteria to help us classify our information, which we particularly call *-descriptors-*. As the list grow, we notice that the criteria used to define collaborative work is different from the criteria to identify tool features. 
-We identified that not all descriptors are suitable for our two user requirements. The first requirement needs the user to describe the nature of the collaboration s/he intent to support, so the descriptors should allow to identify the characteristics of the work to be done. Meanwhile, in UR2 the application requires the user to describe the features of a tool. Thus, descriptors have to be feature oriented in order to describe the capabilities of a particular tool. As a result, we divided the initial list in two, creating two set of descriptors, one for UR1 and the other for UR2.
+We identified that not all descriptors are suitable for our two user requirements. The first requirement needs the user to describe the nature of the collaboration s/he intent to support, so the descriptors should allow to identify the characteristics of the work to be done. Meanwhile, in UR2 the application requires the user to describe the features of a tool. Thus, descriptors have to be feature oriented in order to describe the capabilities of a particular tool. As a result, we divided the initial list in two, creating two sets of descriptors, one for UR1 and the other for UR2.
 
 **UR1: Searching for an application:** Any user searching for an application to support collaborative activities should describe the nature of the collaborative work to the system. Consequently, the descriptors used for this requirement are selected from the MoCA framework, along with *purpose* as a complementary one. Note that the vocabulary of the MoCA dimensions were adapted to be more colloquial in the web page for user friendliness. The set of descriptors selected to characterize collaborative work is presented in table 1. Each descriptor is described with the name, possible options and the selection type offered to the user in the web interface. The rational about the options offered will be describe in the next subsection.
 
@@ -247,7 +247,7 @@ Technical team (Dustin, Eli and Maryi): Members in this subdivision identified t
 
 Research team (Michael and Krista): Members of this team will be responsible for the production and edition of the project documentation. They will also be the leaders of the research tasks required for the project. 
 
-**need to add milestones and progress**
+**need to add milestones and progress - milestones need to go in appendix (see slack for peggy's report outline)**
  
 ### 4. Expected results  
 We expect to create an application that accurately suggests appropriate applications for collaborative work to users. In a world where a new application is released nearly every minute, we expect to bring together users and applications that support collaborative work.  

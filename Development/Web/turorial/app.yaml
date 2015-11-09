@@ -1,0 +1,24 @@
+application: helloworld
+version: 1
+runtime: php55
+api_version: 1
+
+handlers:
+- url: /stylesheets
+  static_dir: stylesheets
+
+- url: /insert
+  script: insert.php
+
+- url: /lookup
+  script: lookup.php
+
+- url: /search
+  script: searchIndex.html
+
+- url: /register
+  script: registerIndex.html
+
+- url: /.*
+  script: home.html
+

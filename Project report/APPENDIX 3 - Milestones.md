@@ -1,8 +1,8 @@
 #Milestones
 
 ** feel free to add/change anything. i don't remember the exact dates of when certain milestones were completed so please add them in if you remember
-
 - all of the milestones were taken from our project update presentation, so I may be missing some
+- Michael - have added dates to milestones not completed yet.  Feel free to adjust if you believe these are not feasible.  
 
 
 #### Milestones Met

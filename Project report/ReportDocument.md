@@ -72,7 +72,7 @@ Bower (2015) has presented a model of collaborative learning technologies based 
 
 | ![alt text](http://www.weiterbildungsblog.de/wp-content/uploads/2015/02/bower_201502.jpg "Bower's typology") |
 |--------------------------------------------------------|
-| Figure 2. Bower’s (2005) typology of Web 2.0 collaborative technologies |
+| Figure 2. Bower’s (2015) typology of Web 2.0 collaborative technologies |
 
 
 Our project will test the MoCA framework as a framework to link CSCW to affordances of collaborative software and systems. MoCA provides a framework for describing collaborative work and will be mapped to the affordances of collaborative technologies. 

@@ -259,7 +259,9 @@ Research team (Michael and Krista): Members of this team will be responsible for
 ### 4. Expected results  
 We expect to create an application that accurately suggests appropriate applications for collaborative work to users. In a world where a new application is released nearly every minute, we expect to bring together users and applications that support collaborative work.  
 
-Initially, we will try to classify applications using the MoCA framework however, we expect the end result of our classification to be an amalgamation of the MoCA dimensions as well as additional dimensions to increase the accuracy of classifying applications. 
+Initially, we will try to classify applications using the MoCA framework however, we expect the end result of our classification to be an amalgamation of the MoCA dimensions as well as additional dimensions to increase the accuracy of classifying applications.
+
+From the technical end we expect that our website will be fully functional and easy for users to use. We expect that the search function will return a reasonable recommendation of collaborative tools. Although at this time the search function is what we are most unsure of.
  
 ## LIMITATIONS
 Our two biggest limitations in this endeavour are the newness of the MoCA framework and time.  

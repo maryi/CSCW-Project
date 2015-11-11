@@ -253,8 +253,6 @@ Based on a list of strengths and personal preferences, we subdivided our team in
 Technical team (Dustin, Eli and Maryi): Members in this subdivision identified themselves with programming experience and declare to be comfortable with the project technical requirements. This team will be responsible for selecting the technical tools and resources, and developing the application for the project.  
 
 Research team (Michael and Krista): Members of this team will be responsible for the production and edition of the project documentation. They will also be the leaders of the research tasks required for the project. 
-
-**need to add milestones and progress - milestones need to go in appendix (see slack for peggy's report outline)**
  
 ### 4. Expected results  
 We expect to create an application that accurately suggests appropriate applications for collaborative work to users. In a world where a new application is released nearly every minute, we expect to bring together users and applications that support collaborative work.  

@@ -111,6 +111,7 @@ Our intent was to use the MoCA framework as a base, so that it would be used to 
 Also in terms of decribing collaborative tools we dicussed the challenge of labeling a tool synchronous or asynchronous 
 ([See discussion on Github](https://github.com/maryi/CSCW-Project/issues/18 "See discussion on Github")). Using examples of tools we were using at the time to facilitate our own CSCW such as Github and Slack, we had a rich discussion about whether these tools were synchronous or asynchronous. Some felt that synchonous implied real-time voice and video communication, others felt that because the afformentioned tools are increasingly mobile and provide real-time notification and opportunities to respond, they could be labeled synchonous as well. These discussions helped form the basis of our descriptors articulated in the next section.   
 
+#### 1.1 Explanation of user requirements
 **UR1: Searching for an application:** Any user searching for an application to support collaborative activities should describe the nature of the collaborative work to the system. Consequently, the descriptors used for this requirement are selected from the MoCA framework, along with *purpose* as a complementary one. Note that the vocabulary of the MoCA dimensions were adapted to be more colloquial in the web page for user friendliness. The set of descriptors selected to characterize collaborative work is presented in table 1. Each descriptor is described with the name, possible options and the selection type offered to the user in the web interface. The rational about the options offered will be describe in the next subsection.
 
 
@@ -153,7 +154,7 @@ Also in terms of decribing collaborative tools we dicussed the challenge of labe
 
 
 
-#### 1.1 Descriptors for tool features
+#### 1.2 Descriptors for tool features
 Tool descriptors were designed with the purpose to collect valuable information about their support to collaborative activities. This information should be used later for the recommendation system. Details about descriptors and our selection is presented below. The possible values selected for each descriptor in most of the cases are based on personal experience of the researchers, when this is not the criteria we provide more detail about our sources.
 
 *Name*: used as an identifier of the tool.
@@ -184,7 +185,7 @@ Tool descriptors were designed with the purpose to collect valuable information 
 contribution of the modal dimension, we added a few other options to the dimension including audio communication, visual communication, visualization communication, short message communication.
 
 
-#### 1.2 Descriptors for collaborative work
+#### 1.3 Descriptors for collaborative work
 The set of descriptors used to characterize collaborative work, as illustrated by table #, is mainly composed by the dimensions proposed by the MoCA framework with the addition of the descriptor *purpose*. We found that although MoCA represented a good base to describe collaborative work, the framework presents a high level description for each dimension maybe due to the fact that is has never been applied before to a real situation. Accordingly, the first challenge is to create a less abstract version of MoCA with more applicable definitions for its dimensions. Below, we describe the result of our analysis. 
 
 In addition, we found that the two set of descriptors differ in nature and often they do not present a linear correspondence. For that reason, we developed a connection, illustrated in table 3, between the descriptors of the work and the descriptors of the applications. For example, when a user in the physical distribution descriptor selects 'distributed team' MatchMaker Application looks for applications with multiple awareness mechanisms. Also, it should be noted that not all descriptors are different, we found that some of them are applicable in both contexts, to describe work and to describe a tool, so they were left equal in both cases. For instance, the scale dimension in MoCA has a linear connection with the scalability of a tool.
@@ -245,7 +246,7 @@ In particular, the selection of possible values for this descriptor was based on
 
 Our project website will be hosted using the Google cloud computing platform. With this choice we ensure high availability of the service for potential users. The website hosting our application will be done with HTML and PHP. All the applications for the website will be stored in a database using MySQL, an open source database (https://www.mysql.com/why-mysql/). The database will also be hosted using the Google cloud computing platform. We chose the google platform for hosting for two reasons, it's a free service and hosting them both on the same place makes it easier to integrate the website and database together.
 
-Currently our website can be accessed from http://turorial1-1120.appspot.com/. At the moment we are about 75% done the work on the website and database. We have completed a rough version of what the all the pages on our website will look like, focusing mainly just on functionality for now. Currently the home page is a mostly blank page that links to our two main pages, to search for a collaborative application or to register a new collaborative application into our database. The registration page is mostly complete, the real remaining work lies in figuring out how the search function is going to work. With the website expected to be done in the next week our biggest technical challenge will be deciding how to rank and display the search results when a user is searching for collaborative applications. Fortunately we have already begun discussions as a group for how we will do this but nothing definitive has been decided so far.
+Currently our website can be accessed from http://turorial1-1120.appspot.com/. At the moment we are about 50% done the work on the website and database. We have completed a rough version of what the registering an app page will look like and it currently adds inputted app information into the database. However we still need to update the registration page selection fields to reflect the latest version of our application descriptors. We also still have to make a homepage which should be a fairly simple page with just 2 links to either search for an app or to register an app. Lastly we have to create the webpage for searching for an application which also shouldn't take up much time. The biggest technical challenge ahead of us is deciding how to rank and display the search results when looking for an app. We have already begun discussions as a group for how we will do this but nothing definitive has been decided so far.
  
 ### 3. Roles and contributions 
 Based on a list of strengths and personal preferences, we subdivided our team in two. 

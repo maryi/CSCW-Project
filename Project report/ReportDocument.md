@@ -93,27 +93,26 @@ Although we will base our initial development on the MoCA framework, we will fol
  
 ### 1. Strategy and Methods 
 
-MatchMaker Application is a recommendation system that intends to help users select appropritate collaborative tools based on the articualtion of their work through the MoCA framework. In particular, the application allows any user to describe the type of collaborative work to be done and our application suggests appropriate tools. This function is identified as the first user requirement: *UR1: Searching for an application*. Additionally, MatchMaker Application allows users to register collaborative computer-based tools in the system database, as a mechanism to help populate the recommendation system. Similarly, this function is identified as the second user requirement: *UR2: Registering an application*. Figure # and # show a preliminary interface mockup for UR1 and UR2 respectively.
+MatchMaker Application is a recommendation system that intends to help users selecting appropriate collaborative tools based on the articulation of their work through the MoCA framework. In particular, the application allows any user to describe the type of collaborative work to be done and our application suggests appropriate tools. This function is identified as the first user requirement: *UR1: Searching for an application*. Additionally, MatchMaker Application allows users to register collaborative computer-based tools in the system database, as a mechanism to help populate the recommendation system. Similarly, this function is identified as the second user requirement: *UR2: Registering an application*. Figure 3 and 4 show a preliminary interface mockup for UR1 and UR2 respectively.
 
 | <img src="https://raw.githubusercontent.com/maryi/CSCW-Project/master/Images/Find%20app1.3.png" width="300">                 |
 |--------------------------------------------------------|
-| Figure 1. Preliminary interface Mockup for UR1: Searching for an application |
+| Figure 3. Preliminary interface Mockup for UR1: Searching for an application |
 
 
 | <img src="https://raw.githubusercontent.com/maryi/CSCW-Project/master/Images/Register%20app1.3.png" width="300">                 |
 |--------------------------------------------------------|
-| Figure 2. Preliminary interface Mockup for UR2: Registering an application |
+| Figure 4. Preliminary interface Mockup for UR2: Registering an application |
 
-In order to implement the listed requirements, we defined a set of criteria to help us classify our information. The intial criteria began with the elements of the MoCA framework. As we consdiered the criteria needed to operationalize the MatchMaker Application, we noticed that the criteria used to define collaborative work is different from the criteria to identify tool features.
-
-These criteria have been designed for each requirement of the system, searching for an application and registering an application. We call these *-descriptors-* as they are used to describe instances of collaborative work and tools for colalborative work. 
-
+In order to implement the listed requirements, we defined a set of criteria to help us classify our information. 
+In particular, we adopted the term *-descriptors-*, to define a criteria, as they are used to describe instances of collaborative work and tools for such context. 
+The initial set of descriptors began with the elements of the MoCA framework. However, as we considered the criteria needed to operationalize the MatchMaker Application, we noticed that the descriptors used to define collaborative work is different from those to identify tool features. 
 We identified that not all descriptors are suitable for our two user requirements. The first requirement needs the user to describe the nature of the collaboration s/he intent to support, so the descriptors should allow to identify the characteristics of the work to be done. Meanwhile, in UR2 the application requires the user to describe the features of a tool. Thus, descriptors have to be feature oriented in order to describe the capabilities of a particular tool. As a result, we divided the initial list in two, creating two sets of descriptors, one for UR1 and the other for UR2.
 
-Our intent was to use the MoCA framework as a base, so that it would be used to describe both collaborative work and the features of collaborative tools. However we discovered that we would need to consider some additional fields to describe collaborative tools. This resulted in some interesting conversations faciliated through Github as we wrestled with developing our lists. We discussed the need for a descriptor of what a tool actually does defined as 'purpose' ([See discussion on Github](https://github.com/maryi/CSCW-Project/issues/7 "See discussion on Github")). Bower's(2015) typology of collaborative software provides a base to populate this descriptor.  
+Our intent was to use the MoCA framework as a base, so that it would be used to describe both collaborative work and the features of collaborative tools. However, we discovered that we would need to consider some additional fields to describe collaborative tools. This resulted in some interesting conversations facilitated through Github as we wrestled with developing our lists. We discussed the need for a descriptor of what a tool actually does defined as 'purpose' ([See discussion on Github](https://github.com/maryi/CSCW-Project/issues/7 "See discussion on Github")). Bower's(2015) typology of collaborative software provides a base to populate this descriptor.  
 
-Also in terms of decribing collaborative tools we dicussed the challenge of labeling a tool synchronous or asynchronous 
-([See discussion on Github](https://github.com/maryi/CSCW-Project/issues/18 "See discussion on Github")). Using examples of tools we were using at the time to facilitate our own CSCW such as Github and Slack, we had a rich discussion about whether these tools were synchronous or asynchronous. Some felt that synchonous implied real-time voice and video communication, others felt that because the afformentioned tools are increasingly mobile and provide real-time notification and opportunities to respond, they could be labeled synchonous as well. These discussions helped form the basis of our descriptors articulated in the next section.   
+Also in terms of decribing collaborative tools we discussed the challenge of labeling a tool synchronous or asynchronous 
+([See discussion on Github](https://github.com/maryi/CSCW-Project/issues/18 "See discussion on Github")). Using examples of tools we were using at the time to facilitate our own CSCW such as Github and Slack, we had a rich discussion about whether these tools were synchronous or asynchronous. Some felt that synchronous implied real-time voice and video communication, others felt that because the afformentioned tools are increasingly mobile and provide real-time notification and opportunities to respond, they could be labeled synchronous as well. These discussions helped form the basis of our descriptors articulated in the next section.   
 
 #### 1.1 Explanation of user requirements
 **UR1: Searching for an application:** Any user searching for an application to support collaborative activities should describe the nature of the collaborative work to the system. Consequently, the descriptors used for this requirement are selected from the MoCA framework, along with *purpose* as a complementary one. Note that the vocabulary of the MoCA dimensions were adapted to be more colloquial in the web page for user friendliness. The set of descriptors selected to characterize collaborative work is presented in table 1. Each descriptor is described with the name, possible options and the selection type offered to the user in the web interface. The rational about the options offered will be describe in the next subsection.
@@ -159,7 +158,7 @@ Also in terms of decribing collaborative tools we dicussed the challenge of labe
 
 
 #### 1.2 Descriptors for tool features
-Tool descriptors were designed with the purpose to collect valuable information about their support to collaborative activities. This information should be used later for the recommendation system. Details about descriptors and our selection is presented below. The possible values selected for each descriptor in most of the cases are based on personal experience of the researchers, when this is not the criteria we provide more detail about our sources.
+Tool descriptors were designed with the purpose to collect valuable information about tool support to collaborative activities. This information should be used later for the recommendation system. Details about descriptors and our selection is presented below. The possible values selected for each descriptor in most of the cases are based on personal experience of the researchers, when this is not the criteria we provide more detail about our sources.
 
 *Name*: used as an identifier of the tool.
 
@@ -190,9 +189,9 @@ contribution of the modal dimension, we added a few other options to the dimensi
 
 
 #### 1.3 Descriptors for collaborative work
-The set of descriptors used to characterize collaborative work, as illustrated by table #, is mainly composed by the dimensions proposed by the MoCA framework with the addition of the descriptor *purpose*. We found that although MoCA represented a good base to describe collaborative work, the framework presents a high level description for each dimension maybe due to the fact that is has never been applied before to a real situation. Accordingly, the first challenge is to create a less abstract version of MoCA with more applicable definitions for its dimensions. Below, we describe the result of our analysis. 
+The set of descriptors used to characterize collaborative work, as illustrated by table 1, is mainly composed by the dimensions proposed by the MoCA framework with the addition of the descriptor *purpose*. We found that although MoCA represented a good base to describe collaborative work, the framework presents a high level description for each dimension maybe due to the fact that is has never been applied before to a real situation. Accordingly, the first challenge is to create a less abstract version of MoCA with more applicable definitions for its dimensions. Below, we describe the result of our analysis. 
 
-In addition, we found that the two set of descriptors differ in nature and often they do not present a linear correspondence. For that reason, we developed a connection, illustrated in table 3, between the descriptors of the work and the descriptors of the applications. For example, when a user in the physical distribution descriptor selects 'distributed team' MatchMaker Application looks for applications with multiple awareness mechanisms. Also, it should be noted that not all descriptors are different, we found that some of them are applicable in both contexts, to describe work and to describe a tool, so they were left equal in both cases. For instance, the scale dimension in MoCA has a linear connection with the scalability of a tool.
+In addition, we found that the two set of descriptors differ in nature and often they do not present a linear correspondence. For that reason, we developed a connection between the descriptors of the work and the descriptors of the applications. For example, when a user in the physical distribution descriptor selects 'distributed team' MatchMaker Application looks for applications with multiple awareness mechanisms. Also, it should be noted that not all descriptors are different, we found that some of them are applicable in both contexts, to describe work and to describe a tool, so they were left equal in both cases. For instance, the scale dimension in MoCA has a linear connection with the scalability of a tool.
 
 | Descriptors for collaborative work | Descriptors for applications      |
 |------------------------------------|-----------------------------------|
@@ -207,7 +206,7 @@ In addition, we found that the two set of descriptors differ in nature and often
 
 | Table 3. Connection between descriptors for collaborative work and descriptors for tool features |
 
-Finally, in another cases we found that more than one descriptor in the application could contribute to identify potential benefits for one descriptor in the collaborative work. Such was the case with the descriptor of work Planned permanence where *service type* and *learning curve* were both selected as application descriptors. The table # shows how the two set of descriptors are connected and more details about our rational for such connection is presented here.
+Finally, in another cases we found that more than one descriptor in the application could contribute to identify potential benefits for one descriptor in the collaborative work. Such was the case with the descriptor of work Planned permanence where *service type* and *learning curve* were both selected as application descriptors. The table 3 shows how the two set of descriptors are connected and more details about our rational for such connection is presented here.
 
 *Scale*: similar to the original version, represents an approximate number of people involved in the collaborative work and that should have access to the common artifacts through computer-based tools. The possible values selected represent the most popular accommodations: 2, less or equal to 5, less or equal to 10, and more than 10 participants. This descriptor is paired with another one of the same name in the tool-feature descriptor set, where the possible values represent the maximum number of participants supported by the tool.
 
@@ -230,7 +229,7 @@ About the connection with tool-feature descriptors, based on the literature cove
 
 In order to bring support for this descriptor, we selected *content privacy* and *hierarchy* from the tool-features set. This decision was made on the bases that both, by describing the possibilities of information visibility and role assignation, define the level of turnover in the work.
 
-*Nascence*: describes the level of familiarity of participants with respect to the coordinated action. Although we agree it is an important descriptor for collaborative work, we failed to see the way it could get benefit from any particular tool feature; exercise that was possible with the other MoCA dimensions. In our solution, we kept the descriptor with same definition in both sets and possible values as:
+*Nascence*: describes the level of familiarity of participants with respect to the coordinated action. Although we agree it is an important descriptor for collaborative work, we failed to see the way it could get benefit from any particular tool feature; exercise that was possible with the other MoCA dimensions. In our solution, we kept the descriptor with the same definition in both sets and possible values as:
  
  * Routine: support for familiar tasks
  * Most of the tasks are routine

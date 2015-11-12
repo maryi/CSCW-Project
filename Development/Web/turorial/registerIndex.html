@@ -32,13 +32,11 @@
         <hr>
 
         <section id="main_content">
-          <h1>
-<a id="what-do-you-need--snippets-borrowed-from-httpcodepeniofmcalistopenmjkxpa" class="anchor" href="#what-do-you-need--snippets-borrowed-from-httpcodepeniofmcalistopenmjkxpa" aria-hidden="true"><span class="octicon octicon-link"></span></a>What do you need?  Snippets Borrowed From: <a href="http://codepen.io/FMCalisto/pen/mJKxpa">http://codepen.io/FMCalisto/pen/mJKxpa</a>
-</h1>
 
 <div class="wrap">
-  <h1 class="likert-header">This is a Likert Scale survey</h1>
+  <h1 class="likert-header">Register an App</h1>  
   <form action="/insert" method="post">
+    
     How many people are supported by the app?
     <ul>
       <li>
@@ -61,7 +59,7 @@
         <input type="radio" name="contribute" value="1">
        <label>2</label>
       </li>
-    </ul>
+    </ul>  
     Does the application support teams that can not meet face to face?
     <ul>
       <li>
@@ -72,7 +70,7 @@
         <input type="radio" name="communicate" value="different">
         <label>Participants can be in different rooms</label>
       </li>
-    </ul>
+    </ul>  
     
    Does does the app allow a team need to work together at the same time?
     <ul>
@@ -88,7 +86,7 @@
         <input type="radio" name="concurrency" value="both">
         <label>Both.</label>
       </li>
-    </ul>
+    </ul>  
     
     How many different areas of study can the application support?
     <ul>
@@ -113,6 +111,7 @@
         <label>1<label/>
       </li>
     </ul>  
+    
        What kind of tasks are supported by the application?
     <ul>
       <li>
@@ -132,7 +131,8 @@
         <label>The task can evolve over time.</label>
       </li>
     </ul>  
-       <label>What is the longest duration you imagine this application being used for in a project?</label
+    
+       What is the longest duration you imagine this application being used for in a project?
     <ul>
       <li>
         <input type="radio" name="Length" value="1">
@@ -154,8 +154,9 @@
         <input type="radio" name="Length" value="5">
         <label>longer than 6 months.</label>
       </li>
-    </ul> 
-       public or private?
+    </ul>  
+    
+       <label>public or private?</label>
     <ul>  
       <li>
         <input type="radio" name="Privacy" value="private">
@@ -171,8 +172,130 @@
       </li>
     </ul>  
     
+    Learning Curve of the App
+    <ul>  
+      <li>
+        <input type="radio" name="Curve" value="1">
+        <label>Easy</label>
+      </li>
+      <li>
+        <input type="radio" name="Curve" value="2">
+        <label>Medium</label>
+      </li>
+      <li>
+        <input type="radio" name="Curve" value="3">
+        <label>Fair</label>
+      </li>
+      <li>
+        <input type="radio" name="Curve" value="4">
+        <label>Hard</label>
+      </li>
+    </ul>  
+    
+    Service Type --Requires descriptors
+    <ul>  
+      <li>
+        <input type="radio" name="Service" value="">
+        <label></label>
+      </li>
+      <li>
+        <input type="radio" name="Service" value="">
+        <label></label>
+      </li>
+      <li>
+        <input type="radio" name="Service" value="">
+        <label></label>
+      </li>
+      <li>
+        <input type="radio" name="Service" value="">
+        <label></label>
+      </li>
+    </ul>  
+    
+    Hierarchy
+    <ul>  
+      <li>
+        <input type="radio" name="Hierachy" value="same">
+        <label>All users have the same role</label>
+      </li>
+      <li>
+        <input type="radio" name="Hierachy" value="different">
+        <label>Role based</label>
+      </li>
+      <li>
+        <input type="radio" name="Hierachy" value="strict">
+        <label>Strict Hierarchy</label>
+      </li>
+    </ul> 
+    
+    Modality
+    <ul>  
+      <li>
+        <input type="radio" name="Modality" value="audio">
+        <label>Audio Communication</label>
+      </li>
+      <li>
+        <input type="radio" name="Modality" value="visual">
+        <label>Visual Communication</label>
+      </li>
+      <li>
+        <input type="radio" name="Modality" value="document">
+        <label>Document Communication</label>
+      </li>
+      <li>
+        <input type="radio" name="Modality" value="data">
+        <label>Data Communication</label>
+      </li>
+      <li>
+        <input type="radio" name="Modality" value="visualization">
+        <label>Visualization Communication</label>
+      </li>
+      <li>
+        <input type="radio" name="Modality" value="short_message">
+        <label>Short Message Communication</label>
+      </li>
+    </ul>  
+    
+    Awareness Mechanisms
+    <ul>  
+      <li>
+        <input type="radio" name="Awareness" value="Event_log">
+        <label>Event log</label>
+      </li>
+      <li>
+        <input type="radio" name="Awareness" value="Notifications">
+        <label>Notifications</label>
+      </li>
+      <li>
+        <input type="radio" name="Awareness" value="perfromance_graphs">
+        <label>Performance Graphs</label>
+      </li>
+      <li>
+        <input type="radio" name="Awareness" value="email">
+        <label>Email Notifications</label>
+      </li>
+      <li>
+        <input type="radio" name="Awareness" value="issues_tracking">
+        <label>Issues Tracking</label>
+      </li>
+      <li>
+        <input type="radio" name="Awareness" value="chat">
+        <label>Chat</label>
+      </li>
+      <li>
+        <input type="radio" name="Awareness" value="forums">
+        <label>Forums</label>
+      </li>
+    </ul>
+    
       URL:<br>
-      <input type="text" name="URL">
+      <input type="text" name="URL">  
+     
+      Compatible With:<br>
+      <input type="text" name="Compatible">  
+    
+      Creator:<br>
+      <input type="text" name="Creator">  
     
     <div class="buttons">
       <button class="clear">Clear</button>

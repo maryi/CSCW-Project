@@ -31,7 +31,7 @@ As technology mechanisms were enriched, more descriptors were proposed in a atte
 
 Further attempts to describing CSCW include the addition of the hardware and software required to facilitate the work (Kraemer & King, 1988); the notion of usability and ergonomics related to tool acceptance among a group (Jarczyk, Loffler, & Volksen, 1992); and the categorization of collaborative systems according to specific technologies (Ellis, 2000).
 
-Bannon & Schmidt (1989) suggest that too often technology is described with a focus on information flow between individuals. However, there must also be a consideration of the articulation work required to make the “flow” possible. Collaborative  tools enable the "flow" of information and facilitate collaboration in distinct ways. Therefore a descriptive framework for describing how collaborative tools facilitate communication flows may be a useful heuristic for individuals planning CSCW. 
+Bannon & Schmidt (1989) suggest that too often technology is described with a focus on information flow between individuals. However, there must also be a consideration of the articulation work required to make the 'flow' possible. Collaborative  tools enable the 'flow"'of information and facilitate collaboration in distinct ways. Therefore a descriptive framework for describing how collaborative tools facilitate communication flows may be a useful heuristic for individuals planning CSCW. 
 
 We believe that some aspects of the MoCA framework can also be used to describe collaborative software and systems -with some context adaptations. These similarities will be tested to see if well articulated CSCW can be matched to software tools suitable for the work through the notion of affordances. Users often maintain historically developed understandings of the utility of collaborative software and systems which are always evolving. Conole and Dyke (2004) argue that articulating and exposing the affordances of collaborative software enables users to understand how technologies can be most effectively used to support collaborative activities. So, we will also based our recommendation system in the user's perceptions.
 
@@ -51,7 +51,7 @@ In total the MoCA framework consists of seven dimensions of coordinated action d
 
 *Physical Distribution*: this dimension describes whether coordinated actions are taking place in the same geographic location (collocated) or at different geographic locations (distributed). 
 
-Recognizing that the predictability Synchronicity and Physical distribution throughout a CSCW project can vary, information about these dimensions can be a challenge to identify discretely.   
+We recognize that predicting the Synchronicity and Physical distribution throughout a CSCW project can vary over time and information about these dimensions can be a challenge to identify discretely.
 
 *Scale*: addresses the number of participants involved in the collaboration. Information provided by this dimension illustrate the complexity of the computer-based tool required as it is assumed that an increase in participants requires a more robust social arrangements and new practices. 
 
@@ -63,9 +63,9 @@ Recognizing that the predictability Synchronicity and Physical distribution thro
 
 *Turnover*: refers to the stability of the participant makeup of a given collaboration, or the rapidity of participants entering or leaving the collaboration. 
 
-While some of the MoCA framework dimensions are familiar in CSCW, some of them are new. For instance, MoCA adds communities of practice as a descriptor for the social structure of participants and information about the novelty of the work itself through the nascence dimension. Also, the framework includes participants' commitment or functional imperative to the work through Planned permanence and group dynamics and variability, through the turnover dimension.
+While some of the dimensions in the MoCA framework are familiar in CSCW, some of them are new. For instance, MoCA adds communities of practice as a descriptor for the social structure of participants, and information about the novelty of the work itself through the nascence dimension. Also, the framework includes participants' commitment or functional imperative to the work through Planned permanence and group dynamics and variability through the Turnover dimension.
 
-Lee & Paine developed the MoCA framework to help researchers describe specific cases of CSCW. They argue that rather than viewing the mechanics of CSCW as uncharted territory, there are opportunities to identify patterns and similarity between projects, which may help us plan for future successful CSCW. The framework provides a vocabulary of concepts that can be used to describe the complex ecosystems of collaborative work. 
+Lee & Paine developed the MoCA framework to help researchers describe specific cases of CSCW. They argue that rather than viewing the mechanics of CSCW as uncharted territory, there are opportunities to identify patterns and similarity between projects, which may help us plan for future successful CSCW. Finally, the framework provides a rich vocabulary of concepts that can be used to describe the complex ecosystems of collaborative work, but as the other models lacks of a connection with tool features. 
 
 ### 2. Affordances of collaborative technologies
 The notion of affordances is useful in defining how users interpret and make use of artifacts in the world. Salomon defines the term affordance as *“the perceived and actual properties of a thing, primarily those functional properties that determine just how the thing could possibly be used”* (Pea, 1993, p. 51). When considering emerging collaborative software and systems, affordances are not always evident to the user. As such it is not always clear how a tool can be used in a CSCW project to facilitate interaction.  
@@ -77,7 +77,7 @@ Bower (2015) has presented a model of collaborative learning technologies based 
 | Figure 2. Bower’s (2015) typology of Web 2.0 collaborative technologies |
 
 
-Our project will test the MoCA framework as a framework to link the articualtion of CSCW to the affordances of collaborative software and systems. MoCA provides a framework for describing collaborative work which will be mapped to the affordances of collaborative technologies based on Bower's (2015) typology. 
+Our project will test the MoCA framework as a framework to link the articulation of CSCW to the affordances of collaborative software and systems. MoCA provides a framework for describing collaborative work which will be mapped to the affordances of collaborative technologies based on Bower's (2015) typology. 
  
 ### 3. The problem we are trying to solve 
 Selecting the right tool to support collaborative work is one of the main problems teams face. There is a wide array of  collaboration tools to choose from and as such selecting an appropriate tool can be a overwhelming and a significant challenge. Olsen & Olsen (2014) argue that the success of a CSCW project is contingent on the appropriate selection of tools which meet the needs of the team. Dudezert, Gurkan & Karoui (2010) suggest a technological perspective on virtual collaboration, which states that the efficiency of a team is based on the tool selected for collaboration. With such a wide range of options, it is recommended to establish a set of criteria that would be used for choosing the most appropriate tool for collaboration. 

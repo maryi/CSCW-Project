@@ -15,34 +15,39 @@ We divided the work in multiple tasks and although everyone was encourage to con
 #### Milestones Met
 Below we present a description of participants responsibilities and tasks so far. Also, we present the list of milestones achieved.
 
-Krista: Edition of project project proposal, in charge of creating a base list of application (work in progress). This list of applications will be used to populate our database once the development is ready. Access to the list is [here](https://docs.google.com/spreadsheets/d/1Trh6Pesxvv5aYfd_x7wXxGmR5k9Y5g7-wpFbezwqi8E/edit?usp=sharing)
-Michael
-Eli:
-Maryi
-Dustin
+Krista: Edition of project project proposal, in charge of creating a base list of applications (work in progress). This list of applications will be used to populate our database once the development is ready. Access to the list is [here](https://docs.google.com/spreadsheets/d/1Trh6Pesxvv5aYfd_x7wXxGmR5k9Y5g7-wpFbezwqi8E/edit?usp=sharing)
+
+Michael: Edition of project proposal, Research, literature review and documentation of project progress. Also, documentation of initial descriptors.
+
+Eli: Mockup design, Database administration. Responsible for technical specifications in project report.
+
+Maryi: Administration of GitHub site and control of project progress. Mockup design, Ethics application, -based on the group discussions- documentation of final version of descriptors.
+
+Dustin: Web development. Responsible for technical specifications in project report.
 
 
 
 | Milestone           | Description           | Completion Date  |
 | -------------       |-------------        | -----|
-| Project Proposal | Literature review, edition and research, list of application requirements, definition of technical implementation, interface design October 16, 2015 |
-| Ethics Application Complete ethics application for user testing | October 23, 2015 |
+| Project Proposal | Literature review, edition and research, list of application requirements, definition of technical implementation, interface design | October 16, 2015 |
+| Ethics Application | Complete ethics application for user testing | October 23, 2015 |
 | Project Evaluation Methodology | Design application evaluation plan.  Contingent on completion of first draft of working application. |  November 11, 2015 |
-| Website | Initial set up on GitHub and implementation of website application November 9, 2015 |
+| Website | Initial set up on GitHub and implementation of website application | November 9, 2015 |
 |Database | Design and initial implementation  | November 9, 2015 |
-|Project Update Presentation| Update on project progress November 4, 2015
+|Project Update Presentation| Update on project progress | November 4, 2015
 
 
 
 #### Milestones
+Below we present a table with the milestones for future work.
+
 | Milestone           | Description           | Expected Date  |
 | -------------       |-------------        | -----|
 | Interim Report      | Report on project progress        | November 13, 2015 |
-|Documentation of user requirements and application implementation | description here  |   November 6, 2015 |
-|Connect database application and website application | description here  |   November 9, 2015 |
-|List of Base Applications | Define applications using descriptors and add base list of applications to database | November 11, 2015 |
-|Documentation of Progress| User app evaluation| November 20, 2015|
-|Documentation and Technical changes| Changes made based on user feedback November 27, 2015|
+|Connect database application and website application | Work in progress  |   November 18, 2015 |
+|List of Base Applications | Define applications using descriptors and add base list of applications to database | November 16, 2015 |
+|User app evaluation| Survey to potential user and analysis of results| November 20, 2015|
+|Documentation and Technical changes| Changes made based on user feedback | November 27, 2015|
 |App Demo| Prepare app demo v2.0 for project presentation| December 2, 2015 |
 |Project Presentation| In class project presentation and app demo| December 2, 2015 |
 |Final Report| Prepare project final report| December 5, 2015 |

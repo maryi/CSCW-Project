@@ -253,7 +253,7 @@ Technical team (Dustin, Eli and Maryi): Members in this subdivision identified t
 
 Research team (Michael and Krista): Members of this team will be responsible for the production and edition of the project documentation. They will also be the leaders of the research tasks required for the project.
 
-For more details about our collaboration process please refer to [Appendix 3](https://github.com/maryi/CSCW-Project/blob/master/Project%20report/APPENDIX%203%20-%20Milestones.md)
+For more details about our collaboration process please refer to [APPENDIX 3](https://github.com/maryi/CSCW-Project/blob/master/Project%20report/APPENDIX%203%20-%20Milestones.md)
  
 ### 4. Expected results  
 We expect to create an application that accurately suggests appropriate applications for collaborative work to users. In a world where a new application is released nearly every minute, we expect to bring together users and applications that support collaborative work.  

@@ -89,7 +89,7 @@ We believe we can use the MoCA framework as a base to describe collaborative wor
 ## OUR PROPOSAL: MatchMaker Application
 Our proposal is to create a web application which will help users find appropriate applications for collaborative work depending on the nature of the work as described through the MoCA framework. Users will have a chance to describe the collaborative work they wish to facilitate and be presented with appropriate technologies most suited to the work. Users can also register applications they have used successfully to conduct collaborative work. This data will be used to further grow the database of applications and will be used to improve suggestions offered to users seeking appropriate application recommendations. As a result, our application database will store valuable user experiences and evolve over time as new applications become available.  
 
-Although we will base our initial development on the MoCA framework, we will follow an iterative validation process with potential users to evaluate what extra features or dimensions not considered in the MoCA framework are required to our purpose. In the next subsection we describe our process in more detail.
+Although we will base our initial development on the MoCA framework, we will follow an iterative validation process based on our own experiences as tool users. Also, we will include a validation process -survey- with potential users. These evaluation will test if extra features or dimensions not considered in the MoCA framework are required to our purpose. In the next subsection we describe our process in more detail.
  
 ### 1. Strategy and Methods 
 

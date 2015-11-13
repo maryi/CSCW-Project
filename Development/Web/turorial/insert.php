@@ -20,18 +20,25 @@
   if (array_key_exists('URL', $_POST)) {
     echo "Trying to add";
     $stmt = $db->prepare("INSERT INTO app(url, creator, purpose, pubpriv, hierarchy, servt, sync, physd, scale,
-					 community, nascence, permanence, turnover, compatibility)
-			  VALUES(:URL, 'none', 'none', :Privacy, 'none', 'none', :concurrency, :communicate, :contribute,
-				  :Areas, :Routine, :Length, 'none', 'none')");
+					 community, nascence, permanence, turnover, compatibility, awareness, learn, modality)
+			  VALUES(:URL, :Creator, 'none', :Privacy, :Hierarchy, :Service, :concurrency, :communicate, :contribute,
+				  :Areas, :Routine, :Length, 'none', :Compatible, :Awareness, :Curve, :Modality)");
     $res = $stmt->execute(array(
       ':URL' => htmlspecialchars($_POST['URL']),
+      ':Creator' => htmlspecialchars($_POST['Creator']),
       ':Privacy' => htmlspecialchars($_POST['Privacy']),
+      ':Hierarchy' => htmlspecialchars($_POST['Hierarchy']),
+      ':Service' => htmlspecialchars($_POST['Service']),
       ':concurrency' => htmlspecialchars($_POST['concurrency']),
       ':communicate' => htmlspecialchars($_POST['communicate']),
       ':contribute' => htmlspecialchars($_POST['contribute']),
       ':Areas' => htmlspecialchars($_POST['Areas']),
       ':Routine' => htmlspecialchars($_POST['Routine']),
       ':Length' => htmlspecialchars($_POST['Length']),
+      ':Compatible' => htmlspecialchars($_POST['Compatible']),
+      ':Awareness' => htmlspecialchars($_POST['Awareness']),
+      ':Curve' => htmlspecialchars($_POST['Curve']),
+      ':Modality' => htmlspecialchars($_POST['Modality']),
     ));
     $affected_rows = $stmt->rowCount();
     // Log $affected_rows.

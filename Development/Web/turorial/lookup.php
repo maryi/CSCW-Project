@@ -20,9 +20,9 @@
   if (array_key_exists('URL', $_POST)) {
     echo "Trying to add";
     $stmt = $db->prepare("INSERT INTO app(url, creator, purpose, pubpriv, hierarchy, servt, sync, physd, scale,
-					 community, nascence, permanence, turnover, compatibility)
+					 community, nascence, permanence, turnover, compatibility, awareness, learn, modality)
 			  VALUES(:URL, 'none', 'none', :Privacy, 'none', 'none', :concurrency, :communicate, :contribute,
-				  :Areas, :Routine, :Length, 'none', 'none')");
+				  :Areas, :Routine, :Length, 'none', 'none', 'none', 'none', 'none')");
     $res = $stmt->execute(array(
       ':URL' => htmlspecialchars($_POST['URL']),
       ':Privacy' => htmlspecialchars($_POST['Privacy']),

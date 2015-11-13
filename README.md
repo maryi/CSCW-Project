@@ -1,5 +1,5 @@
 # CSCW-Project
-Access to the interim report:
+**Access to the interim report:**
 https://github.com/maryi/CSCW-Project/blob/master/Project%20report/InterimReport.pdf
 
 Access to the project ideas: 

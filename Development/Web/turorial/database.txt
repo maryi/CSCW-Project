@@ -13,6 +13,9 @@ CREATE TABLE app(id INT auto_increment,
 			permanence VARCHAR(50),
 			turnover VARCHAR(50),
 			compatibility VARCHAR(50),
+			awareness VARCHAR(150),
+			learn VARCHAR(50),
+			modality VARCHAR(150),
 			PRIMARY KEY (id)
 );
 /*
@@ -22,14 +25,14 @@ ALTER TABLE app
 
 ALTER TABLE app AUTO_INCREMENT=0;
 
-INSERT INTO app (url, creator, purpose, pubpriv, hierarchy, servt, sync, physd, scale, community, nascence, permanence, turnover, compatibility)
+INSERT INTO app (url, creator, purpose, pubpriv, hierarchy, servt, sync, physd, scale, community, nascence, permanence, turnover, compatibility,awareness, learn, modality)
 	VALUES('http://www.skype.com/en/','Microsoft','text, video,
 and file sharing','private','all same role','free online account','video - sync 
-text, files-async','distributed','text-large video~ 5 people','large','low','medium','low','none');
+text, files-async','distributed','text-large video~ 5 people','large','low','medium','low','none', 'notifications, chat', 'easy', 'visual communication, document communication, short message communication');
 
-INSERT INTO app (url, creator, purpose, pubpriv, hierarchy, servt, sync, physd, scale, community, nascence, permanence, turnover, compatibility)
+INSERT INTO app (url, creator, purpose, pubpriv, hierarchy, servt, sync, physd, scale, community, nascence, permanence, turnover, compatibility, awareness, learn, modality)
 	VALUES('https://slack.com','Slack Technologies','text and
-file sharing','both','all same role','freemium','async','distributed','large','large','low','high','low','none');
+file sharing','both','all same role','freemium','async','distributed','large','large','low','high','low','none', 'notifications, chat', 'easy', 'short message communication');
 
-INSERT INTO app (url, creator, purpose, pubpriv, hierarchy, servt, sync, physd, scale, community, nascence, permanence, turnover, compatibility)
-	VALUES('https://github.com','Tom Preston-Werner','code repository','both','2 roles owner and contributor', 'freemium', 'async', 'distributed', 'large', 'medium' ,'medium' ,'high' ,'medium' ,'none');
+INSERT INTO app (url, creator, purpose, pubpriv, hierarchy, servt, sync, physd, scale, community, nascence, permanence, turnover, compatibility, awareness, learn, modality)
+	VALUES('https://github.com','Tom Preston-Werner','code repository','both','2 roles owner and contributor', 'freemium', 'async', 'distributed', 'large', 'medium' ,'medium' ,'high' ,'medium' ,'none', 'notifications, performance graphs, email notifications, issues tracking', 'medium', 'document communication, data communication');

@@ -16,43 +16,58 @@
         );
     }
   } 
-  /*try {
-  if (array_key_exists('URL', $_POST)) {
-    echo "Trying to add";
-    $stmt = $db->prepare("INSERT INTO app(url, creator, purpose, pubpriv, hierarchy, servt, sync, physd, scale,
-					 community, nascence, permanence, turnover, compatibility, awareness, learn, modality)
-			  VALUES(:URL, 'none', 'none', :Privacy, 'none', 'none', :concurrency, :communicate, :contribute,
-				  :Areas, :Routine, :Length, 'none', 'none', 'none', 'none', 'none')");
-    $res = $stmt->execute(array(
-      ':URL' => htmlspecialchars($_POST['URL']),
-      ':Privacy' => htmlspecialchars($_POST['Privacy']),
-      ':concurrency' => htmlspecialchars($_POST['concurrency']),
-      ':communicate' => htmlspecialchars($_POST['communicate']),
-      ':contribute' => htmlspecialchars($_POST['contribute']),
-      ':Areas' => htmlspecialchars($_POST['Areas']),
-      ':Routine' => htmlspecialchars($_POST['Routine']),
-      ':Length' => htmlspecialchars($_POST['Length']),
-    ));
-    $affected_rows = $stmt->rowCount();
-    // Log $affected_rows.
-    echo "no exception on insert";
-  }
-} catch (PDOException $ex) {
-  echo "Exception: " . $ex.getMessage();
-}*/
 
 ?>
-    <?php 
-     // print_r ($_POST);
-    ?> 
+
 
     THINGS IN THE DATABASE:
     <?php
      // Show existing guestbook entries.
+    $matchs = array();
     foreach($db->query('SELECT * from app') as $row) {
-            echo "<div><strong>" . $row['url'] . "</strong></div>";
-     }
-     $db = null; 
+            //echo "<div><strong>" . $row['url'] . "</strong></div>";
+	$matchs[$row['url']] = 0;
+
+	if ($row['scale'] == $_POST['scale']){
+		$matchs[$row['url']]++;
+	}
+	if ($row['physd'] == $_POST['physd']){
+		$matchs[$row['url']]++;
+	}
+	if ($row['sync'] == $_POST['sync']){
+		$matchs[$row['url']]++;
+	}
+	if ($row['community'] == $_POST['community']){
+		$matchs[$row['url']]++;
+	}
+	if ($row['nascence'] == $_POST['nascence']){
+		$matchs[$row['url']]++;
+	}
+	if ($row['permanence'] == $_POST['permanence']){
+		$matchs[$row['url']]++;
+	}
+	if ($row['pubpriv'] == $_POST['pubpriv']){
+		$matchs[$row['url']]++;
+	}
+    }
+    arsort($matchs);
     ?>
+
+    <ul>
+    <?php
+        $count = 0;
+	foreach ($matchs as $key => $value) {
+		echo("<li> <a href = '$key'>$key</a> score: $value</li>");
+		$count++;
+		if ($count > 4) {
+			break;
+		}
+	}
+    ?>
+    </ul>
+
+    <?php
+    $db = null; 
+   ?>
  </body>
  </html>

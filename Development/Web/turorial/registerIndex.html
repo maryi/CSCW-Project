@@ -40,34 +40,26 @@
     How many people are supported by the app?
     <ul>
       <li>
-        <input type="radio" name="contribute" value="5">
+        <input type="radio" name="scale" value="large">
         <label>More than 20</label>
       </li>
       <li>
-        <input type="radio" name="contribute" value="4">
-        <label>11-20</label>
+        <input type="radio" name="scale" value="medium">
+        <label>6-20</label>
       </li>
       <li>
-        <input type="radio" name="contribute" value="3">
-        <label>5-10</label>
-      </li>
-      <li>
-        <input type="radio" name="contribute" value="2">
-        <label>3-4</label>
-      </li>
-      <li>
-        <input type="radio" name="contribute" value="1">
-       <label>2</label>
+        <input type="radio" name="scale" value="small">
+        <label>1-5</label>
       </li>
     </ul>  
     Does the application support teams that can not meet face to face?
     <ul>
       <li>
-        <input type="radio" name="communicate" value="same">
+        <input type="radio" name="physd" value="colocated">
         <label>Only in the same room</label>
       </li>
       <li>
-        <input type="radio" name="communicate" value="different">
+        <input type="radio" name="physd" value="distributed">
         <label>Participants can be in different rooms</label>
       </li>
     </ul>  
@@ -75,15 +67,15 @@
    Does does the app allow a team need to work together at the same time?
     <ul>
       <li>
-        <input type="radio" name="concurrency" value="same">
+        <input type="radio" name="sync" value="sync">
         <label>Yes, Only at the same time.</label>
       </li>
       <li>
-        <input type="radio" name="concurrency" value="different">
+        <input type="radio" name="sync" value="async">
         <label>No, only at different times.</label>
       </li>
       <li>
-        <input type="radio" name="concurrency" value="both">
+        <input type="radio" name="sync" value="both">
         <label>Both.</label>
       </li>
     </ul>  
@@ -91,103 +83,83 @@
     How many different areas of study can the application support?
     <ul>
       <li>
-        <input type="radio" name="Areas" value="5">
+        <input type="radio" name="community" value="large">
         <label>More than 10<label/>
       </li>
       <li>
-        <input type="radio" name="Areas" value="4">
-        <label>6-10<label/>
+        <input type="radio" name="community" value="medium">
+        <label>4-10<label/>
       </li>
       <li>
-        <input type="radio" name="Areas" value="3">
-       <label>4-5<label/>
-      </li>
-      <li>
-        <input type="radio" name="Areas" value="2">
-       <label>2-3<label/>
-      </li>
-      <li>
-        <input type="radio" name="Areas" value="1">
-        <label>1<label/>
+        <input type="radio" name="community" value="small">
+       <label>1-3<label/>
       </li>
     </ul>  
     
        What kind of tasks are supported by the application?
     <ul>
       <li>
-        <input type="radio" name="Routine" value="Know">
-       <label>You must know what we're doing.</label>
+        <input type="radio" name="nascence" value="low">
+        <label>support for mostly routine tasks.</label>
       </li>
       <li>
-        <input type="radio" name="Routine" value="Mostly_know">
-        <label>You must mosty know what we're doing.</label>
+        <input type="radio" name="nascence" value="medium">
+        <label>Most of the tasks will be new.</label>
       </li>
       <li>
-        <input type="radio" name="Routine" value="Mostly_new">
-        <label>Most of the tasks can be new.</label>
-      </li>
-      <li>
-        <input type="radio" name="Routine" value="New">
-        <label>The task can evolve over time.</label>
+        <input type="radio" name="nascence" value="high">
+        <label>The task will evolve over time.</label>
       </li>
     </ul>  
     
        What is the longest duration you imagine this application being used for in a project?
     <ul>
       <li>
-        <input type="radio" name="Length" value="1">
-        <label>Up to 1 day.</label>
+        <input type="radio" name="permanence" value="low">
+        <label>less than a month.</label>
       </li>
       <li>
-        <input type="radio" name="Length" value="2">
-        <label>Up to 1 week.</label>
+        <input type="radio" name="permanence" value="medium">
+        <label>longer than a month.</label>
       </li>
       <li>
-        <input type="radio" name="Length" value="3">
-        <label>up to 1 month.</label>
-      </li>
-      <li>
-        <input type="radio" name="Length" value="4">
-        <label>up to 6 months.</label>
-      </li>
-      <li>
-        <input type="radio" name="Length" value="5">
-        <label>longer than 6 months.</label>
+        <input type="radio" name="permanence" value="high">
+        <label>longer than a year.</label>
       </li>
     </ul>  
     
-       <label>public or private?</label>
+       <label>how is information entered into the app stored</label>
     <ul>  
       <li>
-        <input type="radio" name="Privacy" value="private">
-        <label>Closed Group with private collaboration</label>
+        <input type="radio" name="pubpriv" value="private">
+        <label>privately</label>
       </li>
       <li>
-        <input type="radio" name="Privacy" value="open">
-        <label>Closed group with private and open collaboration</label>
+        <input type="radio" name="pubpriv" value="public">
+        <label>publiclyc</label>
       </li>
       <li>
-        <input type="radio" name="Privacy" value="both">
-        <label>Opened group with open collaboration</label>
+        <input type="radio" name="pubpriv" value="public and private">
+        <label>publicly or privately dependent on user settings</label>
       </li>
     </ul>  
     
     Learning Curve of the App
     <ul>  
       <li>
-        <input type="radio" name="Curve" value="1">
+        <input type="radio" name="learn" value="1">
         <label>Easy</label>
       </li>
       <li>
-        <input type="radio" name="Curve" value="2">
+        <input type="radio" name="learn" value="2">
         <label>Medium</label>
       </li>
       <li>
-        <input type="radio" name="Curve" value="3">
+        <input type="radio" name="learn" value="3">
         <label>Fair</label>
       </li>
       <li>
-        <input type="radio" name="Curve" value="4">
+        <input type="radio" name="learn" value="4">
         <label>Hard</label>
       </li>
     </ul>  
@@ -195,31 +167,31 @@
     Service Type
     <ul>  
       <li>
-        <input type="radio" name="Service" value="Free_open_access">
+        <input type="radio" name="servt" value="Free_open_access">
         <label>Free online open access</label>
       </li>
       <li>
-        <input type="radio" name="Service" value="Free_account">
+        <input type="radio" name="servt" value="Free_account">
         <label>Free online account</label>
       </li>
       <li>
-        <input type="radio" name="Service" value="Paid_account">
+        <input type="radio" name="servt" value="Paid_account">
         <label>Paid online account</label>
       </li>
       <li>
-        <input type="radio" name="Service" value="Subscription">
+        <input type="radio" name="servt" value="Subscription">
         <label>Subscription service</label>
       </li>
       <li>
-        <input type="radio" name="Service" value="Freemium">
+        <input type="radio" name="servt" value="Freemium">
         <label>Freemium</label>
       </li>
       <li>
-        <input type="radio" name="Service" value="free_download">
+        <input type="radio" name="servt" value="free_download">
         <label>Software download free</label>
       </li>
       <li>
-        <input type="radio" name="Service" value="paid_download">
+        <input type="radio" name="servt" value="paid_download">
         <label>Software download paid</label>
       </li>
     </ul>  
@@ -227,15 +199,15 @@
     Hierarchy
     <ul>  
       <li>
-        <input type="radio" name="Hierarchy" value="same">
+        <input type="radio" name="hierarchy" value="same">
         <label>All users have the same role</label>
       </li>
       <li>
-        <input type="radio" name="Hierarchy" value="different">
+        <input type="radio" name="hierarchy" value="different">
         <label>Role based</label>
       </li>
       <li>
-        <input type="radio" name="Hierarchy" value="strict">
+        <input type="radio" name="hierarchy" value="strict">
         <label>Strict Hierarchy</label>
       </li>
     </ul> 
@@ -243,27 +215,27 @@
     Modality
     <ul>  
       <li>
-        <input type="radio" name="Modality" value="audio">
+        <input type="radio" name="modality" value="audio">
         <label>Audio Communication</label>
       </li>
       <li>
-        <input type="radio" name="Modality" value="visual">
+        <input type="radio" name="modality" value="visual">
         <label>Visual Communication</label>
       </li>
       <li>
-        <input type="radio" name="Modality" value="document">
+        <input type="radio" name="modality" value="document">
         <label>Document Communication</label>
       </li>
       <li>
-        <input type="radio" name="Modality" value="data">
+        <input type="radio" name="modality" value="data">
         <label>Data Communication</label>
       </li>
       <li>
-        <input type="radio" name="Modality" value="visualization">
+        <input type="radio" name="modality" value="visualization">
         <label>Visualization Communication</label>
       </li>
       <li>
-        <input type="radio" name="Modality" value="short_message">
+        <input type="radio" name="modality" value="short_message">
         <label>Short Message Communication</label>
       </li>
     </ul>  
@@ -271,40 +243,40 @@
     Awareness Mechanisms
     <ul>  
       <li>
-        <input type="radio" name="Awareness" value="Event_log">
+        <input type="radio" name="awareness" value="Event_log">
         <label>Event log</label>
       </li>
       <li>
-        <input type="radio" name="Awareness" value="Notifications">
+        <input type="radio" name="awareness" value="Notifications">
         <label>Notifications</label>
       </li>
       <li>
-        <input type="radio" name="Awareness" value="perfromance_graphs">
+        <input type="radio" name="awareness" value="perfromance_graphs">
         <label>Performance Graphs</label>
       </li>
       <li>
-        <input type="radio" name="Awareness" value="email">
+        <input type="radio" name="awareness" value="email">
         <label>Email Notifications</label>
       </li>
       <li>
-        <input type="radio" name="Awareness" value="issues_tracking">
+        <input type="radio" name="awareness" value="issues_tracking">
         <label>Issues Tracking</label>
       </li>
       <li>
-        <input type="radio" name="Awareness" value="chat">
+        <input type="radio" name="awareness" value="chat">
         <label>Chat</label>
       </li>
       <li>
-        <input type="radio" name="Awareness" value="forums">
+        <input type="radio" name="awareness" value="forums">
         <label>Forums</label>
       </li>
     </ul>
     
       URL:<br>
-      <input type="text" name="URL">  
+      <input type="text" name="URL">  <br>
      
       Compatible With:<br>
-      <input type="text" name="Compatible">  
+      <input type="text" name="Compatible">  <br>
     
       Creator:<br>
       <input type="text" name="Creator">  

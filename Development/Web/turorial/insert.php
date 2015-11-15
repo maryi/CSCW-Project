@@ -21,24 +21,24 @@
     echo "Trying to add";
     $stmt = $db->prepare("INSERT INTO app(url, creator, purpose, pubpriv, hierarchy, servt, sync, physd, scale,
 					 community, nascence, permanence, turnover, compatibility, awareness, learn, modality)
-			  VALUES(:URL, :Creator, 'none', :Privacy, :Hierarchy, :Service, :concurrency, :communicate, :contribute,
-				  :Areas, :Routine, :Length, 'none', :Compatible, :Awareness, :Curve, :Modality)");
+			  VALUES(:URL, :Creator, 'none', :pubpriv, :hierarchy, :servt, :sync, :physd, :scale,
+				  :community, :nascence, :permanence, 'none', :Compatible, :awareness, :learn, :modality)");
     $res = $stmt->execute(array(
       ':URL' => htmlspecialchars($_POST['URL']),
       ':Creator' => htmlspecialchars($_POST['Creator']),
-      ':Privacy' => htmlspecialchars($_POST['Privacy']),
-      ':Hierarchy' => htmlspecialchars($_POST['Hierarchy']),
-      ':Service' => htmlspecialchars($_POST['Service']),
-      ':concurrency' => htmlspecialchars($_POST['concurrency']),
-      ':communicate' => htmlspecialchars($_POST['communicate']),
-      ':contribute' => htmlspecialchars($_POST['contribute']),
-      ':Areas' => htmlspecialchars($_POST['Areas']),
-      ':Routine' => htmlspecialchars($_POST['Routine']),
-      ':Length' => htmlspecialchars($_POST['Length']),
+      ':pubpriv' => htmlspecialchars($_POST['pubpriv']),
+      ':hierarchy' => htmlspecialchars($_POST['hierarchy']),
+      ':servt' => htmlspecialchars($_POST['servt']),
+      ':sync' => htmlspecialchars($_POST['sync']),
+      ':physd' => htmlspecialchars($_POST['physd']),
+      ':scale' => htmlspecialchars($_POST['scale']),
+      ':community' => htmlspecialchars($_POST['community']),
+      ':nascence' => htmlspecialchars($_POST['nascence']),
+      ':permanence' => htmlspecialchars($_POST['permanence']),
       ':Compatible' => htmlspecialchars($_POST['Compatible']),
-      ':Awareness' => htmlspecialchars($_POST['Awareness']),
-      ':Curve' => htmlspecialchars($_POST['Curve']),
-      ':Modality' => htmlspecialchars($_POST['Modality']),
+      ':awareness' => htmlspecialchars($_POST['awareness']),
+      ':learn' => htmlspecialchars($_POST['learn']),
+      ':modality' => htmlspecialchars($_POST['modality']),
     ));
     $affected_rows = $stmt->rowCount();
     // Log $affected_rows.

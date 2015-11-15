@@ -36,38 +36,31 @@
 <div class="wrap">
   <h1 class="likert-header">This is a Likert Scale survey</h1>
   <form action="/lookup" method="post">
-    How many people are going to contribute to your project?
+    number of people working on the project:
     <ul>
       <li>
-        <input type="radio" name="contribute" value="21+">
+        <input type="radio" name="scale" value="large">
         <label>More than 20</label>
       </li>
       <li>
-        <input type="radio" name="contribute" value="11+">
-        <label>11-20</label>
+        <input type="radio" name="scale" value="medium">
+        <label>6-20</label>
       </li>
       <li>
-        <input type="radio" name="contribute" value="5+">
-        <label>5-10</label>
+        <input type="radio" name="scale" value="small">
+        <label>1-5</label>
       </li>
-      <li>
-        <input type="radio" name="contribute" value="3+">
-        <label>3-4</label>
-      </li>
-      <li>
-        <input type="radio" name="contribute" value="2">
-       <label>2</label>
-      </li>
+
     </ul>  
     
     How will your team be communicating?
     <ul>
       <li>
-        <input type="radio" name="communicate" value="same">
+        <input type="radio" name="physd" value="colocated">
         <label>Only in the same room</label>
       </li>
       <li>
-        <input type="radio" name="communicate" value="different">
+        <input type="radio" name="physd" value="distributed">
         <label>Participants can be in different rooms</label>
       </li>
     </ul>  
@@ -75,15 +68,15 @@
     Does your team need to work together at the same time?
     <ul>
       <li>
-        <input type="radio" name="concurrency" value="same">
+        <input type="radio" name="sync" value="sync">
         <label>Yes, Only at the same time.</label>
       </li>
       <li>
-        <input type="radio" name="concurrency" value="different">
+        <input type="radio" name="sync" value="async">
         <label>No, only at different times.</label>
       </li>
       <li>
-        <input type="radio" name="concurrency" value="both">
+        <input type="radio" name="sync" value="both">
         <label>Both.</label>
       </li>
     </ul>  
@@ -91,43 +84,31 @@
     How many different areas of study is your team involved in?
     <ul>
       <li>
-        <input type="radio" name="Areas" value="11+">
+        <input type="radio" name="community" value="large">
         <label>More than 10<label/>
       </li>
       <li>
-        <input type="radio" name="Areas" value="6+">
-        <label>6-10<label/>
+        <input type="radio" name="community" value="medium">
+        <label>4-10<label/>
       </li>
       <li>
-        <input type="radio" name="Areas" value="4+">
-       <label>4-5<label/>
-      </li>
-      <li>
-        <input type="radio" name="Areas" value="2+">
-       <label>2-3<label/>
-      </li>
-      <li>
-        <input type="radio" name="Areas" value="1">
-        <label>1<label/>
+        <input type="radio" name="community" value="small">
+       <label>1-3<label/>
       </li>
     </ul>  
     
        How routine are the tasks involved in the project?
     <ul>
       <li>
-        <input type="radio" name="Routine" value="Know">
-       <label>We know what we're doing.</label>
-      </li>
-      <li>
-        <input type="radio" name="Routine" value="Mostly_know">
+        <input type="radio" name="nascence" value="low">
         <label>We mosty know what we're doing.</label>
       </li>
       <li>
-        <input type="radio" name="Routine" value="Mostly_new">
+        <input type="radio" name="nascence" value="medium">
         <label>Most of the tasks will be new.</label>
       </li>
       <li>
-        <input type="radio" name="Routine" value="New">
+        <input type="radio" name="nascence" value="high">
         <label>The task will evolve over time.</label>
       </li>
     </ul>  
@@ -135,40 +116,32 @@
        How long is the project expected to last?
     <ul>
       <li>
-        <input type="radio" name="Length" value="day">
-        <label>Up to 1 day.</label>
+        <input type="radio" name="permanence" value="low">
+        <label>less than a month.</label>
       </li>
       <li>
-        <input type="radio" name="Length" value="week">
-        <label>Up to 1 week.</label>
+        <input type="radio" name="permanence" value="medium">
+        <label>longer than a month.</label>
       </li>
       <li>
-        <input type="radio" name="Length" value="month">
-        <label>up to 1 month.</label>
-      </li>
-      <li>
-        <input type="radio" name="Length" value="half_year">
-        <label>up to 6 months.</label>
-      </li>
-      <li>
-        <input type="radio" name="Length" value="more_half_year">
-        <label>longer than 6 months.</label>
+        <input type="radio" name="permanence" value="high">
+        <label>longer than a year.</label>
       </li>
     </ul>  
     
-       public or private?
+       is it important how the information entered into the app is stored?
     <ul>
       <li>
-        <input type="radio" name="Privacy" value="private">
-        <label>Closed Group with private collaboration</label>
+        <input type="radio" name="pubpriv" value="private">
+        <label>information is entered is private</label>
       </li>
       <li>
-        <input type="radio" name="Privacy" value="open">
-        <label>Closed group with private and open collaboration</label>
+        <input type="radio" name="pubpriv" value="public">
+        <label>information entered is open to the public</label>
       </li>
       <li>
-        <input type="radio" name="Privacy" value="both">
-        <label>Opened group with open collaboration</label>
+        <input type="radio" name="pubpriv" value="public and private">
+        <label>information can be public or private</label>
       </li>
     </ul>  
     

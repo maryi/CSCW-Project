@@ -4,8 +4,8 @@ runtime: php55
 api_version: 1
 
 handlers:
-- url: /stylesheet
-  static_dir: stylesheet.css
+- url: /stylesheets
+  static_dir: stylesheets
 
 - url: /insert
   script: insert.php

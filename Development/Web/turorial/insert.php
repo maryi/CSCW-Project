@@ -17,31 +17,40 @@
     }
   } 
   try {
-  if (array_key_exists('URL', $_POST)) {
+  if (array_key_exists('url', $_POST)) {
     echo "Trying to add";
-    $stmt = $db->prepare("INSERT INTO app(url, creator, purpose, pubpriv, hierarchy, servt, sync, physd, scale,
-					 community, nascence, permanence, turnover, compatibility, awareness, learn, modality)
-			  VALUES(:URL, :Creator, 'none', :pubpriv, :hierarchy, :servt, :sync, :physd, :scale,
-				  :community, :nascence, :permanence, 'none', :Compatible, :awareness, :learn, :modality)");
+    $stmt = $db->prepare("INSERT INTO app(url, purpose, hierarchy, servt, sync, scale,
+					 domain, nascence, learn, modality, privacy, awareness)
+			  VALUES(:url, 'none', :hierarchy, :servt, :sync, :scale,
+					 :domain, :nascence, :learn, :modality, :privacy, :awareness)");
     $res = $stmt->execute(array(
-      ':URL' => htmlspecialchars($_POST['URL']),
-      ':Creator' => htmlspecialchars($_POST['Creator']),
-      ':pubpriv' => htmlspecialchars($_POST['pubpriv']),
+      ':url' => htmlspecialchars($_POST['url']),
       ':hierarchy' => htmlspecialchars($_POST['hierarchy']),
       ':servt' => htmlspecialchars($_POST['servt']),
       ':sync' => htmlspecialchars($_POST['sync']),
-      ':physd' => htmlspecialchars($_POST['physd']),
       ':scale' => htmlspecialchars($_POST['scale']),
-      ':community' => htmlspecialchars($_POST['community']),
+      ':domain' => htmlspecialchars($_POST['community']),
       ':nascence' => htmlspecialchars($_POST['nascence']),
-      ':permanence' => htmlspecialchars($_POST['permanence']),
-      ':Compatible' => htmlspecialchars($_POST['Compatible']),
       ':awareness' => htmlspecialchars($_POST['awareness']),
       ':learn' => htmlspecialchars($_POST['learn']),
+      ':privacy' => htmlspecialchars($_POST['privacy']),
       ':modality' => htmlspecialchars($_POST['modality']),
     ));
     $affected_rows = $stmt->rowCount();
     // Log $affected_rows.
+    $appid = $db->lastInsertId();
+    echo "inserted app id = ", $db->lastInsertId();
+
+    // Loop through purposes, inserting a purpose record for each one
+    foreach ($_POST['purpose'] as $x) {
+        $stmt = $db->prepare("INSERT INTO purpose(appid, purpose)
+			  VALUES(:appid, :x)");
+        $res = $stmt->execute(array(
+          ':appid' => htmlspecialchars($appid ),
+          ':x' => htmlspecialchars($x),
+        ));
+    }
+
     echo "no exception on insert";
   }
 } catch (PDOException $ex) {
@@ -51,6 +60,7 @@
 ?>
     <?php
       print_r ($_POST);
+
     ?>
 
     THINGS IN THE DATABASE:

@@ -28,42 +28,35 @@
     How many people are supported by the app?
     <ul>
       <li>
-        <input type="radio" name="scale" value="large">
-        <label>More than 20</label>
+        <input type="radio" name="scale" value="N">
+        <label>More than 10</label>
       </li>
       <li>
-        <input type="radio" name="scale" value="medium">
-        <label>6-20</label>
+        <input type="radio" name="scale" value="6-10">
+        <label>6-10</label>
       </li>
       <li>
-        <input type="radio" name="scale" value="small">
-        <label>1-5</label>
-      </li>
-    </ul>  
-    Does the application support teams that can not meet face to face?
-    <ul>
-      <li>
-        <input type="radio" name="physd" value="colocated">
-        <label>Only in the same room</label>
+        <input type="radio" name="scale" value="3-5">
+        <label>3-5</label>
       </li>
       <li>
-        <input type="radio" name="physd" value="distributed">
-        <label>Participants can be in different rooms</label>
+        <input type="radio" name="scale" value="2">
+        <label>2</label>
       </li>
     </ul>  
     
    Does does the app allow a team need to work together at the same time?
     <ul>
       <li>
-        <input type="radio" name="sync" value="sync">
+        <input type="radio" name="sync" value="Completely sync">
         <label>Yes, Only at the same time.</label>
       </li>
       <li>
-        <input type="radio" name="sync" value="async">
+        <input type="radio" name="sync" value="Completely async">
         <label>No, only at different times.</label>
       </li>
       <li>
-        <input type="radio" name="sync" value="both">
+        <input type="radio" name="sync" value="Support for both (async & sync)">
         <label>Both.</label>
       </li>
     </ul>  
@@ -71,15 +64,15 @@
     How many different areas of study can the application support?
     <ul>
       <li>
-        <input type="radio" name="community" value="large">
+        <input type="radio" name="domain" value="large">
         <label>More than 10<label/>
       </li>
       <li>
-        <input type="radio" name="community" value="medium">
+        <input type="radio" name="domain" value="medium">
         <label>4-10<label/>
       </li>
       <li>
-        <input type="radio" name="community" value="small">
+        <input type="radio" name="domain" value="small">
        <label>1-3<label/>
       </li>
     </ul>  
@@ -99,55 +92,40 @@
         <label>The task will evolve over time.</label>
       </li>
     </ul>  
-    
-       What is the longest duration you imagine this application being used for in a project?
-    <ul>
-      <li>
-        <input type="radio" name="permanence" value="low">
-        <label>less than a month.</label>
-      </li>
-      <li>
-        <input type="radio" name="permanence" value="medium">
-        <label>longer than a month.</label>
-      </li>
-      <li>
-        <input type="radio" name="permanence" value="high">
-        <label>longer than a year.</label>
-      </li>
-    </ul>  
+     
     
        <label>how is information entered into the app stored</label>
     <ul>  
       <li>
-        <input type="radio" name="pubpriv" value="private">
-        <label>privately</label>
+        <input type="radio" name="privacy" value="Private channels">
+        <label>Private channels</label>
       </li>
       <li>
-        <input type="radio" name="pubpriv" value="public">
-        <label>publicly</label>
+        <input type="radio" name="privacy" value="Open messages to registered users">
+        <label>Open messages to registered users</label>
       </li>
       <li>
-        <input type="radio" name="pubpriv" value="public and private">
-        <label>publicly or privately dependent on user settings</label>
+        <input type="radio" name="privacy" value="Open messages to general public">
+        <label>Open messages to general public</label>
       </li>
     </ul>  
     
     Learning Curve of the App
     <ul>  
       <li>
-        <input type="radio" name="learn" value="1">
+        <input type="radio" name="learn" value="Easy">
         <label>Easy</label>
       </li>
       <li>
-        <input type="radio" name="learn" value="2">
+        <input type="radio" name="learn" value="Medium">
         <label>Medium</label>
       </li>
       <li>
-        <input type="radio" name="learn" value="3">
+        <input type="radio" name="learn" value="Fare">
         <label>Fair</label>
       </li>
       <li>
-        <input type="radio" name="learn" value="4">
+        <input type="radio" name="learn" value="Hard">
         <label>Hard</label>
       </li>
     </ul>  
@@ -155,47 +133,47 @@
     Service Type
     <ul>  
       <li>
-        <input type="radio" name="servt" value="Free_open_access">
+        <input type="radio" name="servt" value="Free online open access">
         <label>Free online open access</label>
       </li>
       <li>
-        <input type="radio" name="servt" value="Free_account">
+        <input type="radio" name="servt" value="Free online account">
         <label>Free online account</label>
       </li>
       <li>
-        <input type="radio" name="servt" value="Paid_account">
+        <input type="radio" name="servt" value="Paid online account">
         <label>Paid online account</label>
       </li>
       <li>
-        <input type="radio" name="servt" value="Subscription">
+        <input type="radio" name="servt" value="Subscription service">
         <label>Subscription service</label>
       </li>
       <li>
-        <input type="radio" name="servt" value="Freemium">
+        <input type="radio" name="servt" value="Freemium (30 trial)">
         <label>Freemium</label>
       </li>
       <li>
-        <input type="radio" name="servt" value="free_download">
-        <label>Software download free</label>
+        <input type="radio" name="servt" value="Free Software download">
+        <label>Free Software download</label>
       </li>
       <li>
-        <input type="radio" name="servt" value="paid_download">
-        <label>Software download paid</label>
+        <input type="radio" name="servt" value="Paid Software download">
+        <label>Paid Software downloa</label>
       </li>
     </ul>  
     
     Hierarchy
     <ul>  
       <li>
-        <input type="radio" name="hierarchy" value="same">
+        <input type="radio" name="hierarchy" value="All users same role">
         <label>All users have the same role</label>
       </li>
       <li>
-        <input type="radio" name="hierarchy" value="different">
+        <input type="radio" name="hierarchy" value="Role based">
         <label>Role based</label>
       </li>
       <li>
-        <input type="radio" name="hierarchy" value="strict">
+        <input type="radio" name="hierarchy" value="strict hierarchy">
         <label>Strict Hierarchy</label>
       </li>
     </ul> 
@@ -261,7 +239,7 @@
     </ul>
     
     Purpose
-    <select name="Purpose" multiple>
+    <select name="purpose[]" multiple>
       <option value="Synchronous text discussion">Synchronous text discussion</option>
       <option value="Discussion forums">Discussion forums</option>
       <option value="Note taking and document creation">Note taking and document creation</option>
@@ -298,7 +276,7 @@
     <p>Hold down the Ctrl (windows) / Command (Mac) button to select multiple options.</p>
     
       URL:<br>
-      <input type="text" name="URL">  <br>
+      <input type="text" name="url">  <br>
      
       Compatible With:<br>
       <input type="text" name="Compatible">  <br>

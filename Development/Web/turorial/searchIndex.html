@@ -22,72 +22,65 @@
 <div class="wrap">
   <h1 class="likert-header">What does your application need to do?</h1>
   <form action="/lookup" method="post">
-    Number of people working on the project:
-    <ul>
-      <li>
-        <input type="radio" name="scale" value="large">
-        <label>More than 20</label>
-      </li>
-      <li>
-        <input type="radio" name="scale" value="medium">
-        <label>6-20</label>
-      </li>
-      <li>
-        <input type="radio" name="scale" value="small">
-        <label>1-5</label>
-      </li>
 
-    </ul>  
-    
-    How will your team be communicating?
+ Number of people working on the project:
     <ul>
       <li>
-        <input type="radio" name="physd" value="colocated">
-        <label>Only in the same room</label>
+        <input type="radio" name="scale" value="N">
+        <label>More than 10</label>
       </li>
       <li>
-        <input type="radio" name="physd" value="distributed">
-        <label>Participants can be in different rooms</label>
+        <input type="radio" name="scale" value="6-10">
+        <label>6-10</label>
       </li>
-    </ul>  
+      <li>
+        <input type="radio" name="scale" value="3-5">
+        <label>3-5</label>
+      </li>
+      <li>
+        <input type="radio" name="scale" value="2">
+        <label>2</label>
+      </li>
+    </ul>   
     
+
     Does your team need to work together at the same time?
     <ul>
       <li>
-        <input type="radio" name="sync" value="sync">
+        <input type="radio" name="sync" value="Completely sync">
         <label>Yes, Only at the same time.</label>
       </li>
       <li>
-        <input type="radio" name="sync" value="async">
+        <input type="radio" name="sync" value="Completely async">
         <label>No, only at different times.</label>
       </li>
       <li>
-        <input type="radio" name="sync" value="both">
+        <input type="radio" name="sync" value="Support for both (async & sync)">
         <label>Both.</label>
       </li>
-    </ul>  
+    </ul>   
     
     How many different areas of study is your team involved in?
     <ul>
       <li>
-        <input type="radio" name="community" value="large">
+        <input type="radio" name="domain" value="large">
         <label>More than 10<label/>
       </li>
       <li>
-        <input type="radio" name="community" value="medium">
+        <input type="radio" name="domain" value="medium">
         <label>4-10<label/>
       </li>
       <li>
-        <input type="radio" name="community" value="small">
+        <input type="radio" name="domain" value="small">
        <label>1-3<label/>
       </li>
     </ul>  
     
        How routine are the tasks involved in the project?
-    <ul>
+   <ul>
       <li>
         <input type="radio" name="nascence" value="low">
-        <label>We mosty know what we're doing.</label>
+        <label>support for mostly routine tasks.</label>
       </li>
       <li>
         <input type="radio" name="nascence" value="medium">
@@ -97,39 +90,24 @@
         <input type="radio" name="nascence" value="high">
         <label>The task will evolve over time.</label>
       </li>
-    </ul>  
-    
-       How long is the project expected to last?
-    <ul>
-      <li>
-        <input type="radio" name="permanence" value="low">
-        <label>less than a month.</label>
-      </li>
-      <li>
-        <input type="radio" name="permanence" value="medium">
-        <label>longer than a month.</label>
-      </li>
-      <li>
-        <input type="radio" name="permanence" value="high">
-        <label>longer than a year.</label>
-      </li>
-    </ul>  
+    </ul>   
+ 
     
        Is it important how the information entered into the app is stored?
-    <ul>
+    <ul>  
       <li>
-        <input type="radio" name="pubpriv" value="private">
-        <label>information is entered is private</label>
+        <input type="radio" name="privacy" value="Private channels">
+        <label>Private channels</label>
       </li>
       <li>
-        <input type="radio" name="pubpriv" value="public">
-        <label>information entered is open to the public</label>
+        <input type="radio" name="privacy" value="Open messages to registered users">
+        <label>Open messages to registered users</label>
       </li>
       <li>
-        <input type="radio" name="pubpriv" value="public and private">
-        <label>information can be public or private</label>
+        <input type="radio" name="privacy" value="Open messages to general public">
+        <label>Open messages to general public</label>
       </li>
-    </ul>  
+    </ul>   
     
     Purpose
     <select name="Purpose" multiple>

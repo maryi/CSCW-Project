@@ -26,29 +26,26 @@
     $matchs = array();
     foreach($db->query('SELECT * from app') as $row) {
             //echo "<div><strong>" . $row['url'] . "</strong></div>";
+	//print_r($row);
+	//print_r($_POST);
 	$matchs[$row['url']] = 0;
 
 	if ($row['scale'] == $_POST['scale']){
 		$matchs[$row['url']]++;
 	}
-	if ($row['physd'] == $_POST['physd']){
-		$matchs[$row['url']]++;
-	}
 	if ($row['sync'] == $_POST['sync']){
 		$matchs[$row['url']]++;
 	}
-	if ($row['community'] == $_POST['community']){
+	if ($row['domain'] == $_POST['domain']){
 		$matchs[$row['url']]++;
 	}
 	if ($row['nascence'] == $_POST['nascence']){
 		$matchs[$row['url']]++;
 	}
-	if ($row['permanence'] == $_POST['permanence']){
+	if ($row['privacy'] == $_POST['privacy']){
 		$matchs[$row['url']]++;
 	}
-	if ($row['pubpriv'] == $_POST['pubpriv']){
-		$matchs[$row['url']]++;
-	}
+	//print_r($matchs[$row['url']]);
     }
     arsort($matchs);
     ?>

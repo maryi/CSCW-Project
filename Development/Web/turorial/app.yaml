@@ -13,12 +13,18 @@ handlers:
 - url: /lookup
   script: lookup.php
 
-- url: /search
+- url: /searchIndex.html
   script: searchIndex.html
 
-- url: /register
+- url: /registerIndex.html
   script: registerIndex.html
+
+- url: /aboutUs.html
+  script: aboutUs.html
 
 - url: /.*
   script: home.html
+
+
+
 

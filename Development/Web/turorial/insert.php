@@ -19,17 +19,16 @@
   try {
   if (array_key_exists('url', $_POST)) {
     echo "Trying to add";
-    $stmt = $db->prepare("INSERT INTO app(url, purpose, hierarchy, servt, sync, scale,
-					 domain, nascence, learn, modality, privacy, awareness)
-			  VALUES(:url, 'none', :hierarchy, :servt, :sync, :scale,
-					 :domain, :nascence, :learn, :modality, :privacy, :awareness)");
+    $stmt = $db->prepare("INSERT INTO app(url, hierarchy, servt, sync, scale,
+					 nascence, learn, modality, privacy, awareness)
+			  VALUES(:url, :hierarchy, :servt, :sync, :scale,
+					 :nascence, :learn, :modality, :privacy, :awareness)");
     $res = $stmt->execute(array(
       ':url' => htmlspecialchars($_POST['url']),
       ':hierarchy' => htmlspecialchars($_POST['hierarchy']),
       ':servt' => htmlspecialchars($_POST['servt']),
       ':sync' => htmlspecialchars($_POST['sync']),
       ':scale' => htmlspecialchars($_POST['scale']),
-      ':domain' => htmlspecialchars($_POST['community']),
       ':nascence' => htmlspecialchars($_POST['nascence']),
       ':awareness' => htmlspecialchars($_POST['awareness']),
       ':learn' => htmlspecialchars($_POST['learn']),
@@ -42,12 +41,21 @@
     echo "inserted app id = ", $db->lastInsertId();
 
     // Loop through purposes, inserting a purpose record for each one
-    foreach ($_POST['purpose'] as $x) {
+    foreach ($_POST['purpose'] as $purpose) {
         $stmt = $db->prepare("INSERT INTO purpose(appid, purpose)
-			  VALUES(:appid, :x)");
+			  VALUES(:appid, :purpose)");
         $res = $stmt->execute(array(
           ':appid' => htmlspecialchars($appid ),
-          ':x' => htmlspecialchars($x),
+          ':purpose' => htmlspecialchars($purpose),
+        ));
+    }
+
+    foreach ($_POST['domain'] as $domain) {
+        $stmt = $db->prepare("INSERT INTO domain(appid, domain)
+			  VALUES(:appid, :domain)");
+        $res = $stmt->execute(array(
+          ':appid' => htmlspecialchars($appid ),
+          ':domain' => htmlspecialchars($domain),
         ));
     }
 

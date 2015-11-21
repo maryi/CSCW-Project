@@ -1,27 +1,37 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <link type="text/css" rel="stylesheet" href="/stylesheets/main.css"/>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-  </head>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 
-  <body>
-    <div id="container">
-      <div class="inner">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252" />
+<title>MatchMaker Application</title>
+<link rel="stylesheet" type="text/css" href="./stylesheets/main.css" />
+</head>
 
-        <header>
-          <h1>Application Lookup</h1>
-        </header>
+<body>
 
-        <section id="main_content">
+<div id="border"><div id="container"> 
 
-<div class="wrap">
-  <h1 class="likert-header">What does your application need to do?</h1>
-  <form action="/lookup" method="post">
+<div id="topmenu">
+    <ul>
+    <li><a href="home.html" title="Home"><span>Home</span></a></li>
+    <li><a href="searchIndex.html" title="Search apps"><span>Search apps</span></a></li>
+	<li><a href="registerIndex.html" title="Register apps"><span>Register apps</span></a></li>
+	<li><a href="aboutUs.html" title="About Us"><span>About Us</span></a></li>
+	</ul>
+</div>
+
+<div id="header"><p style="text-align:right; margin: 80px 40px auto; font-size:24px; color:#fff;">MatchMaker Application</p></div>
+<div id="content">
+
+<div class="splitleft">
+    <h1 class="likert-header">Application Lookup</h1>
+    We need to ask some questions about the kind of work you are about to do. At the end we hope to give you the best recommendations based on your description. 
+    <br />
+    <br />
+    <p><span class="style4"><strong>What does your application need to do?</strong></span><br />
+    
+
+ <form action="/lookup" method="post">
 
  Number of people working on the project:
     <ul>
@@ -42,6 +52,19 @@
         <label>2</label>
       </li>
     </ul>   
+
+
+    Physical distribution of project members:
+    <ul>
+      <li>
+        <input type="radio" name="Physical" value="collocated">
+        <label>We will be in the same room</label>
+      </li>
+      <li>
+        <input type="radio" name="sync" value="distributed">
+        <label>We will be in different locations</label>
+      </li>
+    </ul>  
     
 
     Does your team need to work together at the same time?
@@ -60,22 +83,54 @@
       </li>
     </ul>   
     
-    How many different areas of study is your team involved in?
+    What domains are involved in the collaboration?
     <ul>
-      <li>
-        <input type="radio" name="domain" value="large">
-        <label>More than 10<label/>
-      </li>
-      <li>
-        <input type="radio" name="domain" value="medium">
-        <label>4-10<label/>
-      </li>
-      <li>
-        <input type="radio" name="domain" value="small">
-       <label>1-3<label/>
-      </li>
-    </ul>  
-    
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg .tg-yw4l{vertical-align:top}
+</style>
+<table class="tg">
+  <tr>
+    <td class="tg-031e"> <input type="checkbox" name="domains" value="general">General purpose/Not specific<br> </td>
+    <td class="tg-031e"> <input type="checkbox" name="domains" value="engineering">Engineering<br> </td>
+    <td class="tg-yw4l"> <input type="checkbox" name="domains" value="physicalSciences">Physical Sciences<br> </td>
+  </tr>
+  <tr>
+    <td class="tg-031e"> <input type="checkbox" name="domains" value="architecture">Architecture, Building and Planning<br> </td>
+    <td class="tg-031e"> <input type="checkbox" name="domains" value="europeanLanguages">European Languages<br> </td>
+    <td class="tg-yw4l"> <input type="checkbox" name="domains" value="socialStudies">Social studies <br> </td>
+  </tr>
+  <tr>
+    <td class="tg-031e"> <input type="checkbox" name="domains" value="biologicalSciences">Biological Sciences <br> </td>
+    <td class="tg-031e"> <input type="checkbox" name="domains" value="historical">Historical and Philosophical studies<br> </td>
+    <td class="tg-yw4l"> <input type="checkbox" name="domains" value="medicine">Subjects allied to Medicine<br> </td>
+  </tr>
+  <tr>
+    <td class="tg-031e"> <input type="checkbox" name="domains" value="business">Business and Administrative studies<br> </td>
+    <td class="tg-031e"> <input type="checkbox" name="domains" value="law">Law<br> </td>
+    <td class="tg-yw4l"> <input type="checkbox" name="domains" value="technologies">Technologies<br> </td>
+  </tr>
+  <tr>
+    <td class="tg-031e"> <input type="checkbox" name="domains" value="creativeArts">Creative Arts and Design<br> </td>
+    <td class="tg-031e"> <input type="checkbox" name="domains" value="linguistics">Linguistics, Classics and related subjects<br> </td>
+    <td class="tg-yw4l"> <input type="checkbox" name="domains" value="veterinary">Veterinary Sciences, Agriculture and related subjects  <br> </td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l"><input type="checkbox" name="domains" value="languages">Languages, Literature and related subjects <br> </td>
+    <td class="tg-yw4l"><input type="checkbox" name="domains" value="massCommunications">Mass Communications and Documentation <br></td>
+    <td class="tg-yw4l"></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l"> <input type="checkbox" name="domains" value="education">Education <br></td>
+    <td class="tg-yw4l"> <input type="checkbox" name="domains" value="mathematical"> Mathematical and Computer Sciences <br></td>
+    <td class="tg-yw4l"></td>
+  </tr>
+</table>
+
+</br>
+
        How routine are the tasks involved in the project?
    <ul>
       <li>
@@ -92,23 +147,45 @@
       </li>
     </ul>   
  
-    
-       Is it important how the information entered into the app is stored?
+</br>
+  How long is the project expected to last?:
+    <ul>
+      <li>
+        <input type="radio" name="plannedPermanence" value="days">
+        <label>Couple of days</label>
+      </li>
+      <li>
+        <input type="radio" name="plannedPermanence" value="oneMonth">
+        <label>less than or equal to 1 month</label>
+      </li>
+      <li>
+        <input type="radio" name="plannedPermanence" value="SixMonths">
+        <label>less than or equal to 6 months</label>
+      </li>
+      <li>
+        <input type="radio" name="plannedPermanence" value="more">
+        <label>more time</label>
+      </li>
+    </ul>  
+
+ </br>
+    What can best describe the nature of collaboration?
     <ul>  
       <li>
-        <input type="radio" name="privacy" value="Private channels">
-        <label>Private channels</label>
+        <input type="radio" name="turnover" value="low">
+        <label>Closed group, private collaboration</label>
       </li>
       <li>
-        <input type="radio" name="privacy" value="Open messages to registered users">
-        <label>Open messages to registered users</label>
+        <input type="radio" name="turnover" value="medium">
+        <label>Closed group, private and open collaboration</label>
       </li>
       <li>
-        <input type="radio" name="privacy" value="Open messages to general public">
-        <label>Open messages to general public</label>
+        <input type="radio" name="turnover" value="high">
+        <label>Open group, open collaboration to all public</label>
       </li>
     </ul>   
     
+</br>    
     Purpose
     <select name="Purpose" multiple>
       <option value="Synchronous text discussion">Synchronous text discussion</option>
@@ -151,14 +228,28 @@
       <button class="submit">Submit</button>
     </div>
   </form>
+
 </div>
-        </section>
 
-        <footer>
-          This page is maintained by <a href="https://github.com/dustinfaulkner91">dustinfaulkner91</a><br>
-        </footer>
+   <div id="introduction"><br /><h3>
+			    Menu</h3>
+				<ul>
+					<li><a href="home.html">Home</a></li>
+					<li><a href="searchIndex.html">Search apps</a></li>
+					<li><a href="registerIndex.html">Register apps</a></li>
+					<li><a href="aboutUs.html">About us</a></li>
+			</ul>
+</div>
+</div>
+</div>
+<div id="footer">
+<span class="style5">copyright 2015 MatchMaker Application</span><br />
+<br />
+</div>
+</div>
 
-        
-      </div>
-  </body>
+<!-- Designed by DreamTemplate. Please leave link unmodified. -->
+<br><center><a href="http://www.dreamtemplate.com" title="Website Templates" target="_blank">Website templates</a></center>
+</body>
+
 </html>

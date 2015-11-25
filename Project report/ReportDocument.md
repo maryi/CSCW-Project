@@ -162,7 +162,11 @@ Tool descriptors were designed with the purpose to collect valuable information 
 
 *Creator link*: link to the web resource where the tool can be accessed or downloaded.
 
-*Synchronicity*: described the tool support for the different modes of work. More details are included in the next subsection.
+*Synchronicity*: described the tool support for the different modes of work. This descriptor can take three values:
+ 
+ * Completely asynchronous: this means that participants are not required to be in the tool to make progress on the work (e.g., email systems).
+ * Completely synchronous: this means that participation of other team member is required to access the tool (e.g., video-conference).
+ * Both: the collaborative action requires asynchronous and synchronous work. Therefore, the computer-based tool should provide support for both modes.
 
 *Awareness mechanisms*: list the possible features that help with individual and team awareness.
 
@@ -226,7 +230,7 @@ We found that the two sets of descriptors differ in nature and often they do not
 
 #### 1.4 Description of the connection between the descriptors for collaborative work and the descriptors for tool features
 
- What happens when a user for example describes collaborative work in the *physical distribution* descriptor as *'distributed team'*? MatchMaker Application looks for applications with multiple *awareness mechanisms*, information stored in the descriptor of the same name in descriptors for tool features. As exposed in the example, we developed a way to connect the two set of descriptors by identifying the tool features that contribute to support particular collaborative work.
+ What happens when a user for example describes collaborative work in the *physical distribution* descriptor as *'distributed team'*? MatchMaker Application looks for applications with multiple *awareness mechanisms*, information stored in the descriptor of the same name in descriptors for tool features. As exposed in the example, we developed a way to connect the two set of descriptors by identifying the tool features that contribute to support particular collaborative work. Table 3 shows how the two sets of descriptors are connected, below we present more examples of our process and more details about rationale.
 
  However, it should be noted that not all descriptors are different, we found that some of them are applicable in both contexts, to describe work and to describe a tool, so we leave the same name in both sets of descriptors. For instance, the scale dimension in MoCA that describes the number of participants in a coordinated action has a linear connection with the scalability of a tool. 
 
@@ -243,18 +247,13 @@ We found that the two sets of descriptors differ in nature and often they do not
 
 | Table 3. Connection between descriptors for collaborative work and descriptors for tool features |
 
-Finally, in another cases we found that more than one descriptor in the application could contribute to identify potential benefits for one descriptor in the collaborative work. Such was the case with the descriptor of work *Planned permanence* where *service type* and *learning curve* were both selected as application descriptors. Table 3 shows how the two sets of descriptors are connected, below we present more details about such correspondence.
+Finally, in another cases we found that more than one descriptor in the application could contribute to identify potential benefits for one descriptor in the collaborative work. Such was the case with the descriptor of work *Planned permanence* where *service type* and *learning curve* were both selected as application descriptors. Below we detailed the match we made for each descriptor for collaborative work.
 
-*Scale*: similar to the original version, represents an approximate number of people involved in the collaborative work and that should have access to the common artifacts through computer-based tools. The possible values selected represent the most popular accommodations: 2, less or equal to 5, less or equal to 10, and more than 10 participants. This descriptor is paired with another one of the same name in the tool-feature descriptor set, where the possible values represent the maximum number of participants supported by the tool.
+*Scale*: this descriptor is paired with another one of the same name in the tool-feature descriptor set, where the possible values represent the maximum number of participants supported by the tool.
 
-*Physical Distribution*: this descriptor provides information about the location of participants, thus the possible values are distributed or collocated. 
-About the connection with tool-feature descriptors, based on the literature covered in the class (e.g., Olson & Olson, 2014) we know collaboration in a distributed team is challenging, so we considered that our application should make recommendations in this dimension based on the amount of *awareness mechanisms* provided by the tools.
+*Physical Distribution*: based on the literature covered in the class (e.g., Olson & Olson, 2014) we know collaboration in a distributed team is challenging, so we considered that our application should make recommendations in this dimension based on the amount of *awareness mechanisms* provided by the tools.
 
-*Synchronicity*: represents the nature of interactions between participants. In both set of descriptors it has the same name and same options with slight differences based on the context. This descriptor can take three values:
- 
- * Completely asynchronous: describes collaboration that does not require participants to be actively working on the coordinated action in order to make progress on the work. In terms of the tool, this means that participants are not required to be in the tool to make progress on the work (e.g., email systems).
- * Completely synchronous: collaboration where participation of all or a significant number of team members is required to work simultaneously in order to make progress in the coordinated action. In the context of tool features, this means that participation of other team member is required to access the tool (e.g., video-conference).
- * Both: the collaborative action requires asynchronous and synchronous work. Therefore, the computer-based tool should provide support for both modes.
+*Synchronicity*: In both set of descriptors it has the same name and same options with slight differences based on the context. 
  
 *Planned Permanence*: this descriptor provides information about the length of the collaboration. In this case, we defined the following possible options: couple of days, less than or equal to 1 month, less than or equal to 6 months, and more time.  The rational we followed to suggest an appropriate tool given this information is based on two assumptions: 1) the longer the collaboration participants are more willing to spend time learning the complexities of a tool and 2) they are more open to pay for software or install it in their computers. Consequently, this descriptor is paired with *learning curve* and *service type* in the tool descriptor.
 

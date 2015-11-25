@@ -156,7 +156,7 @@ We identified that not all descriptors are suitable for our two user requirement
 
 
 #### 1.2 Descriptors for tool features
-Tool descriptors were designed with the purpose to collect valuable information about tool support to collaborative activities. This information should be used later for the recommendation system. Details about descriptors and our selection is presented below. The possible values selected for each descriptor in most of the cases are based on personal experience of the researchers, when this is not the criteria we provide more detail about our sources.
+Tool descriptors were designed with the purpose to collect valuable information about tool support for collaborative activities. This information is used later for the recommendation system to create the list of applications that match user criteria. Details about descriptors and our selection is presented below. The possible values selected for each descriptor in most of the cases are based on personal experience of the researchers, when this is not the criteria we provide more detail about our sources.
 
 *Name*: used as an identifier of the tool.
 
@@ -187,9 +187,48 @@ contribution of the modal dimension, we added a few other options to the dimensi
 
 
 #### 1.3 Descriptors for collaborative work
-The set of descriptors used to characterize collaborative work, as illustrated by Table 1, is mainly composed by the dimensions proposed by the MoCA framework with the addition of the descriptor *purpose*. We found that although MoCA represented a good base to describe collaborative work, the framework presents a high level description for each dimension maybe due to the fact that is has never been applied before to a real situation. Accordingly, the first challenge is to create a less abstract version of MoCA with more applicable definitions for its dimensions. Below, we describe the result of our analysis. 
+The set of descriptors used to characterize collaborative work, as illustrated by Table 1, is mainly composed by the dimensions proposed by the MoCA framework with the addition of the descriptor *purpose*. We found that although MoCA represented a good base to describe collaborative work, the framework presents a high level description for each dimension maybe due to the fact that is has never been applied before to a real situation. Accordingly, the first challenge is to create a less abstract version of MoCA with more applicable definitions for its dimensions. Next we describe the result of our analysis for each descriptor. 
 
-In addition, we found that the two sets of descriptors differ in nature and often they do not present a linear correspondence. For that reason, we developed a connection between the descriptors of the work and the descriptors of the applications. For example, when a user in the physical distribution descriptor selects 'distributed team' MatchMaker Application looks for applications with multiple awareness mechanisms. Also, it should be noted that not all descriptors are different, we found that some of them are applicable in both contexts, to describe work and to describe a tool, so they were left equal in both cases. For instance, the scale dimension in MoCA has a linear connection with the scalability of a tool.
+*Scale*: similar to the original version, represents an approximate number of people involved in the collaborative work and that should have access to the common artifacts through computer-based tools. The possible values selected represent the most popular accommodations: 2, less or equal to 5, less or equal to 10, and more than 10 participants. 
+
+*Physical Distribution*: this descriptor provides information about the location of participants, thus the possible values are distributed or collocated. 
+
+*Synchronicity*: represents the nature of interactions between participants. This descriptor can take three values:
+ 
+ * Completely asynchronous: describes collaboration that does not require participants to be actively working on the coordinated action in order to make progress on the work. 
+ * Completely synchronous: collaboration where participation of all or a significant number of team members is required to work simultaneously in order to make progress in the coordinated action. 
+ * Both: the collaborative action requires asynchronous and synchronous work. 
+ 
+*Planned Permanence*: this descriptor provides information about the length of the collaboration. In this case, we defined the following possible options: couple of days, less than or equal to 1 month, less than or equal to 6 months, and more time. 
+
+*Turnover*: represents the rapidity with which group members enter or leave from the collaboration. We defined three possible options: 
+
+ * Low: for closed group and private collaboration
+ * Medium: closed group, but with possibility to have private or open collaboration
+ * High: open group, open collaboration to general public
+
+*Nascence*: describes the level of familiarity of participants with respect to the coordinated action. Although we agree it is an important descriptor for collaborative work, we failed to see the way it could get benefit from any particular tool feature; exercise that was possible with the other MoCA dimensions. In our solution, we kept the descriptor with the same definition in both sets and possible values as:
+ 
+ * Routine: support for familiar tasks
+ * Most of the tasks are routine
+ * Most of the tasks will be new
+ * Developing: support for evolving tasks
+
+*Domains*: This descriptor is related to the Number of Communities of Practice dimension in the MoCA framework. The original dimension cares about the number of communities of practice represented in the coordinated action. However, while we think the question about 'how many?' is important we think another question 'which ones?' is more relevant to our purpose. In fact, the user by selecting which communities are included in the collaboration is also providing information about the quantity. 
+
+This decision was made considering the usefulness of the information provided by the user. If the user indicates collaboration between two communities, that information is not relevant to recommend any tool support. But if the user indicated for example, engineering and general public, our application can have an additional filter to select potentially good tools.
+
+In particular, the selection of possible values for this descriptor was based on the high level categories of JACS ([Joint Academic Coding System](https://www.hesa.ac.uk/index.php?option=com_content&view=article&id=158 "JACS")). For a complete list of possible values in this descriptor refer to [APPENDIX 1](https://github.com/maryi/CSCW-Project/blob/master/Project%20report/APPENDIX%201%20-%20Domains%20values%20based%20on%20JACS.md)
+
+*Purpose*: This descriptor was added to complete the definition of the coordinated action. We wanted to be specific about the kind of collaboration described by the user. We based our selection of possible values in the typology described by Bower (2015) as technologies for collaboration.
+
+We found that the two sets of descriptors differ in nature and often they do not present a linear correspondence. For that reason, we developed a connection between the descriptors of the work and the descriptors of the applications.
+
+#### 1.4 Description of the connection between the descriptors for collaborative work and the descriptors for tool features
+
+ What happens when a user for example describes collaborative work in the *physical distribution* descriptor as *'distributed team'*? MatchMaker Application looks for applications with multiple *awareness mechanisms*, information stored in the descriptor of the same name in descriptors for tool features. As exposed in the example, we developed a way to connect the two set of descriptors by identifying the tool features that contribute to support particular collaborative work.
+
+ However, it should be noted that not all descriptors are different, we found that some of them are applicable in both contexts, to describe work and to describe a tool, so we leave the same name in both sets of descriptors. For instance, the scale dimension in MoCA that describes the number of participants in a coordinated action has a linear connection with the scalability of a tool. 
 
 | Descriptors for collaborative work | Descriptors for applications      |
 |------------------------------------|-----------------------------------|
@@ -204,7 +243,7 @@ In addition, we found that the two sets of descriptors differ in nature and ofte
 
 | Table 3. Connection between descriptors for collaborative work and descriptors for tool features |
 
-Finally, in another cases we found that more than one descriptor in the application could contribute to identify potential benefits for one descriptor in the collaborative work. Such was the case with the descriptor of work Planned permanence where *service type* and *learning curve* were both selected as application descriptors. Table 3 shows how the two sets of descriptors are connected and more details about our rational for such connection is presented here.
+Finally, in another cases we found that more than one descriptor in the application could contribute to identify potential benefits for one descriptor in the collaborative work. Such was the case with the descriptor of work *Planned permanence* where *service type* and *learning curve* were both selected as application descriptors. Table 3 shows how the two sets of descriptors are connected, below we present more details about such correspondence.
 
 *Scale*: similar to the original version, represents an approximate number of people involved in the collaborative work and that should have access to the common artifacts through computer-based tools. The possible values selected represent the most popular accommodations: 2, less or equal to 5, less or equal to 10, and more than 10 participants. This descriptor is paired with another one of the same name in the tool-feature descriptor set, where the possible values represent the maximum number of participants supported by the tool.
 
@@ -247,7 +286,9 @@ In particular, the selection of possible values for this descriptor was based on
 
 The website hosting our application is developed in two languages HTML and PHP. HTML was used to define the visual web components and PHP for ....**(ELI OR DUSTIN PLEASE COMPLETE)**. Also, the information for the website, mainly the list of collaborative applications features, is stored in an open source database: MySQL. The project website as well as the database is hosted in the Google cloud computing platform. This option, offered as a free service allowed us to have both project components -website and database- on the same infrastructure, which made it easier to integrate them while ensuring high availability of the service for potential users. 
 
-Currently, our website can be accessed from [link](http://matchmaker-1137.appspot.com/). At the moment of writing the interim report, we are about 50% done the work on the website and database. We have completed a rough version of what the registering an application page will look like and it currently adds inputted application information into the database. However, we still need to update the registration page selection fields to reflect the latest version of our application descriptors. We also still have to make a homepage which should be a fairly simple page with just two links to either search for an application or to register an application. Lastly, we have to create the webpage for searching for an application which also should not take up much time. The biggest technical challenge ahead of us is deciding how to rank and display the search results when looking for an application. We have already begun discussions as a group for how we will do this but nothing definitive has been decided so far.
+Currently, our website can be accessed from [link](http://matchmaker-1137.appspot.com/). 
+**UPDATE** 
+At the moment of writing the interim report, we are about 50% done the work on the website and database. We have completed a rough version of what the registering an application page will look like and it currently adds inputted application information into the database. However, we still need to update the registration page selection fields to reflect the latest version of our application descriptors. We also still have to make a homepage which should be a fairly simple page with just two links to either search for an application or to register an application. Lastly, we have to create the webpage for searching for an application which also should not take up much time. The biggest technical challenge ahead of us is deciding how to rank and display the search results when looking for an application. We have already begun discussions as a group for how we will do this but nothing definitive has been decided so far.
  
 ### 3. Expected results  -NEEDs TO BE UPDATED
 We expect to create an application that accurately suggests appropriate applications for collaborative work to users. In a world where a new application is released nearly every minute, we expect to bring together users and applications that support collaborative work.  

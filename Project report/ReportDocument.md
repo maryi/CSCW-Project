@@ -90,6 +90,8 @@ We believe we can use the MoCA framework as a base to describe collaborative wor
 Our proposal is to create a web application which will help users find appropriate applications for collaborative work depending on the nature of the work as described through the MoCA framework. Users will have a chance to describe the collaborative work they wish to facilitate and be presented with appropriate technologies most suited to the work. Users can also register applications they have used successfully to conduct collaborative work. This data will be used to further grow the database of applications and will be used to improve suggestions offered to users seeking appropriate application recommendations. As a result, our application database will store valuable user experiences and evolve over time as new applications become available.  
 
 Although we will base our initial development on the MoCA framework, we will follow an iterative validation process based on our own experiences as tool users. Also, we will include a validation process -survey- with potential users. These evaluation will test if extra features or dimensions not considered in the MoCA framework are required to our purpose. In the next subsection we describe our process in more detail.
+
+For details about our collaboration process please refer to [APPENDIX 3](https://github.com/maryi/CSCW-Project/blob/master/Project%20report/APPENDIX%203%20-%20Milestones.md)
  
 ### 1. Strategy and Methods 
 
@@ -141,9 +143,9 @@ We identified that not all descriptors are suitable for our two user requirement
 | Domains (Communities of Practice) | Complete list in [Appendix 1](https://github.com/maryi/CSCW-Project/blob/master/Project%20report/APPENDIX%201%20-%20Domains%20values%20based%20on%20JACS.md)                                                                                                                      | Multiple choice |
 | Nascence                          | Routine, Most of the tasks are routine, Most of the tasks will be new, Developing                                                                | Single choice   |
 | Learning curve                    | Easy/Medium/Fare/Hard                                                                                                                            | Single choice   |
-| Service type                      | Free online open access, Free online account, Paid online account, Subscription service, Freemium (30 trial), Software download free, Software download paid | Multiple choice |
+| Service type                      | Free online open access, Free online account, Paid online account, Subscription service, Freemium (30 trial), Free software download, Paid software download | Multiple choice |
 | Content privacy                   | Private channels/ Open messages to registered users / Open messages to general public                                                            | Multiple choice |
-| Hierarchy                         | All users same role, Role based, Strict hierarchy                                                                                                | Multiple choice |
+| Hierarchy                         | All users same role, Role based, Strict hierarchy (owner and members)                                                                                                | Multiple choice |
 | Tool purpose                      | Complete list in [Appendix 2](https://github.com/maryi/CSCW-Project/blob/master/Project%20report/APPENDIX%202%20-%20Purpose%20values.md)         | Multiple choice |
 | Compatibility                     | Free text                                                                                                                                        | -               |
 | Modality                          | audio communication, visual communication, document  communication, data communication, visualization communication, short message communication | Multiple choice |
@@ -247,22 +249,14 @@ Our project website will be hosted using the Google cloud computing platform. Wi
 
 Currently, our website can be accessed from [link](http://turorial1-1120.appspot.com/). At the moment of writing the interim report, we are about 50% done the work on the website and database. We have completed a rough version of what the registering an application page will look like and it currently adds inputted application information into the database. However, we still need to update the registration page selection fields to reflect the latest version of our application descriptors. We also still have to make a homepage which should be a fairly simple page with just two links to either search for an application or to register an application. Lastly, we have to create the webpage for searching for an application which also should not take up much time. The biggest technical challenge ahead of us is deciding how to rank and display the search results when looking for an application. We have already begun discussions as a group for how we will do this but nothing definitive has been decided so far.
  
-### 3. Roles and contributions 
-Based on a list of strengths and personal preferences, we subdivided our team in two. 
-Technical team (Dustin, Eli and Maryi): Members in this subdivision identified themselves with programming experience and declare to be comfortable with the project technical requirements. This team will be responsible for selecting the technical tools and resources, and developing the application for the project.  
-
-Research team (Michael and Krista): Members of this team will be responsible for the production and edition of the project documentation. They will also be the leaders of the research tasks required for the project.
-
-For more details about our collaboration process please refer to [APPENDIX 3](https://github.com/maryi/CSCW-Project/blob/master/Project%20report/APPENDIX%203%20-%20Milestones.md)
- 
-### 4. Expected results  
+### 3. Expected results  -NEEDs TO BE UPDATED
 We expect to create an application that accurately suggests appropriate applications for collaborative work to users. In a world where a new application is released nearly every minute, we expect to bring together users and applications that support collaborative work.  
 
 Initially, we will try to classify applications using the MoCA framework, however, we expect the end result of our classification to be an amalgamation of the MoCA dimensions as well as additional dimensions to increase the accuracy of classifying applications.
 
 From the technical end we expect that our website will be fully functional and easy for users to use. We expect that the search function will return a reasonable recommendation of collaborative tools. Although at this time the search function is what we are most unsure of.
  
-## LIMITATIONS
+## LIMITATIONS  -NEEDs TO BE UPDATED
 Our two biggest limitations in this endeavor are the newness of the MoCA framework and time.  
 We are basing our work on the MoCA framework which is a novel framework for describing CSCW, so we can be limiting our development by choosing this approach. The MoCA framework was designed to give a common way of describing collaborative work and was not designed specifically for classification.  Due to this we expect to run into challenges using it for classification. To overcome this limitation, we might have to add or enhance dimensions from the MoCA framework to obtain a better classification system for collaborative applications. 
 
@@ -270,7 +264,7 @@ In addition to the MoCA framework we are limited by time, after the submission o
 
 Now that we have begun work designing our website it is clear that our search recommendation algorithm will also be a limitation. Ideally, we would want to only recommend applications that strictly satisfy the requirements given by the user. However, due to time constraints and the difficulty of discovering such an algorithm we will have to make due with recommending applications that come close to meeting the user requirements. We recognize is difficult to recommend the perfect application because we will only have somewhere between 50 or 100 applications registered by the time this project is due.
  
-## FUTURE WORK 
+## FUTURE WORK -NEEDS TO BE UPDATED
 We sense that connecting CSCW teams to the best tools for facilitating their work will remain a challenge for many years to come. We hope that our project demonstrates that articulating collaborative work using the MoCA framework can help connect users to tools which facilitate successful CSCW. Our work should also add to the awareness and development of the MoCA framework. Our intent is that the MatchMaker Application may become a place where users can continue registering applications into the future.  Furthermore, the MatchMaker Application data structures which match the MoCA framework to a typology of collaborative software will be made available in case should developers wish to further adapt and enhance the model.   
  
 ### ACKNOWLEDGMENTS 

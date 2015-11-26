@@ -1,11 +1,4 @@
 #Collaborative process and Milestones
-
-#### Roles and contributions 
-Based on a list of strengths and personal preferences, we subdivided our team in two. 
-Technical team (Dustin, Eli and Maryi): Members in this subdivision identified themselves with programming experience and declare to be comfortable with the project technical requirements. This team will be responsible for selecting the technical tools and resources, and developing the application for the project.  
-
-Research team (Michael and Krista): Members of this team will be responsible for the production and edition of the project documentation. They will also be the leaders of the research tasks required for the project.
-
 We used Slack for our group discussions and GitHub issues to track the project progress and keep our project oriented discussions.
 
 Every Monday afternoon at 4:30pm we have a virtual meeting through Google Hangouts and every Wednesday we have a face-to-face meeting before class at 12:45pm.
@@ -19,6 +12,7 @@ Also in terms of decribing collaborative tools, we discussed the challenge of la
 ### Milestones
 We divided the work in multiple tasks and although everyone was encouraged to contribute to all components of the project and discussions, there was always someone assigned or self-assigned as main responsible.
 
+#### Milestones Met
 Below, we present a description of participants responsibilities and tasks so far. Also, we present the list of milestones achieved.
 
 Krista: Edition of project project proposal, in charge of creating a base list of applications (work in progress). This list of applications will be used to populate our database once the development is ready. Access to the list is [here](https://docs.google.com/spreadsheets/d/1Trh6Pesxvv5aYfd_x7wXxGmR5k9Y5g7-wpFbezwqi8E/edit?usp=sharing)

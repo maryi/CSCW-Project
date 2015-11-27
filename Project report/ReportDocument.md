@@ -33,6 +33,8 @@ Further attempts to describing CSCW include the addition of the hardware and sof
 
 Bannon & Schmidt (1989) suggest that too often technology is described with a focus on information flow between individuals. However, there must also be a consideration of the articulation work required to make the 'flow' possible. Collaborative  tools enable the 'flow"'of information and facilitate collaboration in distinct ways. Therefore a descriptive framework for describing how collaborative tools facilitate communication flows may be a useful heuristic for individuals planning CSCW. 
 
+We beleive there is value in reflecting on and articulation of the collaborative work  
+
 We believe that some aspects of the MoCA framework can also be used to describe collaborative software and systems -with some context adaptations. These similarities will be tested to see if well articulated CSCW can be matched to software tools suitable for the work through the notion of affordances. Users often maintain historically developed understandings of the utility of collaborative software and systems which are always evolving. Conole and Dyke (2004) argue that articulating and exposing the affordances of collaborative software enables users to understand how technologies can be most effectively used to support collaborative activities. So, we will also based our recommendation system in the user's perceptions.
 
 The next section discusses the MoCA framework followed by a section on software affordances.

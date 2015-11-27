@@ -98,11 +98,8 @@ For details about our collaboration process please refer to [APPENDIX 3](https:/
 
 ### 1. Methodology
 
-We defined the basic concept of Matchmaker application as a the tool where any user can  describe the collaborative work he or she intend to support, using the MoCA dimensions, and the application would  return a list of applications that best match the criteria.
-In the first approach, researchers place themselves working in a collaborative activity. Inna potable exercise researchers tried to a describe the work using the market dimensions and be they also try to think about a specific application features that could help to support their work characteristics.
-From the first exercise, we found that mocha framework was liking of the dimensions that could describe the purpose of an activity - E. G., software development, text edition, video edition - next line
-
-We agreed on the importance of having a dimension abode purpose, ass computer based applications are generally focused on a specific task. as a result, the criteria selected to describe collaborative work - descriptors- what's the seven dimensions of the motor from work with the addition of purpose.
+We defined the basic concept of Matchmaker application as *a the tool where any user can  describe the collaborative work he or she intend to support, using the MoCA dimensions, so the application return a list of applications that best match the criteria.*
+In the first approach, researchers placed themselves working in a collaborative activity. In a parallel exercise, researchers tried to (a) describe the work using the MoCA dimensions and (b) think about specific application features that could help to support the work characteristics. From the first exercise, we found that the MoCA framework was lacking of a dimension that could describe the purpose of an activity (e.g.,software development, text edition, video edition). This finding led us to a discussion where we agreed on the importance of having a dimension about purpose, as computer-based applications are generally focused on specific tasks this information was crucial for our recommendation system. as a result, the criteria selected to describe collaborative work - descriptors- what's the seven dimensions of the motor from work with the addition of purpose.
 
  From the second exercise, we created a list of tools descriptors with possible values. For example, service type with options as free online access, Premium 30 days trial, etc. All descriptors and values were selected based on the personal experience of researchers.
 

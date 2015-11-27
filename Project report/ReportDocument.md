@@ -95,8 +95,29 @@ Our proposal is to create a web application which will help users find appropria
 Although we will base our initial development on the MoCA framework, we will follow an iterative validation process based on our own experiences as tool users. Also, we will include a validation process -survey- with potential users. These evaluation will test if extra features or dimensions not considered in the MoCA framework are required to our purpose. In the next subsection we describe our process in more detail.
 
 For details about our collaboration process please refer to [APPENDIX 3](https://github.com/maryi/CSCW-Project/blob/master/Project%20report/APPENDIX%203%20-%20Milestones.md)
+
+### 1. Methodology
+
+We defined the basic concept of Matchmaker application as a the tool where any user can  describe the collaborative work he or she intend to support, using the MoCA dimensions, and the application would  return a list of applications that best match the criteria.
+In the first approach, researchers place themselves working in a collaborative activity. Inna potable exercise researchers tried to a describe the work using the market dimensions and be they also try to think about a specific application features that could help to support their work characteristics.
+From the first exercise, we found that mocha framework was liking of the dimensions that could describe the purpose of an activity - E. G., software development, text edition, video edition - next line
+
+We agreed on the importance of having a dimension abode purpose, ass computer based applications are generally focused on a specific task. as a result, the criteria selected to describe collaborative work - descriptors- what's the seven dimensions of the motor from work with the addition of purpose.
+
+ From the second exercise, we created a list of tools descriptors with possible values. For example, service type with options as free online access, Premium 30 days trial, etc. All descriptors and values were selected based on the personal experience of researchers.
+
+With the theoretical base for matchmaker application, we started the software development. first, where to find two main functions for the application. The first user requirement, search for an application, should be implemented by prompting the user with a questionnaire where each question will collect information about a particular aspect of the collaborative work. Initially we considered a questionnaire with 7 questions in correspondence with the seven dimensions in the mocha from work
+
+Will recognized that a big part of match maker applications success will be the diversity of applications on its database. So, where to find the second user requirement, registering an app,  as a mechanism by which users could help to improve matchmaker resources. This requirement should be implemented using a form where users will register information about the application based on our criteria. 
+
+ in the second step of the software development phase, we designed two interface mockups, one for the search  app feature, and the other one for registering a nap. The process of designing the mockups made made us consider changing the technical definitions introduced in the mocha for a more colloquial language. Furthermore, the mall cops allowed us to start discussions about the bezel components we wanted to use in the application. We considered to have open answers in text arias from users, bad bad solution would not let us to easily manage user criteria with application features. So, we decided to select a list of possible values for each descriptor.
+
+The selection on whether a description could have a single answer or movable answers, determined that type of component to be used on the application: Radio bottom for checkboxes respectively. For a complete description about the scriptures and possible values refer to section.
+
+
+
  
-### 1. Strategy and Methods 
+### 2. Strategy and Methods 
 
 MatchMaker Application is a recommendation system that intends to help users selecting appropriate collaborative tools based on the articulation of their work through the MoCA framework. In particular, the application allows any user to describe the type of collaborative work to be done and our application suggests appropriate tools. This function is identified as the first user requirement: *UR1: Searching for an application*. Additionally, MatchMaker Application allows users to register collaborative computer-based tools in the system database, as a mechanism to help populate the recommendation system. Similarly, this function is identified as the second user requirement: *UR2: Registering an application*. Figure 3 and 4 show a preliminary interface mockup for UR1 and UR2 respectively.
 
@@ -115,7 +136,7 @@ The initial set of descriptors began with the elements of the MoCA framework. Ho
 We identified that not all descriptors are suitable for our two user requirements. The first requirement needs the user to describe the nature of the collaboration s/he intent to support, so the descriptors should allow to identify the characteristics of the work to be done. Meanwhile, in UR2 the application requires the user to describe the features of a tool. Thus, descriptors have to be feature oriented in order to describe the capabilities of a particular tool. As a result, we divided the initial list in two, creating two sets of descriptors, one for UR1 and the other for UR2.
 
 
-#### 1.1 Explanation of user requirements
+#### 2.1 Explanation of user requirements
 **UR1: Searching for an application:** Any user searching for an application to support collaborative activities should describe the nature of the collaborative work to the system. Consequently, the descriptors used for this requirement are selected from the MoCA framework, along with *purpose* as a complementary one. Note that the vocabulary of the MoCA dimensions were adapted to be more colloquial in the web page for user friendliness. The set of descriptors selected to characterize collaborative work is presented in Table 1. Each descriptor is described with the name, possible options and the selection type offered to the user in the web interface. The rational about the options offered will be describe in the next subsection.
 
 
@@ -158,7 +179,7 @@ We identified that not all descriptors are suitable for our two user requirement
 
 
 
-#### 1.2 Descriptors for tool features
+#### 2.2 Descriptors for tool features
 Tool descriptors were designed with the purpose to collect valuable information about tool support for collaborative activities. This information is used later for the recommendation system to create the list of applications that match user criteria. Details about descriptors and our selection is presented below. The possible values selected for each descriptor in most of the cases are based on personal experience of the researchers, when this is not the criteria we provide more detail about our sources.
 
 *Name*: used as an identifier of the tool.
@@ -193,7 +214,7 @@ Tool descriptors were designed with the purpose to collect valuable information 
 contribution of the modal dimension, we added a few other options to the dimension including audio communication, visual communication, visualization communication, short message communication.
 
 
-#### 1.3 Descriptors for collaborative work
+#### 2.3 Descriptors for collaborative work
 The set of descriptors used to characterize collaborative work, as illustrated by Table 1, is mainly composed by the dimensions proposed by the MoCA framework with the addition of the descriptor *purpose*. We found that although MoCA represented a good base to describe collaborative work, the framework presents a high level description for each dimension maybe due to the fact that is has never been applied before to a real situation. Accordingly, the first challenge is to create a less abstract version of MoCA with more applicable definitions for its dimensions. Next we describe the result of our analysis for each descriptor. 
 
 *Scale*: similar to the original version, represents an approximate number of people involved in the collaborative work and that should have access to the common artifacts through computer-based tools. The possible values selected represent the most popular accommodations: 2, less or equal to 5, less or equal to 10, and more than 10 participants. 
@@ -231,7 +252,7 @@ In particular, the selection of possible values for this descriptor was based on
 
 We found that the two sets of descriptors differ in nature and often they do not present a linear correspondence. For that reason, we developed a connection between the descriptors of the work and the descriptors of the applications.
 
-#### 1.4 Description of the connection between the descriptors for collaborative work and the descriptors for tool features
+#### 2.4 Description of the connection between the descriptors for collaborative work and the descriptors for tool features
 
  What happens when a user for example describes collaborative work in the *physical distribution* descriptor as *'distributed team'*? MatchMaker Application looks for applications with multiple *awareness mechanisms*, information stored in the descriptor of the same name in descriptors for tool features. As exposed in the example, we developed a way to connect the two set of descriptors by identifying the tool features that contribute to support particular collaborative work. Table 3 shows how the two sets of descriptors are connected, below we present more examples of our process and more details about rationale.
 
@@ -284,7 +305,7 @@ In particular, the selection of possible values for this descriptor was based on
 
 *Purpose*: This descriptor was added to complete the definition of the coordinated action. We wanted to be specific about the kind of collaboration described by the user. We based our selection of possible values in the typology described by Bower (2015) as technologies for collaboration.
 
-### 2. Technical specifications
+### 3. Technical specifications
 
 The website hosting our application is developed in two languages HTML and PHP. HTML was used to define the visual web components and PHP for ....**(ELI OR DUSTIN PLEASE COMPLETE)**. Also, the information for the website, mainly the list of collaborative applications features, is stored in an open source database: MySQL. The project website as well as the database is hosted in the Google cloud computing platform. This option, offered as a free service allowed us to have both project components -website and database- on the same infrastructure, which made it easier to integrate them while ensuring high availability of the service for potential users. 
 
@@ -292,7 +313,7 @@ Currently, our website can be accessed from [link](http://matchmaker-1137.appspo
 **UPDATE** 
 At the moment of writing the interim report, we are about 50% done the work on the website and database. We have completed a rough version of what the registering an application page will look like and it currently adds inputted application information into the database. However, we still need to update the registration page selection fields to reflect the latest version of our application descriptors. We also still have to make a homepage which should be a fairly simple page with just two links to either search for an application or to register an application. Lastly, we have to create the webpage for searching for an application which also should not take up much time. The biggest technical challenge ahead of us is deciding how to rank and display the search results when looking for an application. We have already begun discussions as a group for how we will do this but nothing definitive has been decided so far.
  
-### 3. Expected results  -NEEDs TO BE UPDATED
+### 4. Expected results  -NEEDs TO BE UPDATED
 We expect to create an application that accurately suggests appropriate applications for collaborative work to users. In a world where a new application is released nearly every minute, we expect to bring together users and applications that support collaborative work.  
 
 Initially, we will try to classify applications using the MoCA framework, however, we expect the end result of our classification to be an amalgamation of the MoCA dimensions as well as additional dimensions to increase the accuracy of classifying applications.

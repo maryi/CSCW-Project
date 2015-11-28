@@ -220,7 +220,7 @@ Table 1 shows the set of descriptors used for tool features, along with name, po
 contribution of the modal dimension, we added a few other options to the dimension including audio communication, visual communication, visualization communication, short message communication.
 
 
-#### 2.3 Descriptors for collaborative work
+#### 2.2 Descriptors for collaborative work
 The set of descriptors used to characterize collaborative work is mainly composed by the dimensions proposed in the MoCA framework with the addition of the descriptor *purpose*. We found that although MoCA represented a good base to describe collaborative work, the framework presents a high level description for each dimension maybe due to the fact that is has never been applied before to a real situation. Accordingly, the first challenge is to create a less abstract version of MoCA with more applicable definitions for its dimensions.  
 
 Below each descriptor is described with the name, possible options and the selection type offered to the user in the web interface in Table 2. The rational about the options offered is next.
@@ -277,12 +277,12 @@ In particular, the selection of possible values for this descriptor was based on
 
 We found that the two sets of descriptors differ in nature and often they do not present a linear correspondence. For that reason, we developed a connection between the descriptors of the work and the descriptors of the applications.
 
-#### 2.4 Description of the connection between the descriptors for collaborative work and the descriptors for tool features
-
- What happens when a user for example describes collaborative work in the *physical distribution* descriptor as *'distributed team'*? MatchMaker Application looks for applications with multiple *awareness mechanisms*, information stored in the descriptor of the same name in descriptors for tool features. As exposed in the example, we developed a way to connect the two set of descriptors by identifying the tool features that contribute to support particular collaborative work. Table 3 shows how the two sets of descriptors are connected, below we present more examples of our process and more details about rationale.
-
- However, it should be noted that not all descriptors are different, we found that some of them are applicable in both contexts, to describe work and to describe a tool, so we leave the same name in both sets of descriptors. For instance, the scale dimension in MoCA that describes the number of participants in a coordinated action has a linear connection with the scalability of a tool. 
-
+#### 2.3 Description of the connection between the descriptors for collaborative work and the descriptors for tool features
+ 
+**Maryi: Work in progress... I need to make a review of this section**
+ 
+ What happens when a user for example describes collaborative work in the *physical distribution* descriptor as *'distributed team'*? MatchMaker Application looks for applications with multiple *awareness mechanisms*, information stored in the descriptor of the same name in descriptors for tool features. As exposed in the example, we developed a way to connect the two set of descriptors by identifying the tool features that contribute to support particular collaborative work. Table 3 shows how the two sets of descriptors are connected, below we present more examples of our process and more details about our rationale.
+ 
 | Descriptors for collaborative work | Descriptors for applications      |
 |------------------------------------|-----------------------------------|
 | Scale                              | Scale                             |
@@ -296,7 +296,7 @@ We found that the two sets of descriptors differ in nature and often they do not
 
 | Table 3. Connection between descriptors for collaborative work and descriptors for tool features |
 
-Finally, in another cases we found that more than one descriptor in the application could contribute to identify potential benefits for one descriptor in the collaborative work. Such was the case with the descriptor of work *Planned permanence* where *service type* and *learning curve* were both selected as application descriptors. Below we detailed the match we made for each descriptor for collaborative work.
+It should be noted that not all descriptors are different, we found that some of them are applicable in both contexts, to describe work and to describe a tool, so we leave the same name in both sets of descriptors. For instance, the scale dimension in MoCA that describes the number of participants in a coordinated action has a linear correspondence with the scalability of a tool. In another case, we found that more than one descriptor in the application could contribute to identify potential benefits for one descriptor in the collaborative work. Such was the case with the descriptor of work *Planned permanence* where *service type* and *learning curve* were both selected as application descriptors. Below we detailed the match we made for each descriptor for collaborative work.
 
 *Scale*: this descriptor is paired with another one of the same name in the tool-feature descriptor set, where the possible values represent the maximum number of participants supported by the tool.
 

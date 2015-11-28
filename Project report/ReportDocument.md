@@ -10,7 +10,11 @@ The Model of Coordinated Action (MoCA) framework provides a descriptive lens for
 **ACM Classification Keywords**: Design, Experimentation, Theory 
  
 ## INTRODUCTION 
-The study of CSCW is concerned with supporting multiple individuals working together mediated by computer systems and software. One of the recurring challenges in CSCW is matching the appropriate tools to the type of work to be facilitated. Various ways of articulating CSCW have emerged including Johansen's (1988) time-space matrix which described collaborative work in terms of location and synchronicity. However, we argue that for any person or group planning a CSCW project, the vast availability of potential tools is overwhelming and a challenge to navigate.  
+The study of CSCW is concerned with supporting and investigating how individuals work collaboratively together when mediated by computer systems and software. Various ways of articulating CSCW have emerged including Johansen's (1988) time-space matrix which described collaborative work in terms of location and synchronicity. 
+
+One of the recurring challenges in CSCW is matching appropriate collaborative software tools to the type of work to be facilitated. 
+
+However, we argue that for any person or group planning a CSCW project, the vast availability of potential tools is overwhelming and a challenge to navigate.  
 
 The appropriate selection of a suite of technologies which meets the needs of a group can have a great impact on the success of the collaboration (Olsen & Olsen, 2014). Technologies are often selected based on past experiences or accessibility. The selection of tools to support CSCW may occur without much consideration, and this presents a risk to success. By attempting to articulate the elements of the collaborative work which will be undertaken, a more thoughtful selection of appropriate tools may occur. 
 

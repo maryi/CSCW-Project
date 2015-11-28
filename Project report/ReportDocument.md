@@ -312,7 +312,7 @@ We expect to create an application that accurately suggests appropriate applicat
 
 Initially, we will try to classify applications using the MoCA framework, however, we expect the end result of our classification to be an amalgamation of the MoCA dimensions as well as additional dimensions to increase the accuracy of classifying applications.
 
-From the technical end we expect that our website will be fully functional and easy for users to use. We expect that the search function will return a reasonable recommendation of collaborative tools. Although at this time the search function is what we are most unsure of.
+From the technical end we expect that our website will be fully functional and easy for users to use. We expect that the search function will return a reasonable recommendation of collaborative tools.  However our search function will definitely be a long way off returning the perfect results.
 
 Collaboration has turned over the last years in the default mode of work in every field. The insights gained with this study will provide tool developers with a more complete theoretical foundation to understand collaboration process which will allow developers to create more effective tools. Finally, with a better technological support for collaboration, more positive results we can expect from the productivity of every team.
  

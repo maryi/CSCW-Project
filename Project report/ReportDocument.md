@@ -221,7 +221,7 @@ contribution of the modal dimension, we added a few other options to the dimensi
 
 
 #### 2.3 Descriptors for collaborative work
-The set of descriptors used to characterize collaborative work is mainly composed by the dimensions proposed by the MoCA framework with the addition of the descriptor *purpose*. We found that although MoCA represented a good base to describe collaborative work, the framework presents a high level description for each dimension maybe due to the fact that is has never been applied before to a real situation. Accordingly, the first challenge is to create a less abstract version of MoCA with more applicable definitions for its dimensions.  
+The set of descriptors used to characterize collaborative work is mainly composed by the dimensions proposed in the MoCA framework with the addition of the descriptor *purpose*. We found that although MoCA represented a good base to describe collaborative work, the framework presents a high level description for each dimension maybe due to the fact that is has never been applied before to a real situation. Accordingly, the first challenge is to create a less abstract version of MoCA with more applicable definitions for its dimensions.  
 
 Below each descriptor is described with the name, possible options and the selection type offered to the user in the web interface in Table 2. The rational about the options offered is next.
 

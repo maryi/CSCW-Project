@@ -17,6 +17,7 @@ Yes – 100%
 
 ## Q2
 **The vocabulary used to describe the work properties was clear?**
+
 Yes – 54%
 No – 46%
 
@@ -35,6 +36,7 @@ No – 46%
 
 ## Q3
 **Do you think the set of descriptors for collaborative work is complete?**
+
 Yes – 77%
 No – 23%
 
@@ -50,6 +52,7 @@ No – 23%
 *	Additionally, the aesthetics of the check-box areas were not visually appealing- the text alignment is not visually appealing."
 
 **Was there any descriptor that you consider unnecessary?**
+
 No – 100%
 
 **If yes, can you tell us which descriptor do you think is unnecessary and why?**
@@ -58,6 +61,7 @@ No – 100%
 
 ## Q4
 **How would you rate your experience searching for apps using the tool?**
+
 Good – 77%
 Fair – 23%
 
@@ -75,6 +79,7 @@ Fair – 23%
 
 ## Q5
 **Do you feel motivated to contribute to the database of MatchMaker app?**
+
 Yes – 23%
 No – 77%
 
@@ -91,6 +96,7 @@ No – 77%
 
 ## Q6 
 **The vocabulary used to describe the application properties was clear?**
+
 Yes – 69% 
 No – 31%
 
@@ -104,6 +110,7 @@ No – 31%
 
 ## Q7
 **Do you think the set of descriptors for the application properties is complete?**
+
 Yes – 85%
 No – 15%
 
@@ -114,6 +121,7 @@ No – 15%
 * No
 
 **Was there any descriptor that you consider unnecessary?**
+
 No – 100%
 
 **If yes, can you tell us which descriptor do you think is unnecessary and why?**
@@ -121,6 +129,7 @@ No – 100%
 
 ## Q8
 **How would you rate your experience searching for apps using the tool?**
+
 Good – 70%
 Excellent – 15%
 Fair -15%

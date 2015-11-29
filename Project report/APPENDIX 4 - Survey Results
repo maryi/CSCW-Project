@@ -1,7 +1,6 @@
 N=13
 
-
-Q1
+# Q1
 Imagine a recommender system developed to help users find the appropriate application to support collaborative work. Any user without registration could go into our system and, with the use of precise descriptors, provide a description of the work s/he intent to support. In return, the system will return those applications that match the user criteria. Would you use this kind service? Do you think it would be useful?
 
 Yes – 100%
@@ -16,7 +15,7 @@ Can you elaborate on your answer?
 •	It will help me find apps I can use for school
 •	this sounds like a good idea, but i wonder how it's different than searching on the app store
 
-Q2
+# Q2
 The vocabulary used to describe the work properties was clear?
 Yes – 54%
 No – 46%

@@ -140,6 +140,7 @@ Fair -15%
 
 ## Q9
 **Do you find this tool useful? Would you use it in the future (assume it has been refined)?**
+
 Yes – 100%
 
 ## Q10

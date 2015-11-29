@@ -50,7 +50,7 @@ The next section discusses the MoCA framework followed by a section on software 
 ### 1. The MoCA framework 
 While many interesting approaches to describing CSCW have emerged, these models lack of a connection with tool features. This scenario presents a challenge for users when selecting computer-based tools even when the specific type of work is properly described. The Model of Coordinated Action (MoCA), recently proposed by Lee and Paine (2015), is defined as a tool to describe complex collaborative situations. Recognizing that the landscape for collaborative technologies is rapidly changing and evolving, the model shifts our focus to describing the type of work that needs to facilitated. 
 
-In total the MoCA framework consists of seven dimensions of coordinated action described below and illustrated in Figure 1. 
+In total the MoCA framework consists of seven dimensions of coordinated action described below and illustrated in Figure 2. 
 
 | ![alt text](https://depts.washington.edu/csclab/wordpress/wp-content/uploads/moca-key.png "Logo Title Text 1") |
 |--------------------------------------------------------|

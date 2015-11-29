@@ -1,7 +1,7 @@
 The survey ran from November 21 - November 28, 2015. In total 13 responses were received during the survey window. 
 
 ## Q1
-** Imagine a recommender system developed to help users find the appropriate application to support collaborative work. Any user without registration could go into our system and, with the use of precise descriptors, provide a description of the work s/he intent to support. In return, the system will return those applications that match the user criteria. Would you use this kind service? Do you think it would be useful? **
+**Imagine a recommender system developed to help users find the appropriate application to support collaborative work. Any user without registration could go into our system and, with the use of precise descriptors, provide a description of the work s/he intent to support. In return, the system will return those applications that match the user criteria. Would you use this kind service? Do you think it would be useful?**
 
 Yes – 100%
 

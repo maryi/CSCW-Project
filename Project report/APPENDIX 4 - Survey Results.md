@@ -1,6 +1,7 @@
+The survey ran from November 21 - November 28, 2015. In total 13 responses were received during the survey window. 
 N=13
 
-# Q1
+## Q1
 Imagine a recommender system developed to help users find the appropriate application to support collaborative work. Any user without registration could go into our system and, with the use of precise descriptors, provide a description of the work s/he intent to support. In return, the system will return those applications that match the user criteria. Would you use this kind service? Do you think it would be useful?
 
 Yes – 100%
@@ -15,7 +16,7 @@ Can you elaborate on your answer?
 •	It will help me find apps I can use for school
 •	this sounds like a good idea, but i wonder how it's different than searching on the app store
 
-# Q2
+## Q2
 The vocabulary used to describe the work properties was clear?
 Yes – 54%
 No – 46%
@@ -32,7 +33,7 @@ The site is text heavy and unnecessarily wordy and could convey its intentions a
 •	Perhaps there could even be a definition or example of the purpose when the cursor is placed over the phrase."
 •	what do you mean by vocabulary? and what is the difference between that and descriptors?
 
-Q3
+## Q3
 Do you think the set of descriptors for collaborative work is complete?
 Yes – 77%
 No – 23%
@@ -67,7 +68,7 @@ Can you elaborate on your answer?
 •	The questions were clear and easy to answer
 •	"i don't understand what it meant by the nature of collaboration.. what is the difference between open collaboration and open collaboration to public??
 
-Q5
+## Q5
 Do you feel motivated to contribute to the database of MatchMaker app?
 Yes – 23%
 No – 77%
@@ -82,7 +83,7 @@ What could increase your motivation?
 •	I'm still not sure why I would be the one adding apps to the database
 •	it seems like this is more for people who develop apps..
 
-Q6 
+## Q6 
 The vocabulary used to describe the application properties was clear?
 Yes – 69% 
 No – 31%
@@ -93,7 +94,8 @@ Do you have any suggestions?
 •	The first paragraph under "What is Match Maker system?" may be irrelevant and confusing to the user. "Recommendation system" seems like a technological term...
 •	I wasn't sure what you meant by learning curve and modality
 •	No
-Q7
+
+## Q7
 Do you think the set of descriptors for the application properties is complete?
 Yes – 85%
 No – 15%
@@ -106,7 +108,8 @@ Was there any descriptor that you consider unnecessary?
 No – 100%
 If yes, can you tell us which descriptor do you think is unnecessary and why?
 •	Lots of descriptors are good because different people many think of the same thing in different terms.
-Q8
+
+## Q8
 How would you rate your experience searching for apps using the tool?
 Good – 70%
 Excellent – 15%
@@ -114,11 +117,12 @@ Fair -15%
 Can you elaborate on your answer?
 •	Easy to fill out the survey, just the results were lacking an clarity and context.
 •	i couldn't think of many apps to add
-Q9
+
+## Q9
 Do you find this tool useful? Would you use it in the future (assume it has been refined)?
 Yes – 100%
 
-Q10
+## Q10
 •	Is there any other comments you would like to share with us about your experience with Match Maker app?
 •	"More output options would be useful - e.g. list all tools for a given domain or modality.
 •	Add a rating field where users could rate tools so that tools could be recommended by rating as well as features."

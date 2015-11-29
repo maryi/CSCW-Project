@@ -1,5 +1,4 @@
 The survey ran from November 21 - November 28, 2015. In total 13 responses were received during the survey window. 
-N=13
 
 ## Q1
 Imagine a recommender system developed to help users find the appropriate application to support collaborative work. Any user without registration could go into our system and, with the use of precise descriptors, provide a description of the work s/he intent to support. In return, the system will return those applications that match the user criteria. Would you use this kind service? Do you think it would be useful?
@@ -8,13 +7,13 @@ Yes – 100%
 
 Can you elaborate on your answer?
 
-•	There are many tools and it is difficult to remain knowledgeable about what options are available.  The tool could help bring unknown tools to my attention.
-•	I do a lot of group projects in school so it would be helpful
-•	This seems like a pretty good idea- it's hard these days to find the best/most appropriate program for different projects. Another thing I could think of would be a similar site to help users find programs that help track/develop citations for essays.
-•	It doesn't mean I would use whatever was recommended, but it would help get an informed search going.
-•	Although I am not the most application-savy individual, having access to a tool that would suggest applications and services to enhance project performance would be of great use. Now, applications that I often use are based on word-of-mouth from friends and family and social media/advertisements.
-•	It will help me find apps I can use for school
-•	this sounds like a good idea, but i wonder how it's different than searching on the app store
+*	There are many tools and it is difficult to remain knowledgeable about what options are available.  The tool could help bring unknown tools to my attention.
+*	I do a lot of group projects in school so it would be helpful
+*	This seems like a pretty good idea- it's hard these days to find the best/most appropriate program for different projects. Another thing I could think of would be a similar site to help users find programs that help track/develop citations for essays.
+*	It doesn't mean I would use whatever was recommended, but it would help get an informed search going.
+*	Although I am not the most application-savy individual, having access to a tool that would suggest applications and services to enhance project performance would be of great use. Now, applications that I often use are based on word-of-mouth from friends and family and social media/advertisements.
+*	It will help me find apps I can use for school
+*	this sounds like a good idea, but i wonder how it's different than searching on the app store
 
 ## Q2
 The vocabulary used to describe the work properties was clear?

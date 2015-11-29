@@ -27,7 +27,7 @@ This study is motivated by the following research questions:
 ## BACKGROUND 
 Various models for describing CSCW have been proposed. Johansen's (1988) time-space matrix described collaborative work in terms of location and synchronicity across two dimensions. Participants may find themselves in the same location, referred to as co-located or at different places, referred to as remote. Synchronicity is used to describe whether interaction happens at the same time (synchronous) or at different times (asynchronous). See figure 1 for visual of Johansen's time-space matrix.
 
-| ![alt text](https://upload.wikimedia.org/wikipedia/commons/2/28/Cscwmatrix.jpg "TimeSpaceMatrix" =250x) |
+| ![alt text](https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Cscwmatrix.jpg/640px-Cscwmatrix.jpg "TimeSpaceMatrix") |
 |--------------------------------------------------------|
 | Figure 1. Johansen's Time/Space Matrix From: Wikipedia Licensed with Creative Commons.
  |

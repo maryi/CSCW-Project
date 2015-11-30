@@ -86,7 +86,7 @@ Bower (2015) has presented a model of collaborative learning technologies based 
 
 | ![alt text](http://www.weiterbildungsblog.de/wp-content/uploads/2015/02/bower_201502.jpg "Bower's typology") |
 |--------------------------------------------------------|
-| Figure 2. Bower’s (2015) typology of Web 2.0 collaborative technologies |
+| Figure 3. Bower’s (2015) typology of Web 2.0 collaborative technologies |
 
 
 Our project will test the MoCA framework as a framework to link the articulation of CSCW to the affordances of collaborative software and systems. MoCA provides a framework for describing collaborative work which will be mapped to the affordances of collaborative technologies based on Bower's (2015) typology. 
@@ -124,16 +124,16 @@ In the second step of the development phase, we designed two interface mock-ups,
  
 ### 2. Strategy and Methods 
 
-MatchMaker Application is a recommendation system that aims to help users selecting appropriate collaborative tools based on the articulation of their work through the MoCA framework. In particular, the application allows any user to describe the type of collaborative work to be done and our application suggests appropriate tools. This function is identified as the first user requirement: *UR1: Searching for an application*. Additionally, MatchMaker Application allows users to register collaborative computer-based tools in the system database, as a mechanism to help populate the recommendation system. This function is identified as the second user requirement: *UR2: Registering an application*. Figure 3 and 4 show a preliminary interface mock-up for UR1 and UR2 respectively. Note that the vocabulary of the MoCA dimensions were adapted to be more colloquial in the web page for user friendliness. 
+MatchMaker Application is a recommendation system that aims to help users selecting appropriate collaborative tools based on the articulation of their work through the MoCA framework. In particular, the application allows any user to describe the type of collaborative work to be done and our application suggests appropriate tools. This function is identified as the first user requirement: *UR1: Searching for an application*. Additionally, MatchMaker Application allows users to register collaborative computer-based tools in the system database, as a mechanism to help populate the recommendation system. This function is identified as the second user requirement: *UR2: Registering an application*. Figure 4 and 5 show a preliminary interface mock-up for UR1 and UR2 respectively. Note that the vocabulary of the MoCA dimensions were adapted to be more colloquial in the web page for user friendliness. 
 
 | <img src="https://raw.githubusercontent.com/maryi/CSCW-Project/master/Images/Find%20app1.3.png" width="300">                 |
 |--------------------------------------------------------|
-| Figure 3. Preliminary interface Mockup for UR1: Searching for an application |
+| Figure 4. Preliminary interface Mockup for UR1: Searching for an application |
 
 
 | <img src="https://raw.githubusercontent.com/maryi/CSCW-Project/master/Images/Register%20app1.3.png" width="300">                 |
 |--------------------------------------------------------|
-| Figure 4. Preliminary interface Mockup for UR2: Registering an application |
+| Figure 5. Preliminary interface Mockup for UR2: Registering an application |
 
 In order to implement the listed requirements, we defined a set of criteria to help us classify our information. 
 In particular, we adopted the term *-descriptors-*, to define a criteria, as they are used to describe instances of collaborative work and tools for such context. 
@@ -354,7 +354,11 @@ Initially, we tried to classify applications using the MoCA framework exclusivel
 When working on the website we described the MoCA dimensions using simple sentences to ensure that the website would be easy for users to understand regardless of their background. We also expect that although the search function on the website does not return perfect results it will return good enough results so that the user will always be able to find a helpful application. Lastly, we think that the process of answering all the questions on the search page will get the user thinking about different areas that they need to consider when choosing a collaborative application. 
 
 In all fields of work and study the methods of collaboration are constantly evolving over time.The insights gained with this study will provide tool developers with a more complete theoretical foundation to understand collaboration processes that will allow developers to create more effective tools. Finally with more collaborative tools emerging, efficiency and productivity in teams will increase.
- 
+
+#### 4.1. Survey feedback
+**Krista, your analysis on the survey can go here** 
+
+
 ## LIMITATIONS  
 
 Our two biggest limitations in this endeavor are the newness of the MoCA framework and time.

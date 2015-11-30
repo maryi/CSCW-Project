@@ -122,12 +122,11 @@ The database structure was defined by the descriptors and the possible values. B
 
 The list of applications had the purpose to collect tool data, which would be used as a starting database for MatchMaker app. The list was made in Google spreadsheet where each column represented one tool descriptor and each cell contained one of the possible values previously defined. In total, we classify around 40 applications. This exercise, with real applications and features, allowed us to revisit and refine our descriptor definitions and possible values. When database development  was ready, the information in the list was transferred to tables in to the database.
 
-Ready the interface development, we followed with a database integration. Simultaneously to this task, researchers ensured the consistency of descriptors in the project by, in iterative cycles, comparing descriptor definitions and list of applications against the website in development. Once the development reached an stable point, where all components where functional, we moved forward to user validation phase.
+Ready the interface development, we followed with a database integration. Simultaneously to this task, researchers ensured the consistency of descriptors in the project by, in iterative cycles, comparing descriptor definitions and list of applications against the website in development. Once the development reached an stable point where all components where functional, we moved forward to user validation phase.
 
-**Maryi: WORK IN PROGRESS!!!**
+In order to validate our idea and our approach we designed a survey. First, we asked about the usefulness of the idea. Then, for each main function, search an app and register an app, we ask about the appropriateness of the vocabulary, completeness and utility of the descriptors, and experience with the tool feature. Finally, we ask about usefulness of the tool and motivation to contribute to the project. Optionally, participants had an open area on each question to elaborate on their answers. To review the survey form refer to APPENDIX 4.
 
-
-
+The final step in our process is to collect and analyze the results from the survey. Feedback provided from potential users will be used to draw our future plan of action and the new version of the tool.
  
 ### 2. Strategy and Methods 
 

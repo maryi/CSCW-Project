@@ -219,20 +219,20 @@ Table 1 shows the set of descriptors used for tool features, along with name, po
 
  * All users same role: there is not a role assignation feature, all participants in the tool have the same options.
  * Role based: the tool offers a role assignation feature with administrative options differences. 
- * Strict hierarchy: the tool has administrative option differences for certain users, but does not offer the option to modify those. For example, only the creator of the project can accept new members. 
+ * Strict hierarchy: the tool has administrative option differences for certain users, but does not offer the option to modify those. For example, only the owner of the application account can invite new members. 
 
-*Tool purpose*: illustrates the main purpose of the tool. We based our selection of possible values in the typology described by Bower (2015) as technologies for collaboration.
+*Tool purpose*: illustrates the main purpose of the tool. We based our selection of possible values in the typology described by Bower (2015) as technologies for collaboration. The complete list of possible values is in [Appendix 2](https://github.com/maryi/CSCW-Project/blob/master/Project%20report/APPENDIX%202%20-%20Purpose%20values.md)
 
 *Compatibility*: provides information about other tools that can be integrated with (e.g., Slack has integrations with Twitter) or tools that are commonly used together as complement (e.g., Github and Trello). This descriptor is free text.
 
 *Modality*: Based on Nickerson's (1997) this descriptor provides information about the nature of communication within the tool.
-contribution of the modal dimension, we added a few other options to the dimension including audio communication, visual communication, visualization communication, short message communication.
+Contribution of the modal dimension, we added a few other options to the dimension including audio communication, visual communication, visualization communication, short message communication.
 
 
 #### 2.2 Descriptors for collaborative work
 The set of descriptors used to characterize collaborative work is mainly composed by the dimensions proposed in the MoCA framework with the addition of the descriptor *purpose*. We found that although MoCA represented a good base to describe collaborative work, the framework presents a high level description for each dimension maybe due to the fact that is has never been applied before to a real situation. Accordingly, the first challenge is to create a less abstract version of MoCA with more applicable definitions for its dimensions.  
 
-Below each descriptor is described with the name, possible options and the selection type offered to the user in the web interface in Table 2. The rational about the options offered is next.
+Below each descriptor is described with the name, possible options and the selection type offered to the user in the web interface in Table 2. The rational about the options is offered next.
 
 
 |                Name               |                                  Possible options                                 |  Selection type |
@@ -269,7 +269,7 @@ Below each descriptor is described with the name, possible options and the selec
  * Medium: closed group, but with possibility to have private or open collaboration
  * High: open group, open collaboration to general public
 
-*Nascence*: describes the level of familiarity of participants with respect to the coordinated action. Although we agree it is an important descriptor for collaborative work, we failed to see the way it could get benefit from any particular tool feature; exercise that was possible with the other MoCA dimensions. In our solution, we kept the descriptor with the same definition in both sets and possible values as:
+*Nascence*: describes the level of familiarity of participants with respect to the coordinated action. For this descriptor we defined the possible values as:
  
  * Routine: support for familiar tasks
  * Most of the tasks are routine
@@ -282,13 +282,11 @@ This decision was made considering the usefulness of the information provided by
 
 In particular, the selection of possible values for this descriptor was based on the high level categories of JACS ([Joint Academic Coding System](https://www.hesa.ac.uk/index.php?option=com_content&view=article&id=158 "JACS")). For a complete list of possible values in this descriptor refer to [APPENDIX 1](https://github.com/maryi/CSCW-Project/blob/master/Project%20report/APPENDIX%201%20-%20Domains%20values%20based%20on%20JACS.md)
 
-*Purpose*: This descriptor was added to complete the definition of the coordinated action. We wanted to be specific about the kind of collaboration described by the user. We based our selection of possible values in the typology described by Bower (2015) as technologies for collaboration.
+*Purpose*: This descriptor was added to complete the definition of the coordinated action. We wanted to be specific about the kind of collaboration described by the user. We based our selection of possible values in the typology described by Bower (2015) as technologies for collaboration. The complete list of possible values is in [Appendix 2](https://github.com/maryi/CSCW-Project/blob/master/Project%20report/APPENDIX%202%20-%20Purpose%20values.md)
 
 We found that the two sets of descriptors differ in nature and often they do not present a linear correspondence. For that reason, we developed a connection between the descriptors of the work and the descriptors of the applications.
 
 #### 2.3 Description of the connection between the descriptors for collaborative work and the descriptors for tool features
- 
-**Maryi: Work in progress... I need to make a review of this section**
  
  What happens when a user for example describes collaborative work in the *physical distribution* descriptor as *'distributed team'*? MatchMaker Application looks for applications with multiple *awareness mechanisms*, information stored in the descriptor of the same name in descriptors for tool features. As exposed in the example, we developed a way to connect the two set of descriptors by identifying the tool features that contribute to support particular collaborative work. Table 3 shows how the two sets of descriptors are connected, below we present more examples of our process and more details about our rationale.
  
@@ -305,39 +303,23 @@ We found that the two sets of descriptors differ in nature and often they do not
 
 | Table 3. Connection between descriptors for collaborative work and descriptors for tool features |
 
-It should be noted that not all descriptors are different, we found that some of them are applicable in both contexts, to describe work and to describe a tool, so we leave the same name in both sets of descriptors. For instance, the scale dimension in MoCA that describes the number of participants in a coordinated action has a linear correspondence with the scalability of a tool. In another case, we found that more than one descriptor in the application could contribute to identify potential benefits for one descriptor in the collaborative work. Such was the case with the descriptor of work *Planned permanence* where *service type* and *learning curve* were both selected as application descriptors. Below we detailed the match we made for each descriptor for collaborative work.
+It should be noted that not all descriptors are different, we found that some of them are applicable in both contexts, to describe work and to describe a tool, in those cases we leave the same name in both sets of descriptors. For instance, the scale dimension in MoCA that describes the number of participants in a coordinated action has a linear correspondence with the scalability of a tool. In another case, we found that more than one descriptor in the application could contribute to identify potential benefits for one descriptor in the collaborative work. Such was the case with the descriptor of work *Planned permanence* where *service type* and *learning curve* were both selected as application descriptors. Below we detailed the match we made for each descriptor for collaborative work.
 
 *Scale*: this descriptor is paired with another one of the same name in the tool-feature descriptor set, where the possible values represent the maximum number of participants supported by the tool.
 
-*Physical Distribution*: based on the literature covered in the class (e.g., Olson & Olson, 2014) we know collaboration in a distributed team is challenging, so we considered that our application should make recommendations in this dimension based on the amount of *awareness mechanisms* provided by the tools.
+*Physical Distribution*: based on the literature covered in the class (e.g., Olson & Olson, 2014) we know collaboration in a distributed team is challenging, so we considered that our application should make recommendations in this dimension based on the amount of *awareness mechanisms* provided by the tool.
 
 *Synchronicity*: In both set of descriptors it has the same name and same options with slight differences based on the context. 
  
-*Planned Permanence*: this descriptor provides information about the length of the collaboration. In this case, we defined the following possible options: couple of days, less than or equal to 1 month, less than or equal to 6 months, and more time.  The rational we followed to suggest an appropriate tool given this information is based on two assumptions: 1) the longer the collaboration participants are more willing to spend time learning the complexities of a tool and 2) they are more open to pay for software or install it in their computers. Consequently, this descriptor is paired with *learning curve* and *service type* in the tool descriptor.
+*Planned Permanence*: this descriptor provides information about the length of the collaboration. The rational we followed to suggest an appropriate tool given this information is based on two assumptions: 1) the longer the collaboration participants are more willing to spend time learning the complexities of a tool and 2) they are more open to pay for software or install it in their computers. Consequently, this descriptor is paired with *learning curve* and *service type* in the tool descriptor.
 
-*Turnover*: represents the rapidity with which group members enter or leave from the collaboration. We defined three possible options: 
+*Turnover*: In order to bring support for this descriptor, we selected *content privacy* and *hierarchy* from the tool-features set. This decision was made on the bases that both, by describing the possibilities of information visibility and role assignation, define the level of turnover in the work.
 
- * Low: for closed group and private collaboration
- * Medium: closed group, but with possibility to have private or open collaboration
- * High: open group, open collaboration to general public
+*Nascence*: although we agreed this is an important descriptor for collaborative work, we failed to see the way it could get benefit from any particular tool feature; exercise that was possible with the other MoCA dimensions. In our solution, we kept the descriptor with the same definition in both sets and possible values.
 
-In order to bring support for this descriptor, we selected *content privacy* and *hierarchy* from the tool-features set. This decision was made on the bases that both, by describing the possibilities of information visibility and role assignation, define the level of turnover in the work.
+*Domains*: this descriptor is defined in both sets of descriptors, as we are interested to know on which knowledge areas the collaboration will take place and what knowledge areas does the tool support.
 
-*Nascence*: describes the level of familiarity of participants with respect to the coordinated action. Although we agree it is an important descriptor for collaborative work, we failed to see the way it could get benefit from any particular tool feature; exercise that was possible with the other MoCA dimensions. In our solution, we kept the descriptor with the same definition in both sets and possible values as:
- 
- * Routine: support for familiar tasks
- * Most of the tasks are routine
- * Most of the tasks will be new
- * Developing: support for evolving tasks
-
-*Domains*: This descriptor is related to the Number of Communities of Practice dimension in the MoCA framework. The original dimension cares about the number of communities of practice represented in the coordinated action. However, while we think the question about 'how many?' is important we think another question 'which ones?' is more relevant to our purpose. In fact, the user by selecting which communities are included in the collaboration is also providing information about the quantity. 
-
-This decision was made considering the usefulness of the information provided by the user. If the user indicates collaboration between two communities, that information is not relevant to recommend any tool support. But if the user indicated for example, engineering and general public, our application can have an additional filter to select potentially good tools.
-This descriptor has a linear correspondence with the one of the same name in the tool-feature descriptor set where also the same possible values apply.
-
-In particular, the selection of possible values for this descriptor was based on the high level categories of JACS ([Joint Academic Coding System](https://www.hesa.ac.uk/index.php?option=com_content&view=article&id=158 "JACS")). For a complete list of possible values in this descriptor refer to [APPENDIX 1](https://github.com/maryi/CSCW-Project/blob/master/Project%20report/APPENDIX%201%20-%20Domains%20values%20based%20on%20JACS.md)
-
-*Purpose*: This descriptor was added to complete the definition of the coordinated action. We wanted to be specific about the kind of collaboration described by the user. We based our selection of possible values in the typology described by Bower (2015) as technologies for collaboration.
+*Purpose*: this descriptor is paired with another one of the same name. Similar to the case of *'domains'*, we are interested to know the purpose of the collaboration and what purposes the tool can support. 
 
 ### 3. Technical specifications
 

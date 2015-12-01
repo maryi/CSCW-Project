@@ -47,7 +47,7 @@ We believe there is value in reflecting on and articulating a description of col
 
 The next section discusses the MoCA framework followed by a section on software affordances.
  
-### 1. The MoCA framework 
+### 2. The MoCA framework 
 While many interesting approaches to describing CSCW have emerged, these models lack of a connection with tool features. This scenario presents a challenge for users when selecting computer-based tools even when the specific type of work is properly described. The Model of Coordinated Action (MoCA), recently proposed by Lee and Paine (2015), is defined as a tool to describe complex collaborative situations. Recognizing that the landscape for collaborative technologies is rapidly changing and evolving, the model shifts our focus to describing the type of work that needs to facilitated. 
 
 In total the MoCA framework consists of seven dimensions of coordinated action described below and illustrated in Figure 2. 
@@ -79,7 +79,7 @@ Lee & Paine developed the MoCA framework to help researchers describe specific c
 
 Lee & Paine argue that rather than viewing the mechanics of CSCW as uncharted territory, there are opportunities to identify patterns and similarity between projects, which may help us plan for future successful CSCW. Finally, the framework provides a rich vocabulary of concepts that can be used to describe the complex ecosystems of collaborative work, but as the other models lacks an explicit connection with collaborative software features. 
 
-### 2. Affordances of collaborative technologies
+### 3. Affordances of collaborative technologies
 The notion of affordances is useful in defining how users interpret and make use of artifacts in the world. Salomon defines the term affordance as *“the perceived and actual properties of a thing, primarily those functional properties that determine just how the thing could possibly be used”* (Pea, 1993, p. 51). When considering emerging collaborative software and systems, affordances are not always evident to the user. As such it is not always clear how a tool can be used in a CSCW project to facilitate interaction.  
 
 Bower (2015) has presented a model of collaborative learning technologies based upon a typological analysis of their affordances. The model was specifically developed to help educators select technologies that match their teaching and learning requirements by articulating what a tool can be used for. The typology also provides us with a framework for conceptualizing the broader collaborative software landscape. This exposition of individual technologies and their affordances can be useful in helping individuals select technologies that match their requirements as well as visualizing similar or related applications. See Figure 2 for a visual mind map of Bower’s typology. 
@@ -91,7 +91,7 @@ Bower (2015) has presented a model of collaborative learning technologies based 
 
 Our project will test the MoCA framework as a framework to link the articulation of CSCW to the affordances of collaborative software and systems. MoCA provides a framework for describing collaborative work which will be mapped to the affordances of collaborative technologies based on Bower's (2015) typology. 
  
-### 3. The problem we are trying to solve 
+### 4. The problem we are trying to solve 
 Selecting the right tool to support collaborative work is one of the main problems teams face. There is a wide array of  collaboration tools to choose from and as such selecting an appropriate tool can be a overwhelming and a significant challenge. Olsen & Olsen (2014) argue that the success of a CSCW project is contingent on the appropriate selection of tools which meet the needs of the team. This idea is supported by Dudezert, Gurkan & Karoui (2010) when they suggest a technological perspective on virtual collaboration, which states that the efficiency of a team is based on the tool selected for collaboration. With such a wide range of options, it is recommended to establish a set of criteria that would be used for choosing the most appropriate tool for collaboration. 
 
 Colace, De Santo, Moscato & Picariello (2015) suggest the use of a recommender system to solve the challenge of matching CSCW projects to appropriate tools. Recommender systems have emerged to aid decision support in an age of abundance. Common applications of recommender systems include films, books and music recommendations based on interests (e.g., Netflix, Amazon, Spotify). In other cases, recommender systems can suggest contacts based on social networks (e.g., Facebook, LinkedIn) or search results based on user profiles (e.g., Google). In general, recommender systems aim to help users find the tools and information they need based on user's preferences and feedback and are playing an increasingly important role in our lives. 

@@ -29,7 +29,7 @@ Various models for describing CSCW have been proposed. Johansen's (1988) time-sp
 
 | ![alt text](https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Cscwmatrix.jpg/640px-Cscwmatrix.jpg "TimeSpaceMatrix") |
 |--------------------------------------------------------|
-| Figure 1. Johansen's Time/Space Matrix (1988). From [Wikipedia] (https://en.wikipedia.org/wiki/Computer-supported_cooperative_work#/media/File:Cscwmatrix.jpg). Licensed with Creative Commons.
+| Figure 1. Johansen's Time/Space Matrix (1988). From [Wikipedia] (https://en.wikipedia.org/wiki/Computer-supported_cooperative_work#/media/File:Cscwmatrix.jpg). Public Domain.
  |
 
 In a similar work, Desanctis & Gallupe (1987) further proposed descriptors which included the size of the group engaged in CSCW (smaller, larger), and one used to identify generally the type of task being conducted (planning, creativity, intellective, preference, cognitive, conflict, mixed motive).  

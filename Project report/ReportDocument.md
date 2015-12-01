@@ -256,8 +256,8 @@ Below each descriptor is described with the name, possible options and the selec
 |                Name               |                                  Possible options                                 |  Selection type |
 |:---------------------------------:|:---------------------------------------------------------------------------------:|:---------------:|
 | Scale                             | 2,5,10,N                                                                          | Single choice   |
-| Physical Distribution             | Colocated / distributed                                                           | Single choice   |
-| Synchronicity                     | Completely async, supports for both, completely sync                              | Single choice   |
+| Physical Distribution             | Collocated / distributed                                                           | Single choice   |
+| Synchronicity                     | Completely asynchronous, supports for both, completely synchronous                              | Single choice   |
 | Planned Permanence                | Couple of days/ 1 month / 6 months / More time                                    | Single choice   |
 | Turnover                          | Low, Medium, High                                                                 | Single choice   |
 | Nascence                          | Routine, Most of the tasks are routine, Most of the tasks will be new, Developing | Single choice   |
@@ -269,7 +269,7 @@ Below each descriptor is described with the name, possible options and the selec
 
 
 
-*Scale*: similar to the original version, represents an approximate number of people involved in the collaborative work and that should have access to the common artifacts through computer-based tools. The possible values selected represent the most popular accommodations: 2, less or equal to 5, less or equal to 10, and more than 10 participants. 
+*Scale*: similar to the original version, represents an approximate number of people involved in the collaborative work that should have access to the common artifacts through computer-based tools. The possible values selected represent the most popular accommodations: 2, less or equal to 5, less or equal to 10, and more than 10 participants. 
 
 *Physical Distribution*: this descriptor provides information about the location of participants, thus the possible values are distributed or collocated. 
 
@@ -281,7 +281,7 @@ Below each descriptor is described with the name, possible options and the selec
  
 *Planned Permanence*: this descriptor provides information about the length of the collaboration. In this case, we defined the following possible options: couple of days, less than or equal to 1 month, less than or equal to 6 months, and more time. 
 
-*Turnover*: represents the rapidity with which group members enter or leave from the collaboration. We defined three possible options: 
+*Turnover*: represents the rapidity with which group members enter or leave from the collaboration. We defined three possible options:
 
  * Low: for closed group and private collaboration
  * Medium: closed group, but with possibility to have private or open collaboration
@@ -294,9 +294,9 @@ Below each descriptor is described with the name, possible options and the selec
  * Most of the tasks will be new
  * Developing: support for evolving tasks
 
-*Domains*: This descriptor is related to the Number of Communities of Practice dimension in the MoCA framework. The original dimension cares about the number of communities of practice represented in the coordinated action. However, while we think the question about 'how many?' is important we think another question 'which ones?' is more relevant to our purpose. In fact, the user by selecting which communities are included in the collaboration is also providing information about the quantity. 
+*Domains*: This descriptor is related to the number of communities of practice dimension in the MoCA framework. The original dimension addresses the number of communities of practice represented in the coordinated action. However, while we think the question about 'how many?' is important we think another question 'which ones?' is more relevant to our purpose. In fact, by selecting which communities are included in the collaboration the user is also providing information about the number involved. 
 
-This decision was made considering the usefulness of the information provided by the user. If the user indicates collaboration between two communities, that information is not relevant to recommend any tool support. But if the user indicated for example, engineering and general public, our application can have an additional filter to select potentially good tools.
+If the user indicates collaboration between a single community, that information does not factor into the recommendation of a specific tool. However, if the user indicates for example, engineering and general public, our application can have an additional filter to select potentially good tools for those domains.
 
 In particular, the selection of possible values for this descriptor was based on the high level categories of JACS ([Joint Academic Coding System](https://www.hesa.ac.uk/index.php?option=com_content&view=article&id=158 "JACS")). For a complete list of possible values in this descriptor refer to [APPENDIX 1](https://github.com/maryi/CSCW-Project/blob/master/Project%20report/APPENDIX%201%20-%20Domains%20values%20based%20on%20JACS.md)
 
@@ -306,7 +306,7 @@ We found that the two sets of descriptors differ in nature and often they do not
 
 #### 2.3 Description of the connection between the descriptors for collaborative work and the descriptors for tool features
  
- What happens when a user for example describes collaborative work in the *physical distribution* descriptor as *'distributed team'*? MatchMaker Application looks for applications with multiple *awareness mechanisms*, information stored in the descriptor of the same name in descriptors for tool features. As exposed in the example, we developed a way to connect the two set of descriptors by identifying the tool features that contribute to support particular collaborative work. Table 3 shows how the two sets of descriptors are connected, below we present more examples of our process and more details about our rationale.
+What happens when a user for example describes collaborative work in the *physical distribution* descriptor as *'distributed team'*? MatchMaker Application looks for applications with multiple *awareness mechanisms*, information stored in the descriptor of the same name in descriptors for tool features. As exposed in the example, we developed a way to connect the two set of descriptors by identifying the tool features that contribute to support particular collaborative work. Table 3 shows how the two sets of descriptors are connected, below we present more examples of our process and more details about our rationale.
  
 | Descriptors for collaborative work | Descriptors for applications      |
 |------------------------------------|-----------------------------------|
@@ -321,7 +321,7 @@ We found that the two sets of descriptors differ in nature and often they do not
 
 | Table 3. Connection between descriptors for collaborative work and descriptors for tool features |
 
-It should be noted that not all descriptors are different, we found that some of them are applicable in both contexts, to describe work and to describe a tool, in those cases we leave the same name in both sets of descriptors. For instance, the scale dimension in MoCA that describes the number of participants in a coordinated action has a linear correspondence with the scalability of a tool. In another case, we found that more than one descriptor in the application could contribute to identify potential benefits for one descriptor in the collaborative work. Such was the case with the descriptor of work *Planned permanence* where *service type* and *learning curve* were both selected as application descriptors. Below we detailed the match we made for each descriptor for collaborative work.
+It should be noted that not all descriptors are different, we found that some of them are applicable in both contexts, to describe work and to describe a tool, in those cases we leave the same name in both sets of descriptors. For instance, the scale dimension in MoCA that describes the number of participants in a coordinated action has a linear correspondence with the scalability of a tool. In another case, we found that more than one descriptor in the application could contribute to identifying potential benefits for one descriptor in collaborative work. Such was the case with the descriptor of work *Planned permanence* where *service type* and *learning curve* were both selected as application descriptors. Below we detailed the match we made for each descriptor for collaborative work.
 
 *Scale*: this descriptor is paired with another one of the same name in the tool-feature descriptor set, where the possible values represent the maximum number of participants supported by the tool.
 
@@ -329,13 +329,13 @@ It should be noted that not all descriptors are different, we found that some of
 
 *Synchronicity*: In both set of descriptors it has the same name and same options with slight differences based on the context. 
  
-*Planned Permanence*: this descriptor provides information about the length of the collaboration. The rational we followed to suggest an appropriate tool given this information is based on two assumptions: 1) the longer the collaboration participants are more willing to spend time learning the complexities of a tool and 2) they are more open to pay for software or install it in their computers. Consequently, this descriptor is paired with *learning curve* and *service type* in the tool descriptor.
+*Planned Permanence*: this descriptor provides information about the length of the collaboration. The rational we followed to suggest an appropriate tool given this information is based on two assumptions: 1) for a long-term collaboration participants may be more willing to spend time learning the complexities of a tool and 2) they are more open to pay for software or install it on their computers. Consequently, this descriptor is paired with *learning curve* and *service type* in the tool descriptor.
 
-*Turnover*: In order to bring support for this descriptor, we selected *content privacy* and *hierarchy* from the tool-features set. This decision was made on the bases that both, by describing the possibilities of information visibility and role assignation, define the level of turnover in the work.
+*Turnover*: In order to bring support for this descriptor, we selected *content privacy* and *hierarchy* from the tool-features set. This decision was made on the basis that both, describing the possibilities of information visibility and role assignation, define the level of turnover in the work.
 
-*Nascence*: although we agreed this is an important descriptor for collaborative work, we failed to see the way it could get benefit from any particular tool feature; exercise that was possible with the other MoCA dimensions. In our solution, we kept the descriptor with the same definition in both sets and possible values.
+*Nascence*: although we agreed this is an important descriptor for collaborative work, we failed to see the way it would benefit from any particular tool feature. In our solution, we kept the descriptor and possible values with the same definition in both descriptions for work and tools.
 
-*Domains*: this descriptor is defined in both sets of descriptors, as we are interested to know on which knowledge areas the collaboration will take place and what knowledge areas does the tool support.
+*Domains*: this descriptor is defined in both sets of descriptors, as we are interested to know which knowledge areas the collaboration will take place and what knowledge areas the tool supports.
 
 *Purpose*: this descriptor is paired with another one of the same name. Similar to the case of *'domains'*, we are interested to know the purpose of the collaboration and what purposes the tool can support. 
 

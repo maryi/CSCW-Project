@@ -344,7 +344,10 @@ When working on the website we described the MoCA dimensions using simple senten
 In all fields of work and study the methods of collaboration are constantly evolving over time.The insights gained with this study will provide tool developers with a more complete theoretical foundation to understand collaboration processes that will allow developers to create more effective tools. Finally with more collaborative tools emerging, efficiency and productivity in teams will increase.
 
 #### 4.1. Survey feedback
-**Krista, your analysis on the survey can go here** 
+A survey was conducted to receive feedback on the usability and idea of MatchMaker Application. The survey was distributed to classmates, friends, and colleagues; in total we received thirteen responses. Users were initially asked to imagine a recommender system that helps users find the most suitable applications to support collaborative work. Users were then asked whether or not they would use the system or think it would be useful. One hundred percent of users responded ‘Yes’ and the majority stated that it would help inform them of applications that are available as well as find tools that would be helpful for schoolwork.
+
+Users were first asked about the search feature of MatchMaker Application. Mixed responses were received when asked if the vocabulary and set of descriptors used for collaborative work were clear. One user pointed out that the average individual in North America has a grade 6 reading level and the level of vocabulary that was used was unclear at times. Users found difficulty determining terms such as “mindmapping” and “aggregators.”
+
 
 
 ## LIMITATIONS  

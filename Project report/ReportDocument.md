@@ -154,7 +154,7 @@ The initial set of descriptors began with the elements of the MoCA framework. Ho
 We identified that not all descriptors are suitable for our two user requirements. The first requirement needs the user to describe the nature of the collaboration s/he intent to support, so the descriptors should allow to identify the characteristics of the work to be done. Meanwhile, in UR2 the application requires the user to describe the features of a tool. Thus, descriptors have to be feature oriented in order to describe the capabilities of a particular tool. As a result, we divided the initial list in two, creating two sets of descriptors, one for UR1 and the other for UR2.
 
 #### 2.1 Descriptors for tool features
-Tool descriptors were designed with the purpose to collect valuable information about tool support for collaborative activities. This information is used when a user is searching for an application in MatchMaker. The user describes the work to be supported by the tool and the recommendation system creates a list of applications that match user criteria. Details about descriptors and possible values for each  is presented below in Table 1. The possible values selected for each descriptor in most of the cases are based on personal experience of the researchers, when this is not the criteria we provide more detail about our sources. 
+Tool descriptors were designed to collect information about how a software tool supports collaborative activities. This information is used when a user is searching for software in the MatchMaker Application. The user describes the work to be supported by the tool and the recommendation system creates a list of applications that match user criteria. Details about descriptors and possible values for each is presented below in Table 1. The possible values selected for each descriptor in most cases is based on the personal experiences of the researchers, when this is not the criteria we provide more detail about our sources. 
 
 Table 1 shows the set of descriptors used for tool features, along with name, possible values and the selection type offered to the user in the web interface. More details about descriptors definitions and options offered will be presented next.
 
@@ -180,17 +180,17 @@ Table 1 shows the set of descriptors used for tool features, along with name, po
 
 
 
-*Name*: used as an identifier of the tool.
+*Name*: used to identify the tool.
 
 *Creator link*: link to the web resource where the tool can be accessed or downloaded.
 
-*Synchronicity*: described the tool support for the different modes of work. In both sets of descriptors it has the same name and same options with slight differences based on the context. This descriptor can take three values:
+*Synchronicity*: describes the tools ability to support different modes of work. In both sets of descriptors it has the same name and same options with slight differences based on the context. This descriptor can take three values:
  
  * Completely asynchronous: this means that participants are not required to be in the tool to make progress on the work (e.g., email systems).
  * Completely synchronous: this means that participation of other team member is required to access the tool (e.g., video-conference).
- * Both: the collaborative action requires asynchronous and synchronous work. Therefore, the computer-based tool should provide support for both modes.
+ * Both: the collaboration requires asynchronous and synchronous work. Therefore, the computer-based tool provides support for both modes.
 
-*Awareness mechanisms*: list the possible features that help with individual and team awareness. Possible values for this descriptor are:
+*Awareness mechanisms*: lists the possible features that help with individual and team awareness. Possible values for this descriptor are:
  
  * Event log
  * Notifications
@@ -202,9 +202,9 @@ Table 1 shows the set of descriptors used for tool features, along with name, po
 
 *Scale*: Describes the maximum number of participants supported by the tool. The possible values selected represent the most popular accommodations: 2, less or equal to 5, less or equal to 10, and more than 10 participants. 
 
-*Domains*: List the number of knowledge domains for which the tool can be used for. The selection of possible values for this descriptor was based on the high level categories of JACS ([Joint Academic Coding System](https://www.hesa.ac.uk/index.php?option=com_content&view=article&id=158 "JACS")). For a complete list of possible values in this descriptor refer to [APPENDIX 1](https://github.com/maryi/CSCW-Project/blob/master/Project%20report/APPENDIX%201%20-%20Domains%20values%20based%20on%20JACS.md)
+*Domains*: Lists the number of knowledge domains for which the tool can be used for. The selection of possible values for this descriptor was based on the high level categories of JACS ([Joint Academic Coding System](https://www.hesa.ac.uk/index.php?option=com_content&view=article&id=158 "JACS")). For a complete list of possible values in this descriptor refer to [APPENDIX 1](https://github.com/maryi/CSCW-Project/blob/master/Project%20report/APPENDIX%201%20-%20Domains%20values%20based%20on%20JACS.md)
 
-*Nascence*: Described the level of novelty or routine work that can be done in the tool. In our solution, we kept the descriptor with the same definition in both sets and possible values as:
+*Nascence*: Describes the level of novelty or routine work that can be done in the tool. In our solution, we kept the descriptor with the same definition in both sets and possible values as:
  
  * Routine: support for familiar tasks
  * Most of the tasks are routine
@@ -228,7 +228,7 @@ Table 1 shows the set of descriptors used for tool features, along with name, po
  * Free software download
  * Paid software download
 
-*Hierarchy*: Brings information of the possible role structure in the tool.
+*Hierarchy*: describes possible role structures and permissions available in the tool. Role structures may be used to delineate project managers from project workers, faculty from students, etc.  
 
  * All users same role: there is not a role assignation feature, all participants in the tool have the same options.
  * Role based: the tool offers a role assignation feature with administrative options differences. 
@@ -236,11 +236,16 @@ Table 1 shows the set of descriptors used for tool features, along with name, po
 
 *Tool purpose*: illustrates the main purpose of the tool. We based our selection of possible values in the typology described by Bower (2015) as technologies for collaboration. The complete list of possible values is in [Appendix 2](https://github.com/maryi/CSCW-Project/blob/master/Project%20report/APPENDIX%202%20-%20Purpose%20values.md)
 
-*Compatibility*: provides information about other tools that can be integrated with (e.g., Slack has integrations with Twitter) or tools that are commonly used together as complement (e.g., Github and Trello). This descriptor is free text.
+*Compatibility*: provides information about other software tools might be integrated with (e.g., Slack has integrations with Twitter) or tools that are commonly used together as complement (e.g., Github and Trello). This descriptor is free text.
 
-*Modality*: Based on Nickerson's (1997) this descriptor provides information about the nature of communication within the tool.
-Contribution of the modal dimension, we added a few other options to the dimension including audio communication, visual communication, visualization communication, short message communication.
+*Modality*: Based on Nickerson's (1997) taxonomy this descriptor provides information about the nature of communication within the tool.  We contributed to the modal dimension, adding a few further options including visualization communication and short message communication. Available options now include: 
 
+ * Audio Communication 
+ * Visual Communication 
+ * Document Communication 
+ * Data Communication 
+ * Visualization Communication 
+ * Short Message Communication
 
 #### 2.2 Descriptors for collaborative work
 The set of descriptors used to characterize collaborative work is mainly composed by the dimensions proposed in the MoCA framework with the addition of the descriptor *purpose*. We found that although MoCA represented a good base to describe collaborative work, the framework presents a high level description for each dimension maybe due to the fact that is has never been applied before to a real situation. Accordingly, the first challenge is to create a less abstract version of MoCA with more applicable definitions for its dimensions.  
@@ -336,7 +341,7 @@ It should be noted that not all descriptors are different, we found that some of
 
 ### 3. Technical specifications
 
-The website is made up of two components: the database and the website (HTML, CSS, and PHP files). The database is coded in MYSQL and stores the list of all the applications that have been registered as well as the complete list of descriptors for each application. The HTML and CSS files define what the users see on the website and the PHP enable communication between the database and the website. Both the website files and the database are hosted on [the google cloud computing platform](https://cloud.google.com/appengine/docs). This option, offered as a free service allowed us to have both project components, website and database, on the same infrastructure, which made it easier to integrate them while ensuring high availability of the service for potential users.
+The website is made up of two components: the database and the website (HTML, CSS, and PHP files). The database is coded in MYSQL and stores the list of all the applications that have been registered as well as the complete list of descriptors for each application. The HTML and CSS files define what the users see on the website and the PHP enable communication between the database and the website. Both the website files and the database are hosted on the google cloud computing platform. This option, offered as a free service allowed us to have both project components, website and database, on the same infrastructure, which made it easier to integrate them while ensuring high availability of the service for potential users.
 
 Currently, our website can be accessed from [link](http://matchmaker-1137.appspot.com/). Our website has two primary functions, searching for collaborative tools and registering collaborative tools. Currently the search works fairly simplistically and just takes the exact text entered in the HTML form and checks if it matches exactly with any application descriptors in the database. The register function works by adding the values from the HTML form into the proper descriptor in the database. Aside from those two functions we also have a home page that describes what our app is for and how it works, and an “about us” page that contains a link to all of our emails where people can send us feedback.
  

@@ -382,10 +382,17 @@ In addition to the MoCA framework we are limited by time with only a little over
 Now that we have finished designing our website it is clear that our search recommendation algorithm will also be a limitation. Ideally, we would want to only recommend applications that strictly satisfy the requirements given by the user. However, due to time constraints and the difficulty of discovering such an algorithm we have had to make due with recommending applications that only match some of the criteria selected and not all the criteria. We recognize it is difficult to recommend the perfect application because we will only have somewhere between 50 or 100 applications registered by the time this project is due.
  
 ## FUTURE WORK -NEEDS TO BE UPDATED
+
 We sense that connecting CSCW teams to the best tools for facilitating their work will remain a challenge for many years to come. We hope that our project demonstrates that articulating collaborative work using the MoCA framework can help connect users to tools which facilitate successful CSCW. Our work should also add to the awareness and development of the MoCA framework. Our intent is that the MatchMaker Application may become a place where users can continue registering applications into the future.  Furthermore, the logic which maps the MatchMaker Application data of collaborative software to the MoCA framework will be made available in case developers wish to further adapt and enhance the model.   
 
 Lee and Paine (2015) suggested an area of future research around the MoCA framework in identifing constellations of technologies relevant to specific coordinated actions fitting certain profiles of CSCW. In future, the MatchMaker Application may be used to help identify the relationships between types of work and the appropriate constellations of software tools. The application would have to evolve to include engagement and feedback from users following their use of the MatchMaker Application and having completed their CSCW to determine the success of the MatchMaker recommendation and the final selected toolset. This dataset could be used to further improve the recommender system as well as providing a rich resource for CSCW researchers.   
-  
+
+## LESSONS LEARNT AND THEIR IMPACT
+
+One of the first things that we learned during that conception phase was that the MoCA framework alone was not enough to accurately classify applications. We had to add on new descriptors like purpose and service type to have an accurate recommendation system. We also learnt early on that the our application wasn't going to have all the features we had initially envisioned because of both the programming challenge of implementing the features as well as time constraints. We also learnt a lot about tools like github, initially we had lots of commits that didn't have any message added to describe what was done in the commit. This made it difficult to tell what changes were being made and even more difficult to correct from commits that messed with functionality.
+
+We also learnt a lot about team dynamics. At the start we were fairly disorganized but after the first proposal deadline we started assigning ourselves to specific tasks so everyone knew what they were supposed to do and knew what other group members were working on.
+
 ### ACKNOWLEDGMENTS 
 We would like to thank the students and leaders of our CSCW course at the University of Victoria for their thoughtful feedback and comments while presenting our research proposal. Specifically we wish to thanks Margaret-Anne Storey and Eirini Kalliamvakou for ongoing feedback throughout our project.  
  

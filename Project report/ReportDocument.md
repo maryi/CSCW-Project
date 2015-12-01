@@ -363,7 +363,7 @@ Users were initially asked to imagine a recommendation system that helps user fi
 
 The survey then asked questions specific to MatchMaker Application. Upon studying the results it was determined that the search function was a success: Seventy-Seven percent of users had a good overall experience using the search function, twenty-three percent had a fair overall experience, and zero percent had a negative overall experience. Users claimed that the questions asked by the search were clear and easy to answer and that site navigation was easy; however, some users had trouble understanding the descriptors ‘purpose’ and ‘nature of collaboration’.
 
-Users also agreed that each of our descriptors for collaborative work were necessary, only stating that it may be useful to have more domain-specific options for healthcare and engineering in particular.  Future iterations of the MatchMaker Application would have to account for a more thorough account of possibledomains, perhaps using the JACS complete classification framework. 
+Users also agreed that each of our descriptors for collaborative work were necessary, only stating that it may be useful to have more domain-specific options for healthcare and engineering in particular.  Future iterations of the MatchMaker Application would have to account for a more thorough account of possible domains, perhaps using the JACS complete classification framework. 
 
 Astonishingly, one hundred percent of users agree that they would find this tool useful and would use it in the future, assuming it had been refined.
 

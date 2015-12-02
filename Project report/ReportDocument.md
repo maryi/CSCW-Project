@@ -391,7 +391,7 @@ In addition to the MoCA framework we are limited by time with only a little over
 
 Now that we have finished designing our website it is clear that our search recommendation algorithm will also be a limitation. Ideally, we would want to only recommend applications that strictly satisfy the requirements given by the user. However, due to time constraints and the difficulty of discovering such an algorithm we have had to make due with recommending applications that only match some of the criteria selected and not all the criteria. We recognize it is difficult to recommend the perfect application because we will only have somewhere between 50 or 100 applications registered by the time this project is due.
  
-## FUTURE WORK -NEEDS TO BE UPDATED
+## FUTURE WORK
 
 The evolution of MatchMaker Application is expected to be an ongoing process through user testing; however, immediate implementation requirements entail growing the userbase, most likely through the use of advertisement; research into and perfection of the search algorithm; changes to the website and volcabulary used to facilitate a more user-friendly experience; and adding domain specific searches for various fields suggested by users, examples include healthcare and engineering. 
 

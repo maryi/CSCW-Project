@@ -129,10 +129,10 @@ The list of applications was made to collect tool data, which would be used as a
 
 After the interface development was complete we integrated the database with the website. Concurrently, researchers also ensured the consistency of descriptors in the project by, in iterative cycles, comparing descriptor definitions and the list of applications against the website in development. Once the development reached a stable point where all components were functional, we moved forward to user validation phase.
 
-#### Analysis 
+#### Validation
 In order to validate our idea and our approach we designed a survey. First, we asked about the usefulness of the idea. Then, for each main function, searching for an application and registering an application, we asked about the appropriateness of the vocabulary, completeness and utility of the descriptors, and experience with the tool feature. Finally, we ask about the usefulness of the tool and motivation to contribute to the project. Optionally, participants had an open area on each question to elaborate on their answers. To review the survey form refer to [APPENDIX 4](https://github.com/maryi/CSCW-Project/blob/master/Project%20report/APPENDIX%204%20-%20Survey.pdf)            
 
-The final step in our process was to collect and analyze the results from the survey. Feedback provided from potential users will be used to draw our future plan of action and consider new versions of the tool.
+The final step in our process was to collect and analyze the results from the survey. Feedback provided from potential users is used to draw our future plan of action and consider new versions of the tool.
 
  
 ### 2. Software design

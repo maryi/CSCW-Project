@@ -141,12 +141,12 @@ MatchMaker Application is a recommendation system that aims to help users select
 
 Once user requirements were set, we proceeded to design an interface mock-up for UR1 and UR2. Figure 4 and 5 show our preliminary designs. Note that the vocabulary was adapted to be more colloquial for user friendliness. 
 
-| <img src="https://raw.githubusercontent.com/maryi/CSCW-Project/master/Images/Find%20app1.3.png" width="300">                 |
+| <img src="https://raw.githubusercontent.com/maryi/CSCW-Project/master/Images/Find%20app1.4.png" width="300">                 |
 |--------------------------------------------------------|
 | Figure 4. Preliminary interface Mockup for UR1: Searching for an application |
 
 
-| <img src="https://raw.githubusercontent.com/maryi/CSCW-Project/master/Images/Register%20app1.3.png" width="300">                 |
+| <img src="https://raw.githubusercontent.com/maryi/CSCW-Project/master/Images/Register%20app1.4.png" width="300">                 |
 |--------------------------------------------------------|
 | Figure 5. Preliminary interface Mockup for UR2: Registering an application |
 

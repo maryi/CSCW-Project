@@ -130,7 +130,7 @@ The list of applications was made to collect tool data, which would be used as a
 After the interface development was complete we integrated the database with the website. Concurrently, researchers also ensured the consistency of descriptors in the project by, in iterative cycles, comparing descriptor definitions and the list of applications against the website in development. Once the development reached a stable point where all components were functional, we moved forward to user validation phase.
 
 #### Validation
-In order to validate our idea and our approach we designed a survey. First, we asked about the usefulness of the idea. Then, for each main function, searching for an application and registering an application, we asked about the appropriateness of the vocabulary, completeness and utility of the descriptors, and experience with the tool feature. Finally, we ask about the usefulness of the tool and motivation to contribute to the project. Optionally, participants had an open area on each question to elaborate on their answers. To review the survey form refer to [APPENDIX 4](https://github.com/maryi/CSCW-Project/blob/master/Project%20report/APPENDIX%204%20-%20Survey.pdf)            
+In order to validate our idea and our approach we designed a survey. First, we asked about the usefulness of the idea. Then, for each main function, searching for an application and registering an application, we asked about the appropriateness of the vocabulary, completeness and utility of the descriptors, and experience with the tool feature. Finally, we ask about the usefulness of the tool and motivation to contribute to the project. Optionally, participants had an open area on each question to elaborate on their answers. To review the survey form refer to [Appendix 4](https://github.com/maryi/CSCW-Project/blob/master/Project%20report/APPENDIX%204%20-%20Survey.pdf)            
 
 The final step in our process was to collect and analyze the results from the survey. Feedback provided from potential users is used to draw our future plan of action and consider new versions of the tool.
 
@@ -357,7 +357,7 @@ Currently, our website can be accessed from [http://matchmaker-1137.appspot.com/
  
 ### 4. Expected results 
 
-We set out to create an application that accurately suggests appropriate software to support CSCW to users. In a world where a new application is released nearly every minute, our intent was to bring together users and applications that support collaborative work.
+We set out to create an application that accurately suggests appropriate software to support collaborative work to users. In a world where a new application is released nearly every minute, our intent was to bring together users and applications that support collaborative work.
 
 Initially, we tried to classify applications using the MoCA framework exclusively, however; when we started to actually design our website, it was clear that some of the MoCA dimensions weren't going to be obvious enough to users or relevant to recommending a piece of software. For example the category “number of communities of practice” wasn't necessary to recommend a collaborative application. Instead of asking about the number of communities of practice we asked a question about what domains of study the application would be used to support. We expect that this approach of adding, replacing, or reframing dimensions that aren't helpful for classification will improve the usefulness of our application.
 
@@ -367,7 +367,7 @@ In all fields of work and study the methods of collaboration are constantly evol
 
 #### 4.1. Survey feedback
 
-A survey was conducted to receive feedback on the usability and feasibility of MatchMaker Application. The survey ran from November 21 - November 28, 2015. In total thirteen responses were received during the survey window. The survey was distributed to a wide range of people from a variety of backgrounds. 
+A survey was conducted to receive feedback on the usability and feasibility of MatchMaker Application. To review the survey form refer to [Appendix 4](https://github.com/maryi/CSCW-Project/blob/master/Project%20report/APPENDIX%204%20-%20Survey.pdf). The survey ran from November 21 - November 28, 2015. In total thirteen responses were received during the survey window. The survey was distributed to a wide range of people from a variety of backgrounds. 
 
 Users were initially asked to imagine a recommendation system that helps user find the most suitable software to support spcific types of collaborative work. Users were then asked whether or not they would use the system or think it would be useful. One hundred percent of users responded ‘Yes’ and the majority further responded with comments indicating that it would help inform them of applications that are available which they may not be aware of.  Additional feedback suggested this could be a useful service to find tools that would be helpful for conducting CSCW in a school or professional setting.
 

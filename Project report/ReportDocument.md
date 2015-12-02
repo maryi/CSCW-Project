@@ -344,7 +344,16 @@ It should be noted that not all descriptors are different, we found that some of
 
 The website is made up of two components: the database and the website (HTML, CSS, and PHP files). The database is coded in MYSQL and stores the list of all the applications that have been registered as well as the complete list of descriptors for each application. The HTML and CSS files define what the user sees on the website and the PHP enables communication between the database and the website. Both the website files and the database are hosted on the Google Cloud computing platform. This option, offered as a free service allowed us to have both project components, website and database, on the same infrastructure, which made it easier to integrate them while ensuring high availability of the service for potential users.
 
-Currently, our website can be accessed from [link](http://matchmaker-1137.appspot.com/). Our website has two primary functions, searching for collaborative tools and registering collaborative tools. Currently the search works fairly simplistically and just takes the exact text entered in the HTML form and checks if it matches exactly with any application descriptors in the database. The register function works by adding the values from the HTML form into the proper descriptor in the database. Aside from those two functions we also have a home page that describes the intent of the MatchMaker Application and how it works, and an “about us” page that contains a link to all of our emails where people can send us feedback.
+| <img src="https://raw.githubusercontent.com/maryi/CSCW-Project/master/Images/Find%20appScreenshot.PNG" width="300">                 |
+|--------------------------------------------------------|
+| Figure 6. Partial screenshot - searching for collaborative tools |
+
+
+Currently, our website can be accessed from [http://matchmaker-1137.appspot.com/](http://matchmaker-1137.appspot.com/). The website has two primary functions, searching for collaborative tools and registering collaborative tools, figures 6 and 7 show partial screenshots of the website for each. Currently, the search works fairly simplistically and just takes the exact text entered in the HTML form and checks if it matches exactly with any application descriptors in the database. The register function works by adding the values from the HTML form into the proper descriptor in the database. In addition to the two functions, we have a home page that describes the intent of the MatchMaker Application and how it works, and an “about us” page that contains a link to all of our emails where people can send us feedback.
+
+| <img src="https://raw.githubusercontent.com/maryi/CSCW-Project/master/Images/Register%20appScreenshot.PNG" width="300">                 |
+|--------------------------------------------------------|
+| Figure 7. Partial screenshot - registering collaborative tools |
  
 ### 4. Expected results 
 

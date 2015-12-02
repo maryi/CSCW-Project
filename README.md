@@ -1,5 +1,9 @@
 # CSCW-Project
-**Access to the interim report:**
+
+Access to final presentation slides:
+https://docs.google.com/presentation/d/150qeZcLTuqcTAVmK7QRPOW4V1q4SQNzmEZKnkOSblS8/edit#slide=id.p
+
+Access to the interim report:
 https://github.com/maryi/CSCW-Project/blob/master/Project%20report/InterimReport.pdf
 
 Access to the project ideas: 

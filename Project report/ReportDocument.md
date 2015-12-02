@@ -137,7 +137,9 @@ The final step in our process was to collect and analyze the results from the su
  
 ### 2. Software design
 
-MatchMaker Application is a recommendation system that aims to help users selecting appropriate collaborative tools based on the articulation of their work through the MoCA framework. In particular, the application allows any user to describe the type of collaborative work to be done and our application suggests appropriate tools. This function is identified as the first user requirement: *UR1: Searching for an application*. Additionally, MatchMaker Application allows users to register collaborative computer-based tools in the system database, as a mechanism to help populate the recommendation system. This function is identified as the second user requirement: *UR2: Registering an application*. Figure 4 and 5 show a preliminary interface mock-up for UR1 and UR2 respectively. Note that the vocabulary of the MoCA dimensions were adapted to be more colloquial in the web page for user friendliness. 
+MatchMaker Application is a recommendation system that aims to help users selecting appropriate collaborative tools based on the articulation of their work through the MoCA framework. In particular, the application was defined with two main functions. First, the software, by asking a series of questions, allows any user to describe the type of collaborative work to be done and as a result the application suggests appropriate tools. This function is identified as the first user requirement: *UR1: Searching for an application*. The second main function allows users to fill out particular information about collaborative computer-based tools in the system database. This action registers the tool in the system helping populate the MatchMaker database. This function is identified as the second user requirement: *UR2: Registering an application*. 
+
+Once user requirements were set, we proceeded to design an interface mock-up for UR1 and UR2. Figure 4 and 5 show our preliminary designs. Note that the vocabulary were adapted to be more colloquial in application for user friendliness. 
 
 | <img src="https://raw.githubusercontent.com/maryi/CSCW-Project/master/Images/Find%20app1.3.png" width="300">                 |
 |--------------------------------------------------------|
@@ -147,6 +149,8 @@ MatchMaker Application is a recommendation system that aims to help users select
 | <img src="https://raw.githubusercontent.com/maryi/CSCW-Project/master/Images/Register%20app1.3.png" width="300">                 |
 |--------------------------------------------------------|
 | Figure 5. Preliminary interface Mockup for UR2: Registering an application |
+
+
 
 In order to implement the listed requirements, we defined a set of criteria to help us classify our information. 
 In particular, we adopted the term *-descriptors-*, to define a criteria, as they are used to describe instances of collaborative work and tools for such context. 

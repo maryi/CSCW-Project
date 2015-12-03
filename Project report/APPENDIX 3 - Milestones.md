@@ -16,14 +16,14 @@ Our intent was to use the MoCA framework as a base, so that it would be used to 
 Also in terms of decribing collaborative tools, we discussed the challenge of labeling a tool synchronous or asynchronous 
 ([See discussion on Github](https://github.com/maryi/CSCW-Project/issues/18 "See discussion on Github")). Using examples of tools we were using at the time to facilitate our own CSCW such as Github and Slack, we had a rich discussion about whether these tools were synchronous or asynchronous. Some felt that synchronous implied real-time voice and video communication, others felt that because the afformentioned tools are increasingly mobile and provide real-time notification and opportunities to respond, they could be labeled synchronous as well. These discussions helped form the basis of our descriptors articulated in the next section.   
 
-### Milestones
+### Individual contributions 
 We divided the work in multiple tasks and although everyone was encouraged to contribute to all components of the project and discussions, there was always someone assigned or self-assigned as main responsible.
 
 Below, we present a description of participants responsibilities and tasks so far. Also, we present the list of milestones achieved.
 
 Krista: Edition of project project proposal, in charge of creating a base list of applications (work in progress). This list of applications will be used to populate our database once the development is ready. Access to the list is [here](https://docs.google.com/spreadsheets/d/1Trh6Pesxvv5aYfd_x7wXxGmR5k9Y5g7-wpFbezwqi8E/edit?usp=sharing)
 
-Michael: Edition of project proposal, Research, literature review and documentation of project progress. Also, documentation of initial descriptors.
+Michael: Primary researcher in charge of literature review and documentation of project progress. Primary editor of project proposal and final project report. Contributed to ongoing progress of application development, descriptors and formulation of the search algorithm. Contributed to project discussions via GitHub issues. Contributed to presentations and facilitated feedback via Slack. Helped to elicit survey participants then digest and collate survey results. Helped coordinate, facilitate and attend twice weekly meetings, one online each Monday and one before class Wednesday's.  
 
 Eli: Mockup design, Database administration. Responsible for technical specifications in project report.
 

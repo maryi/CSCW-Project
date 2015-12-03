@@ -383,7 +383,7 @@ Users were additionally asked for suggestions to make the MatchMaker Application
 
 ## LIMITATIONS  
 
-Our two biggest limitations in this endeavor are the novelty of the MoCA framework and time.
+Our two biggest limitations in this endeavor are the novelty of the MoCA framework and the availablity of time to develop the application.
 
 We are basing our work on the MoCA framework which is a novel framework for describing CSCW, so we might be limiting our development by choosing this approach. The MoCA framework was designed to give a common way of describing collaborative work and was not designed specifically for classification. Due to this there have been some challenges using it for classification. To overcome this limitation, we have had to add or make modifications to dimensions from the MoCA framework to obtain a better classification system for collaborative applications.
 
@@ -401,7 +401,11 @@ Lee and Paine (2015) suggested an area of future research around the MoCA framew
 
 ## LESSONS LEARNED AND THEIR IMPACT
 
-One of the first things that we learned during the conception phase was that the MoCA framework alone was not enough to accurately classify applications. We had to add new descriptors such as purpose and service type to have an accurate recommendation system. In addition, we learned early on that our application would not contain all the features we had initially envisioned due to both the programming challenge of implementing the features as well as time constraints. We also learned a lot about tools like Github. Initially, we had a lot of commits that did not contain messages to describe what was done in the commit. This made it difficult to tell what changes were made and even more difficult to correct from commits that affected functionality. We also learned a lot about team dynamics. At the start, we were fairly disorganized but after the first proposal deadline we started assigning ourselves to specific tasks so everyone knew what they were supposed to do and knew what other group members were working on.
+One of the first things that we learned during the conception phase was that the MoCA framework alone was not enough to accurately classify applications. We had to add new descriptors such as purpose and service type to have an accurate recommendation system. This naturally complicated our search algorithm as we then had to determine ways to map descriptors of collaborative work to descriptors of collaborative tools.   
+
+In addition, we learned early on that our application would not contain all the features we had initially envisioned due to both the programming challenge of implementing the features as well as time constraints. 
+
+We learned a lot about collaborative tools like Github as we engaged in documentation and code development. Initially, we had a lot of commits that did not contain messages to describe what was done in the commit. This made it difficult to tell what changes were made and even more difficult to correct from commits that affected functionality. We also learned a lot about team dynamics. At the start, we were fairly disorganized but after the first proposal deadline we started assigning ourselves to specific tasks so everyone knew what they were supposed to do and knew what other group members were working on. We also started using Github more deliberately at this point, making use of the issues tool to engage in discussions and assign team members to specific tasks.  
 
 ### ACKNOWLEDGMENTS 
 We would like to thank the students and leaders of our CSCW course at the University of Victoria for their thoughtful feedback and comments while presenting our research proposal. Specifically we wish to thank Margaret-Anne Storey and Eirini Kalliamvakou for ongoing feedback throughout our project.  

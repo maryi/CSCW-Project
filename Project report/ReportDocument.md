@@ -61,13 +61,13 @@ In total the MoCA framework consists of seven dimensions of coordinated action d
 
 We recognize that predicting the synchronicity and physical distribution throughout a CSCW project can vary over time and information about these dimensions can be a challenge to identify discretely.
 
-*Scale*: Is the number of participants involved in the collaboration. Information provided by this dimension illustrates the complexity of the computer-based tool. It is assumed that an increase in participants requires more robust social arrangements and new practices.
+*Scale*: is the number of participants involved in the collaboration. Information provided by this dimension illustrates the complexity of the computer-based tool. It is assumed that an increase in participants requires more robust social arrangements and new practices.
 
 *Number of Communities of Practice*: focuses on the number of different identifiable communities of practice represented in the coordinated action. This dimension recognizes the importance of the different knowledge domains that may participate in the collaboration.
 
 *Nascence*: discusses how unestablished (new) or established (old) a coordination action is. In other words, nascence aims to describe the familiarity level of participants with the collaborative task.
 
-*Planned Permanence*: as it is a challenge to predict how long a coordinated action will last, this dimension refers to planned or intended permanence of a coordinated action. 
+*Planned Permanence*: describes how long a coordinated action is expected to last for. Planned permanence addresses the challenge of predicting how long a coordinated action will last. 
 
 *Turnover*: refers to the stability of the participant makeup for a given collaboration, or the rapidity of participants entering or leaving the collaboration. 
 

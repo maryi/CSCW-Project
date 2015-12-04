@@ -401,7 +401,7 @@ Lee & Paine (2015) suggested an area of future research around the MoCA framewor
 
 ## LESSONS LEARNED AND THEIR IMPACT
 
-One of the first things that we learned during the conception phase was that the MoCA framework alone was not enough to accurately classify applications. We had to add a new descriptor to MoCA, such as purpose, and define a similar set of descriptors for computer-based tools, such as service type, to have an accurate recommendation system. This naturally complicated our search algorithm as we then had to determine ways to map descriptors of collaborative work to descriptors of collaborative tools.   
+One of the first things that we learned during the conception phase was that the MoCA framework alone was not enough to accurately classify applications. We had to add  new descriptors in addition to the ones found in MoCA, for example purpose, and define a similar set of descriptors for computer-based tools, such as service type, to have an accurate recommendation system. This naturally complicated our search algorithm as we then had to determine ways to map descriptors of collaborative work to descriptors of collaborative tools.   
 
 In addition, we learned early on that our application would not contain all the features we had initially envisioned due to both the programming challenge of implementing the features as well as time constraints. 
 

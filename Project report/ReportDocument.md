@@ -330,9 +330,9 @@ It should be noted that not all descriptors are different, we found that some of
 
 *Synchronicity*: in both sets of descriptors synchronicity has the same name and same options with slight differences based on the context. 
  
-*Planned Permanence*: this descriptor provides information about the length of the collaboration. The rational we followed to suggest an appropriate tool given this information is based on two assumptions: 1) for a long-term collaboration participants may be more willing to spend time learning the complexities of a tool and 2) they are more open to pay for software or install it on their computers. Consequently, this descriptor is paired with *learning curve* and *service type* in the tool descriptor.
+*Planned Permanence*: this descriptor provides information about the length of the collaboration. The rationale we followed to suggest an appropriate tool given this information is based on two assumptions: 1) for a long-term collaboration participants may be more willing to spend time learning the complexities of a tool and 2) they are more open to pay for software or install it on their computers. Consequently, this descriptor is paired with *learning curve* and *service type* in the descriptors for tool features.
 
-*Turnover*: in order to bring support for this descriptor, we selected *content privacy* and *hierarchy* from the tool-features set. This decision was made on the basis that both, describing the possibilities of information visibility and role assignation, define the level of turnover in the work.
+*Turnover*: in order to have support for this descriptor, we selected *content privacy* and *hierarchy* from the tool features set. This decision was made on the basis that both, describing the possibilities of information visibility and assigning roles, define the level of turnover in the work.
 
 *Nascence*: although we agreed this is an important descriptor for collaborative work, we failed to see the way it would benefit from any particular tool feature. In our solution, we kept the descriptor and possible values with the same definition in both descriptions for work and tools.
 

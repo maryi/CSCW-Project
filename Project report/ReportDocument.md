@@ -393,7 +393,7 @@ Now that we have finished the application implementation it is clear that our se
  
 ## FUTURE WORK
 
-The evolution of MatchMaker Application is expected to be an ongoing process through user testing; however, immediate implementation requirements entail growing the user-base, most likely through the use of advertisement; research into and perfection of the search algorithm; changes to the website and vocabulary used to facilitate a more user-friendly experience; and adding domain specific searches for various fields suggested by users, examples include health-care and engineering. 
+The evolution of MatchMaker Application is expected to be an ongoing process through user testing; however, immediate implementation requirements entail growing the user-base, most likely through the use of advertisement; research into and perfection of the search algorithm; changes to the website design and vocabulary used to facilitate a more user-friendly experience; and adding domain specific searches for various fields suggested by users, examples include health-care and engineering. 
 
 We sense that connecting CSCW teams to the best tools for facilitating their work will remain a challenge for many years to come. We hope that our project demonstrates that articulating collaborative work using the MoCA framework can help connect users to tools which facilitate successful CSCW. Our work should also add to the awareness and development of the MoCA framework. Our intent is that the MatchMaker Application may become a place where users can continue registering applications into the future.  Furthermore, the logic which maps the MatchMaker Application data of collaborative software to the MoCA framework will be made available in case developers wish to further adapt and enhance the model.   
 
@@ -401,7 +401,7 @@ Lee and Paine (2015) suggested an area of future research around the MoCA framew
 
 ## LESSONS LEARNED AND THEIR IMPACT
 
-One of the first things that we learned during the conception phase was that the MoCA framework alone was not enough to accurately classify applications. We had to add new descriptors such as purpose and service type to have an accurate recommendation system. This naturally complicated our search algorithm as we then had to determine ways to map descriptors of collaborative work to descriptors of collaborative tools.   
+One of the first things that we learned during the conception phase was that the MoCA framework alone was not enough to accurately classify applications. We had to add a new descriptor to MoCA, such as purpose, and define a similar set of descriptors for computer-based tools, such as service type, to have an accurate recommendation system. This naturally complicated our search algorithm as we then had to determine ways to map descriptors of collaborative work to descriptors of collaborative tools.   
 
 In addition, we learned early on that our application would not contain all the features we had initially envisioned due to both the programming challenge of implementing the features as well as time constraints. 
 

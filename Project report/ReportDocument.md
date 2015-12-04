@@ -383,9 +383,9 @@ Users were additionally asked for suggestions to make the MatchMaker Application
 
 ## LIMITATIONS  
 
-Our two biggest limitations in this endeavor are the novelty of the MoCA framework and the availablity of time to develop the application.
+Our two biggest limitations in this endeavor are the novelty of the MoCA framework and the availability of time to develop the application.
 
-We are basing our work on the MoCA framework which is a novel framework for describing CSCW, so we might be limiting our development by choosing this approach. The MoCA framework was designed to give a common way of describing collaborative work and was not designed specifically for classification. Due to this there have been some challenges using it for classification. To overcome this limitation, we have had to add or make modifications to dimensions from the MoCA framework to obtain a better classification system for collaborative applications.
+This work is based on the MoCA framework, a novel framework for describing CSCW, so we might be limiting our development by choosing this approach. The MoCA framework was designed as a tool to articulate and characterize collaborative work.  and was not designed specifically for tool classification. Due to this there have been some challenges using it for classification. To overcome this limitation, we have had to add or make modifications to dimensions from the MoCA framework to obtain a better classification system for collaborative applications.
 
 In addition to the MoCA framework we were limited by time. This meant that we were not able to implement all the features we wanted and we had to focus on the essential features first. For example it would have been nice to have a feature that showed people who liked application X also found application Y helpful. Also because of time constraints we were not able to implement all the changes that are recommended from the user surveys. Instead, these recommendations will only be brought up to reflect on our approach and draw some directions in the future work section. Ideally if we had more time we would want to implement the user proposed changes and then hand out another survey and keep iteratively improving our design.
 

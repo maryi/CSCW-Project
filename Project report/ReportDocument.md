@@ -55,7 +55,7 @@ In total the MoCA framework consists of seven dimensions of coordinated action d
 | Figure 2. The Model of Coordinated Action (MoCA) and its seven dimensions (Lee & Paine, 2015) |
 
 
-*Synchronicity*: concerns a continuum of coordinated action ranging from being conducted synchronously -at the same time-, to asynchronously -at different times. This dimension further recognizes that coordinated actions can be both synchronous and asynchronous. 
+*Synchronicity*: concerns a continuum of coordinated action ranging from being conducted synchronously (at the same time), to asynchronously (at different times). This dimension further recognizes that coordinated actions can be both synchronous and asynchronous. 
 
 *Physical Distribution*: describes whether coordinated actions are taking place in the same geographic location (collocated) or at different geographic locations (distributed). 
 

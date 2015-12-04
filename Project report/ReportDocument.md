@@ -25,7 +25,7 @@ This study is motivated by the following research questions:
  * **RQ2** Are there further descriptive dimensions useful in describing collaborative work that should be added to the MoCA framework? 
 
 ## BACKGROUND 
-Various models for describing CSCW have been proposed to help users organize and conceptualize CSCW. Johansen's (1988) time-space matrix described collaborative work in terms of location and synchronicity across two dimensions. Participants may find themselves in the same location, referred to as co-located or at different places, referred to as remote. Synchronicity is used to describe whether interaction between participant happens at the same time (synchronous) or at different times (asynchronous). See figure 1 for a visual of Johansen's time-space matrix.
+Various models for describing CSCW have been proposed to help users organize and conceptualize CSCW. Johansen's (1988) time-space matrix describes collaborative work in terms of location and synchronicity across two dimensions. Participants may find themselves in the same location, referred to as co-located or at different places, referred to as remote. Synchronicity is used to describe whether interaction between participant happens at the same time (synchronous) or at different times (asynchronous). See figure 1 for a visual of Johansen's time-space matrix.
 
 | ![alt text](https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Cscwmatrix.jpg/640px-Cscwmatrix.jpg "TimeSpaceMatrix") |
 |--------------------------------------------------------|

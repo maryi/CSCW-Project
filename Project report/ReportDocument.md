@@ -270,14 +270,14 @@ Below each descriptor is described with the name, possible options and the selec
 
 
 
-*Scale*: similar to the original version, represents an approximate number of people involved in the collaborative work that should have access to the common artifacts through computer-based tools. The possible values selected represent the most popular accommodations: 2, less or equal to 5, less or equal to 10, and more than 10 participants. 
+*Scale*: similar to the original version, represents an approximate number of people involved in the collaborative work that should have access to the common artifacts through computer-based tools. The possible values selected represent the most popular accommodations: 2, less than or equal to 5, less than or equal to 10, and more than 10 participants. 
 
 *Physical Distribution*: this descriptor provides information about the location of participants, thus the possible values are distributed or collocated. 
 
 *Synchronicity*: represents the nature of interactions between participants. This descriptor can take three values:
  
- * Completely asynchronous: describes collaboration that does not require participants to be actively working on the coordinated action in order to make progress on the work. 
- * Completely synchronous: collaboration where participation of all or a significant number of team members is required to work simultaneously in order to make progress in the coordinated action. 
+ * Completely asynchronous: describes collaboration that does not require participants to be working simultaneously on the coordinated action in order to make progress on the work. 
+ * Completely synchronous: collaboration where participation of all or a significant number of team members are required to work simultaneously in order to make progress in the coordinated action. 
  * Both: the collaborative action requires asynchronous and synchronous work. 
  
 *Planned Permanence*: this descriptor provides information about the length of the collaboration. In this case, we defined the following possible options: couple of days, less than or equal to 1 month, less than or equal to 6 months, and more time. 
@@ -285,8 +285,8 @@ Below each descriptor is described with the name, possible options and the selec
 *Turnover*: represents the rapidity with which group members enter or leave from the collaboration. We defined three possible options:
 
  * Low: for closed group and private collaboration
- * Medium: closed group, but with possibility to have private or open collaboration
- * High: open group, open collaboration to general public
+ * Medium: closed group, but with the possibility to have private or open collaboration
+ * High: open group, and open collaboration to general public
 
 *Nascence*: describes the level of familiarity of participants with respect to the coordinated action. For this descriptor we defined the possible values as:
  
@@ -295,7 +295,7 @@ Below each descriptor is described with the name, possible options and the selec
  * Most of the tasks will be new
  * Developing: support for evolving tasks
 
-*Domains*: This descriptor is related to the number of communities of practice dimension in the MoCA framework. The original dimension addresses the number of communities of practice represented in the coordinated action. However, while we think the question about 'how many?' is important we think another question 'which ones?' is more relevant to our purpose. In fact, by selecting which communities are included in the collaboration the user is also providing information about the number involved. 
+*Domains*: this descriptor is related to the number of communities of practice dimension in the MoCA framework. The original dimension addressed the number of communities of practice represented in the coordinated action. However, while we think the question about 'how many?' is important we think another question 'which ones?' is more relevant to our purpose. In fact, by selecting which communities are included in the collaboration the user is also providing information about the number involved. 
 
 If the user indicates collaboration between a single community, that information does not factor into the recommendation of a specific tool. However, if the user indicates for example, engineering and general public, our application can have an additional filter to select potentially good tools for those domains.
 

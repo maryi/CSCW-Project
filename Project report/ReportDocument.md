@@ -63,7 +63,7 @@ We recognize that predicting the synchronicity and physical distribution through
 
 *Scale*: Is the number of participants involved in the collaboration. Information provided by this dimension illustrates the complexity of the computer-based tool. It is assumed that an increase in participants requires more robust social arrangements and new practices.
 
-*Number of Communities of Practice*: focuses on the number of different identifiable communities of practice represented in the coordinated action. This dimension recognize the importance of the different knowledge domains that may participate in the collaboration.
+*Number of Communities of Practice*: focuses on the number of different identifiable communities of practice represented in the coordinated action. This dimension recognizes the importance of the different knowledge domains that may participate in the collaboration.
 
 *Nascence*: discusses how unestablished (new) or established (old) a coordination action is. In other words, nascence aims to describe the familiarity level of participants with the collaborative task.
 

@@ -305,11 +305,11 @@ In particular, the selection of possible values for this descriptor was based on
 
 We found that the two sets of descriptors differ in nature and often they do not present a linear correspondence. For that reason, we developed a connection between the descriptors of the work and the descriptors of the applications.
 
-#### 2.3 Description of the connection between the descriptors for collaborative work and the descriptors for applications
+#### 2.3 Description of the connection between the descriptors for collaborative work and the descriptors for tool features
  
-What happens when a user describes collaborative work in the *physical distribution* descriptor as *'distributed team'*? MatchMaker Application looks for applications with multiple *awareness mechanisms*, information stored in the descriptor of the same name in descriptors for applications. As exposed in the example, we developed a way to connect the two set of descriptors by identifying the tool features that contribute to support particular collaborative work. Table 3 shows how the two sets of descriptors are connected, below we present more examples of our process and more details about our rationale.
+What happens when a user describes collaborative work in the *physical distribution* descriptor as *'distributed team'*? MatchMaker Application looks for applications with multiple *awareness mechanisms*, information stored in the descriptor of the same name in descriptors for tool features. As exposed in the example, we developed a way to connect the two set of descriptors by identifying the tool features that contribute to support particular collaborative work. Table 3 shows how the two sets of descriptors are connected, below we present more examples of our process and more details about our rationale.
  
-| Descriptors for collaborative work | Descriptors for applications      |
+| Descriptors for collaborative work | Descriptors for tool features      |
 |------------------------------------|-----------------------------------|
 | Scale                              | Scale                             |
 | Physical Distribution              | Awareness mechanisms              |

@@ -219,7 +219,7 @@ Table 1 shows the set of descriptors used for tool features, along with name, po
  * Fare
  * Hard
 
-*Service type*: describes the business model of the tool developers. Based on researchers experience we listed as possible values:
+*Service type*: describes the business model of the tool developers. Based on the researchers experience we listed possible values as:
  
  * Free online open access
  * Free online account
@@ -229,15 +229,15 @@ Table 1 shows the set of descriptors used for tool features, along with name, po
  * Free software download
  * Paid software download
 
-*Hierarchy*: describes possible role structures and permissions available in the tool. Role structures may be used to delineate project managers from project workers, faculty from students, etc.  
+*Hierarchy*: describes possible roles, and permissions available in the tool. Roles may be used to delineate project managers from project workers, faculty from students, etc.  
 
- * All users same role: there is not a role assignation feature, all participants in the tool have the same options.
- * Role based: the tool offers a role assignation feature with administrative options differences. 
- * Strict hierarchy: the tool has administrative option differences for certain users, but does not offer the option to modify those. For example, only the owner of the application account can invite new members. 
+ * All users same role: there is not a role assigning feature, all participants in the tool have the same permissions.
+ * Role based: the tool offers a role assigning feature with administrative permission differences. 
+ * Strict hierarchy: the tool has administrative permission differences for certain users, but does not offer the option to modify the permissions. For example, only the owner of the application account can invite new members. 
 
-*Tool purpose*: illustrates the main purpose of the tool. We based our selection of possible values in the typology described by Bower (2015) as technologies for collaboration. The complete list of possible values is in [Appendix 2](https://github.com/maryi/CSCW-Project/blob/master/Project%20report/APPENDIX%202%20-%20Purpose%20values.md)
+*Tool purpose*: illustrates the main purpose of the tool. We based our selection of possible values on the typology described by Bower (2015) as technologies for collaboration. The complete list of possible values is in [Appendix 2](https://github.com/maryi/CSCW-Project/blob/master/Project%20report/APPENDIX%202%20-%20Purpose%20values.md)
 
-*Compatibility*: provides information about other software tools might be integrated with (e.g., Slack has integrations with Twitter) or tools that are commonly used together as complement (e.g., Github and Trello). This descriptor is free text.
+*Compatibility*: Provides information about software tools that can be integrated with one another (e.g., Slack has integrations with Twitter) as well as tools that are commonly used together as complements (e.g., Github and Trello). This descriptor is free text.
 
 *Modality*: Based on Nickerson's (1997) taxonomy this descriptor provides information about the nature of communication within the tool.  We contributed to the modal dimension, adding a few further options including visualization communication and short message communication. Available options now include: 
 

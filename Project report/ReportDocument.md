@@ -61,7 +61,7 @@ In total the MoCA framework consists of seven dimensions of coordinated action d
 
 We recognize that predicting the synchronicity and physical distribution throughout a CSCW project can vary over time and information about these dimensions can be a challenge to identify discretely.
 
-*Scale*: addresses the number of participants involved in the collaboration. Information provided by this dimension illustrate the complexity of the computer-based tool required as it is assumed that an increase in participants requires a more robust social arrangements and new practices. 
+*Scale*: Is the number of participants involved in the collaboration. Information provided by this dimension illustrates the complexity of the computer-based tool. It is assumed that an increase in participants requires more robust social arrangements and new practices.
 
 *Number of Communities of Practice*: focuses on the number of different identifiable communities of practice represented in the coordinated action. This dimension recognize the importance of the different knowledge domains that may participate in the collaboration.
 

@@ -297,7 +297,7 @@ Below each descriptor is described with the name, possible options and the selec
 
 *Domains*: this descriptor is related to the number of communities of practice dimension in the MoCA framework. The original dimension addressed the number of communities of practice represented in the coordinated action. However, while we think the question about 'how many?' is important we think another question 'which ones?' is more relevant to our purpose. In fact, by selecting which communities are included in the collaboration the user is also providing information about the number involved. 
 
-If the user indicates collaboration between a single community, that information does not factor into the recommendation of a specific tool. However, if the user indicates for example, engineering and general public, our application can have an additional filter to select potentially good tools for those domains.
+If the user indicates collaboration between a single community, that information does not factor into the recommendation of a specific tool. However, if the user indicates for example, engineering and general public, our application can have an additional filter to select potentially useful tools for those domains.
 
 In particular, the selection of possible values for this descriptor was based on the high level categories of JACS ([Joint Academic Coding System](https://www.hesa.ac.uk/index.php?option=com_content&view=article&id=158 "JACS")). For a complete list of possible values in this descriptor refer to [Appendix 1](https://github.com/maryi/CSCW-Project/blob/master/Project%20report/APPENDIX%201%20-%20Domains%20values%20based%20on%20JACS.md)
 

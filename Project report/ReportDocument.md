@@ -249,7 +249,7 @@ Table 1 shows the set of descriptors used for tool features, along with name, po
  * Short Message Communication
 
 #### 2.2 Descriptors for collaborative work
-The set of descriptors used to characterize collaborative work is mainly comprised of the dimensions proposed in the MoCA framework with the addition of the descriptor *purpose*. **We found that although MoCA represented a good base to describe collaborative work, the framework presents a high level description for each dimension maybe due to the fact that is has never been applied before to a real situation.** Accordingly, the first challenge is to create a less abstract version of MoCA with more applicable definitions for its dimensions.  
+The set of descriptors used to characterize collaborative work is mainly comprised of the dimensions proposed in the MoCA framework with the addition of the descriptor *purpose*. We found that although MoCA represented a good base to describe collaborative work, the framework presents a high level description for each dimension. Accordingly, the first challenge is to create a less abstract version of MoCA with applicable definitions for each of its dimensions that could fit into our classification purposes.  
 
 Below each descriptor is described with the name, possible options and the selection type offered to the user in the web interface in Table 2. The rational about the options is offered next.
 
@@ -342,7 +342,7 @@ It should be noted that not all descriptors are different, we found that some of
 
 ### 3. Technical specifications
 
-The website is made up of two components: the database and the website (HTML, CSS, and PHP files). The database is coded in MYSQL and stores the list of all the applications that have been registered as well as the complete list of descriptors for each application. The HTML and CSS files define what the user sees on the website and the PHP enables communication between the database and the website. Both the website files and the database are hosted on the Google Cloud computing platform. This option, offered as a free service allowed us to have both project components, website and database, on the same infrastructure, which made it easier to integrate them while ensuring high availability of the service for potential users.
+The website is made up of two components: the database and the website (HTML, CSS, and PHP files). The database is coded in MYSQL and stores the list of all the applications that have been registered as well as the complete list of descriptors for each application. The HTML and CSS files define what the user sees on the website and the PHP enables communication between the database and the website. Both the website files and the database are hosted on the [Google Cloud computing platform](https://cloud.google.com/compute/). This option, offered as a free service allowed us to have both project components, website and database, on the same infrastructure, which made it easier to integrate them while ensuring high availability of the service for potential users.
 
 | <img src="https://raw.githubusercontent.com/maryi/CSCW-Project/master/Images/Find%20appScreenshot.PNG" width="300">                 |
 |--------------------------------------------------------|

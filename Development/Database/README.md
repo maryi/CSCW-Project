@@ -1,4 +1,5 @@
 code for domain purpose and app tables:
+
 	CREATE DATABASE `seng`;
 	
 CREATE TABLE `app` (
@@ -14,20 +15,20 @@ CREATE TABLE `app` (
   `privacy` varchar(50) DEFAULT NULL,
   `awareness` varchar(50) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=43 DEFAULT CHARSET=utf8;
+);
 
 CREATE TABLE `domain` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `appid` int(11) DEFAULT NULL,
   `domain` varchar(100) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=49 DEFAULT CHARSET=utf8;
+); 
 
 CREATE TABLE `purpose` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `appid` int(11) DEFAULT NULL,
   `purpose` varchar(100) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=98 DEFAULT CHARSET=utf8;
+);
 
 all data was entered from importing are list of base applications https://docs.google.com/spreadsheets/d/1Trh6Pesxvv5aYfd_x7wXxGmR5k9Y5g7-wpFbezwqi8E/edit as a csv file into the database

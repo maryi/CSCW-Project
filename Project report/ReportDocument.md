@@ -201,11 +201,11 @@ Table 1 shows the set of descriptors used for tool features, along with name, po
  * Chat
  * Forum
 
-*Scale*: Describes the maximum number of participants supported by the tool. The possible values selected represent the most popular accommodations: 2, less or equal to 5, less or equal to 10, and more than 10 participants. 
+*Scale*: describes the maximum number of participants supported by the tool. The possible values selected represent the most popular accommodations: 2, less or equal to 5, less or equal to 10, and more than 10 participants. 
 
-*Domains*: Lists the number of knowledge domains for which the tool can be used for. The selection of possible values for this descriptor was based on the high level categories of JACS ([Joint Academic Coding System](https://www.hesa.ac.uk/index.php?option=com_content&view=article&id=158 "JACS")). For a complete list of possible values in this descriptor refer to [APPENDIX 1](https://github.com/maryi/CSCW-Project/blob/master/Project%20report/APPENDIX%201%20-%20Domains%20values%20based%20on%20JACS.md)
+*Domains*: lists the number of knowledge domains for which the tool can be used for. The selection of possible values for this descriptor was based on the high level categories of JACS ([Joint Academic Coding System](https://www.hesa.ac.uk/index.php?option=com_content&view=article&id=158 "JACS")). For a complete list of possible values for this descriptor refer to [APPENDIX 1](https://github.com/maryi/CSCW-Project/blob/master/Project%20report/APPENDIX%201%20-%20Domains%20values%20based%20on%20JACS.md)
 
-*Nascence*: Describes the level of novelty or routine work that can be done in the tool. In our solution, we kept the descriptor with the same definition in both sets and possible values as:
+*Nascence*: describes the level of novelty or routine work that can be done in the tool. In our solution, we kept the descriptor with the same definition in both UR1 and UR2. Possible values are:
  
  * Routine: support for familiar tasks
  * Most of the tasks are routine

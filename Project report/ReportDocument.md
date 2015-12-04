@@ -157,7 +157,7 @@ The initial set of descriptors began with the elements of the MoCA framework. Ho
 #### 2.1 Descriptors for tool features
 Tool descriptors were designed to collect information about how a software tool supports collaborative activities. This information is used when a user is searching for software in the MatchMaker Application. The user describes the work to be supported by the tool and the recommendation system creates a list of applications that match user criteria. Details about descriptors and possible values for each is presented below in Table 1. The possible values selected for each descriptor in most cases is based on the personal experiences of the researchers, when this is not the case we provide more detail about our sources. 
 
-Table 1 shows the set of descriptors used for tool features, along with name, possible values and the selection type offered to the user in the web interface. More details about the descriptors including their definitions and possible options will be presented next.
+Table 1 shows the set of descriptors used for tool features, along with name, possible values and the selection type offered to the user in the web interface. More details about the descriptors including their definitions and possible values will be presented next.
 
 | Name                              | Possible options                                                                                                                                 | Selection type  |
 |-----------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|-----------------|
@@ -185,10 +185,10 @@ Table 1 shows the set of descriptors used for tool features, along with name, po
 
 *Creator link*: link to the web resource where the tool can be accessed or downloaded.
 
-*Synchronicity*: describes the tools ability to support different modes of work. In both sets of descriptors it has the same name and same options with slight differences based on the context. This descriptor can take three values:
+*Synchronicity*: describes the tools ability to support different modes of work. In both sets of descriptors it has the same name and the same options with slight differences based on the context. This descriptor can take three values:
  
- * Completely asynchronous: this means that participants are not required to be in the tool to make progress on the work (e.g., email systems).
- * Completely synchronous: this means that participation of other team member is required to access the tool (e.g., video-conference).
+ * Completely asynchronous: this means that participants are not required to use the tool at the same time to make progress on the work (e.g., email systems).
+ * Completely synchronous: this means that the participation of another team member is required for the tool to work (e.g., video-conference).
  * Both: the collaboration requires asynchronous and synchronous work. Therefore, the computer-based tool provides support for both modes.
 
 *Awareness mechanisms*: lists the possible features that help with individual and team awareness. Possible values for this descriptor are:

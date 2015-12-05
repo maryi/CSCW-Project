@@ -393,7 +393,7 @@ Now that we have finished the application implementation, it is clear that our s
  
 ## FUTURE WORK
 
-The evolution of MatchMaker Application is expected to be an ongoing process through user testing; however, immediate implementation requirements entail growing the user-base, most likely through networking and advertisement; research into and perfection of the search algorithm; changes to the website design and vocabulary used to facilitate a more user-friendly experience; and adding domain specific searches for various fields suggested by users. 
+The evolution of MatchMaker Application is expected to be an ongoing process through user testing; however, immediate implementation requirements entail growing the user-base, most likely through networking and advertising; research into and perfection of the search algorithm; changes to the website design and vocabulary used to facilitate a more user-friendly experience; and adding domain specific searches for various fields suggested by users. 
 
 We sense that connecting CSCW teams to the best tools for facilitating their work will remain a challenge for many years to come. We hope that our project demonstrates that articulating collaborative work using the MoCA framework can help connect users to tools which facilitate successful CSCW. Our work should also add to the awareness and development of the MoCA framework. Our intent is that the MatchMaker Application becomes a place where users can continue registering applications into the future.  Furthermore, the logic which maps the MatchMaker Application data of collaborative software to the MoCA framework will be made available in case developers wish to further adapt and enhance the model.   
 

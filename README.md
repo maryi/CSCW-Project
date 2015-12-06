@@ -1,5 +1,11 @@
 # CSCW-Project
 
+##**Access to final report:**
+PDF final version: https://github.com/maryi/CSCW-Project/blob/master/Project%20report/Final%20Report.pdf
+
+Alternative format (markdown): https://github.com/maryi/CSCW-Project/tree/master/Project%20report
+
+______________________________________
 Access to final presentation slides:
 https://docs.google.com/presentation/d/150qeZcLTuqcTAVmK7QRPOW4V1q4SQNzmEZKnkOSblS8/edit#slide=id.p
 
